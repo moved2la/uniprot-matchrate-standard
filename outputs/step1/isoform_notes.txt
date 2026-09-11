@@ -1,0 +1,102 @@
+  [TTN] Q8WZ42  events=['Alternative splicing']
+    comment-level note: A number of isoforms may be produced, ranging from 27000 to 33000 residues in different striated muscle tissues, the size of the full-length protein may be up to 38138 residues.
+    Q8WZ42-1               name='1'      syn=''                                       status=Displayed      VSP=
+    Q8WZ42-2               name='2'      syn=''                                       status=Described      VSP=VSP_019138
+    Q8WZ42-3               name='3'      syn='Small cardiac N2-B'                     status=Described      VSP=VSP_019139,VSP_019145
+    Q8WZ42-4               name='4'      syn='Soleus'                                 status=Described      VSP=VSP_019142,VSP_019151
+    Q8WZ42-5               name='5'      syn=''                                       status=Described      VSP=VSP_019147,VSP_019148,VSP_019149,VSP_019150,VSP_019152
+    Q8WZ42-6               name='6'      syn='Small cardiac novex-3'                  status=Described      VSP=VSP_019143,VSP_019146
+    Q8WZ42-7               name='7'      syn='Cardiac novex-2'                        status=Described      VSP=VSP_019141,VSP_019144
+    Q8WZ42-8               name='8'      syn='Cardiac novex-1'                        status=Described      VSP=VSP_019140
+    Q8WZ42-9               name='9'      syn=''                                       status=Described      VSP=VSP_019139,VSP_042903,VSP_019145
+    Q8WZ42-10              name='10'     syn=''                                       status=Described      VSP=VSP_019139,VSP_019140,VSP_019145
+    Q8WZ42-11              name='11'     syn=''                                       status=Described      VSP=VSP_019142
+    Q8WZ42-12              name='12'     syn=''                                       status=Described      VSP=VSP_045935,VSP_045929,VSP_045930,VSP_045931,VSP_045932,VSP_045933,VSP_045934
+    Q8WZ42-13              name='13'     syn=''                                       status=Described      VSP=VSP_047142
+
+  [NEB] P20929  events=['Alternative splicing']
+    P20929-2               name='2'      syn=''                                       status=Displayed      VSP=
+    P20929-1               name='1'      syn=''                                       status=Described      VSP=VSP_062337,VSP_062338,VSP_062339,VSP_062340
+    P20929-3               name='3'      syn=''                                       status=Described      VSP=VSP_062339
+    P20929-4               name='4'      syn=''                                       status=Described      VSP=VSP_062336,VSP_062338,VSP_062339,VSP_062340
+
+  [MYL1] P05976  events=['Alternative splicing']
+    P05976-1               name='MLC1'   syn=''                                       status=Displayed      VSP=
+    P05976-2,P06741-1      name='MLC3'   syn=''                                       status=Described      VSP=VSP_038686
+
+  [TNNT3] P45378  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    P45378-1               name='1'      syn='Tnt1'                                   status=Displayed      VSP=
+    P45378-2               name='2'      syn='Tnt3'                                   status=Described      VSP=VSP_007914
+    P45378-3               name='3'      syn='Tnt1f'                                  status=Described      VSP=VSP_007915
+    P45378-4               name='4'      syn='Tnt3f'                                  status=Described      VSP=VSP_007914,VSP_007915,VSP_007916
+    P45378-5               name='5'      syn='Tnt3f*'                                 status=Described      VSP=VSP_009121
+    P45378-6               name='6'      syn=''                                       status=Described      VSP=VSP_034964
+    P45378-7               name='7'      syn=''                                       status=Described      VSP=VSP_007914,VSP_007915
+
+  [MYBPC1] Q00872  events=['Alternative splicing']
+    Q00872-1               name='1'      syn=''                                       status=Displayed      VSP=
+    Q00872-2               name='2'      syn=''                                       status=Described      VSP=VSP_039105,VSP_039106
+    Q00872-3               name='3'      syn=''                                       status=Described      VSP=VSP_039106
+    Q00872-4               name='4'      syn=''                                       status=Described      VSP=VSP_039105,VSP_039106,VSP_045241
+    Q00872-5               name='5'      syn=''                                       status=Described      VSP=VSP_046736,VSP_039106,VSP_045241
+    Q00872-6               name='6'      syn=''                                       status=Described      VSP=VSP_046740
+    Q00872-7               name='7'      syn=''                                       status=Described      VSP=VSP_046737,VSP_039106,VSP_046739
+    Q00872-8               name='8'      syn=''                                       status=Described      VSP=VSP_046735,VSP_039106,VSP_045241
+    Q00872-9               name='9'      syn=''                                       status=Described      VSP=VSP_046738,VSP_039106,VSP_045241
+    Q00872-10              name='10'     syn=''                                       status=Described      VSP=VSP_039106,VSP_045241
+
+  [MYOM1] P52179  events=['Alternative splicing']
+    P52179-1               name='1'      syn=''                                       status=Displayed      VSP=
+    P52179-2               name='2'      syn=''                                       status=Described      VSP=VSP_035663
+
+  [CAPZB] P47756  events=['Alternative splicing']
+    P47756-2               name='1'      syn=''                                       status=Displayed      VSP=
+    P47756-1               name='2'      syn=''                                       status=Described      VSP=VSP_061615
+    P47756-3               name='3'      syn=''                                       status=Not described  VSP=
+
+  [OBSCN] Q5VST9  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    Q5VST9-1               name='1'      syn='B, obscurin-MLCK giant kinase'          status=Displayed      VSP=
+    Q5VST9-2               name='2'      syn=''                                       status=Described      VSP=VSP_018436
+    Q5VST9-3               name='3'      syn='unc-89-like'                            status=Described      VSP=VSP_018437,VSP_018438
+    Q5VST9-6               name='5'      syn=''                                       status=Described      VSP=VSP_026970
+    Q5VST9-7               name='7'      syn=''                                       status=Described      VSP=VSP_062488,VSP_062489,VSP_062490,VSP_062491,VSP_062492
+
+  [LDB3] O75112  events=['Alternative splicing']
+    O75112-1               name='1'      syn=''                                       status=Displayed      VSP=
+    O75112-2               name='2'      syn=''                                       status=Described      VSP=VSP_051898,VSP_051900
+    O75112-3               name='3'      syn=''                                       status=Described      VSP=VSP_051897
+    O75112-4               name='4'      syn=''                                       status=Described      VSP=VSP_051899,VSP_051901,VSP_051902
+    O75112-5               name='5'      syn=''                                       status=Described      VSP=VSP_051901,VSP_051902
+    O75112-6               name='6'      syn=''                                       status=Described      VSP=VSP_051898,VSP_051901,VSP_051902
+    O75112-7               name='7'      syn=''                                       status=Described      VSP=VSP_051899,VSP_051900
+
+  [TPM1] P09493  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    P09493-1               name='1'      syn='Skeletal muscle, TPM1alpha'             status=Displayed      VSP=
+    P09493-2               name='2'      syn='Smooth muscle'                          status=Described      VSP=VSP_006576,VSP_006578,VSP_006579
+    P09493-3               name='3'      syn='Fibroblast, TM3'                        status=Described      VSP=VSP_006577,VSP_006579
+    P09493-4               name='4'      syn=''                                       status=Described      VSP=VSP_006577
+    P09493-5               name='5'      syn=''                                       status=Described      VSP=VSP_017498,VSP_017499
+    P09493-6               name='6'      syn='10, TPM1kappa'                          status=Described      VSP=VSP_036064
+    P09493-7               name='7'      syn=''                                       status=Described      VSP=VSP_036064,VSP_006579
+    P09493-8               name='8'      syn=''                                       status=Described      VSP=VSP_047297,VSP_047298,VSP_047299,VSP_047300,VSP_006579
+    P09493-9               name='9'      syn=''                                       status=Described      VSP=VSP_006579
+    P09493-10              name='10'     syn=''                                       status=Described      VSP=VSP_047299,VSP_047300,VSP_047301
+
+  [TPM2] P07951  events=['Alternative splicing']
+    P07951-1               name='1'      syn='Skeletal muscle'                        status=Displayed      VSP=
+    P07951-2               name='2'      syn='non-muscle, Fibroblast TM36, Epithelial TMe1' status=Described      VSP=VSP_006595,VSP_006596
+    P07951-3               name='3'      syn='non-muscle'                             status=Described      VSP=VSP_006594,VSP_006595,VSP_006596
+
+  [TPM3] P06753  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    P06753-1               name='1'      syn='Skeletal muscle'                        status=Displayed      VSP=
+    P06753-2               name='2'      syn='Cytoskeletal, TM30nm'                   status=Described      VSP=VSP_006604,VSP_006605,VSP_006606
+    P06753-3               name='3'      syn=''                                       status=Described      VSP=VSP_006604,VSP_006605,VSP_006607
+    P06753-4               name='4'      syn=''                                       status=Described      VSP=VSP_047302,VSP_047303,VSP_047304,VSP_047305,VSP_047306
+    P06753-5               name='5'      syn=''                                       status=Described      VSP=VSP_047302,VSP_047303,VSP_047304,VSP_006606
+    P06753-6               name='6'      syn=''                                       status=Described      VSP=VSP_006604,VSP_006605
+    P06753-7               name='7'      syn=''                                       status=Described      VSP=VSP_054792,VSP_006606
+

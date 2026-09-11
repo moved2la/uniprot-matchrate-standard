@@ -8,7 +8,7 @@ gene against UniProt (reviewed, human) by EXACT GENE NAME, and writes:
   data/uniprot_raw/<GENE>.json            raw search response (provenance)
   data/uniprot_raw/<ACCESSION[-N]>.fasta  every isoform sequence
   data/uniprot_verification.ini           one section per gene
-  data/verify_accessions.log              everything printed, incl. flags
+  data/verify_accessions_<stamp>.log      everything printed, incl. flags (one per run)
   stdout                                  summary table + flags
 
 No biological judgement is made here. The seed accession is only used to
@@ -18,7 +18,7 @@ human in config/accessions.ini after reading this output.
 Usage:
     python verify_accessions.py [--candidates config/candidates_step1.ini]
                                 [--outdir data] [--no-isoforms]
-                                [--log data/verify_accessions.log]
+                                [--log <path>]   (default: data/verify_accessions_<timestamp>.log)
 
 Stdlib only. Tested against UniProt REST API (rest.uniprot.org).
 """
@@ -34,7 +34,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 BASE = "https://rest.uniprot.org/uniprotkb"
@@ -190,10 +190,12 @@ def main() -> int:
     ap.add_argument("--no-isoforms", action="store_true",
                     help="skip per-isoform FASTA fetches")
     ap.add_argument("--log", default=None,
-                    help="log file (default: <outdir>/verify_accessions.log)")
+                    help="log file (default: <outdir>/verify_accessions_<timestamp>.log, one per run)")
     args = ap.parse_args()
 
-    log_path = Path(args.log) if args.log else Path(args.outdir) / "verify_accessions.log"
+    stamp = datetime.now().strftime("%Y-%m-%dT%H%M")
+    log_path = (Path(args.log) if args.log
+                else Path(args.outdir) / f"verify_accessions_{stamp}.log")
     tee = _Tee(log_path)
     sys.stdout = tee
     print(f"# verify_accessions.py run {date.today().isoformat()}")

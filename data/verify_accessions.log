@@ -7,6 +7,7 @@
 [MYH4] querying ...
 [MYL1] querying ...
 [MYLPF] querying ...
+[MYL11] querying ...
 [MYL3] querying ...
 [MYL2] querying ...
 [ACTA1] querying ...
@@ -62,6 +63,7 @@ MYH1     tier1      P12882   P12882      1939    3    0  ok
 MYH4     tier1      Q9Y623   Q9Y623      1939    2    0  ok
 MYL1     tier1      P05976   P05976       194    3    2  ok
 MYLPF    tier1      Q96A32   NONE                        NO-HIT
+MYL11    tier1      Q96A32   Q96A32       169    1    0  ok
 MYL3     tier1      P08590   P08590       195    3    0  ok
 MYL2     tier1      P10916   P10916       166    3    0  ok
 ACTA1    tier1      P68133   P68133       377    1    0  ok
@@ -117,7 +119,8 @@ FLAGS (require a human decision or a fix):
   - MYH2: 2 isoforms — choose in accessions.ini
   - MYL1: processing features ['Initiator methionine'] — segments.ini
   - MYL1: 2 isoforms — choose in accessions.ini
-  - MYLPF: NO reviewed human entry with primary gene MYLPF
+  - MYLPF: no entry with PRIMARY gene MYLPF, but matched as synonym: Q96A32 (primary gene MYL11) — symbol probably renamed; re-run with the primary symbol
+  - MYL11: processing features ['Initiator methionine'] — segments.ini
   - MYL3: processing features ['Initiator methionine'] — segments.ini
   - MYL2: processing features ['Initiator methionine'] — segments.ini
   - ACTA1: processing features ['Initiator methionine'] — segments.ini

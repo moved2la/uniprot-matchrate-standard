@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+# data/uniprot_raw is regenerable but small — keep it committed for audit.

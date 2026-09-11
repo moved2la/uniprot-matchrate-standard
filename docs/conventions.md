@@ -1,0 +1,61 @@
+# Conventions
+
+Formalized from `00_project_plan.md` §6. Any change here is a logged decision.
+
+## Config format
+
+`.ini` via `configparser` with `optionxform = str` (keys are case-sensitive). One section per entity.
+Free-text `note` and `justification` keys allowed anywhere. Comments with `#`.
+Biology lives in config, not in code.
+
+## Accession identity
+
+`ACCESSION` = canonical sequence. `ACCESSION-N` = a specific UniProt isoform.
+Every entry records `seq_version`, `length`, and the verification date.
+Canonical sequences are verified against UniProt's published MD5; isoform sequences record a
+locally computed MD5 plus length (UniProt publishes no per-isoform checksum).
+
+## Segment flags (`config/segments.ini`)
+
+Inherited from the collagen pipeline. One or more sections per accession:
+
+    [P68133.chain]
+    start              = 3
+    end                = 377
+    in_master_molecule = true
+    note               = mature chain after removal of Met1 and Cys2 (UniProt FT PROPEP)
+
+Coordinates are 1-indexed, inclusive, on the fetched sequence.
+`master` segment set = sections with `in_master_molecule = true`; `metabolic` = all sections.
+Where no processing occurs, one whole-chain section with an explicit note — Step 2 never infers.
+
+## Citation schema (every literature-derived number)
+
+    value     = 0.431
+    unit      = mass_fraction_of_tier
+    source    = Author et al. YEAR, Journal Vol:pages, DOI
+    location  = Supplementary Table S3, column "iBAQ_typeI"
+    retrieved = 2026-09-XX
+    note      = optional — conversions applied, caveats
+
+## Mass conventions
+
+- `residue_mass` — in-chain residue mass (free AA minus 18.01528 Da). Sums to protein MW.
+- `free_aa_mass` — free amino acid mass. Sums to MW + (n−1)·water. USDA / lab AAA convention; Match Rate uses this.
+- Both reported. Ground truth is the residue count.
+
+## Tiers
+
+1 = myofibrillar (primary standard). 2 = sarcoplasmic (sensitivity analysis). 3 = ECM/stromal (collagen pipeline, out of scope here).
+Mass fractions are normalized within tier.
+
+## Fiber type
+
+`I | IIa | IIx | all`. `all` means expressed in more than one type; level is Layer B's job.
+
+## Directories
+
+- `config/` — hand-written, audited.
+- `data/` — machine-generated or downloaded verbatim; never hand-edited.
+- `outputs/` — derived tables and figures, versioned with the standard.
+- `docs/handoffs/` — one per step; "Deferred / raised" and "Handoff to next" filled at close.

@@ -1,5 +1,5 @@
 """pytest configuration: write a timestamped log of every test run to
-outputs/tests/pytest_<stamp>.log so runs leave a record, like the other tools."""
+outputs/logs/pytest_<stamp>.log so runs leave a record, like the other tools."""
 from __future__ import annotations
 
 from datetime import datetime
@@ -23,7 +23,7 @@ def pytest_runtest_makereport(item, call):
 
 def pytest_sessionfinish(session, exitstatus):
     root = Path(session.config.rootpath)
-    out = root / "outputs" / "tests"
+    out = root / "outputs" / "logs"
     out.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y-%m-%dT%H%M")
     path = out / f"pytest_{stamp}.log"

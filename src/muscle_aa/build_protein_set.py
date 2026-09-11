@@ -12,7 +12,7 @@ Inputs
 Outputs (GENERATED — do not edit by hand; edit the decisions file and rebuild)
   config/accessions.ini              decisions + accession, length, versions, MD5
   config/segments.ini                processing flags derived from UniProt features
-  outputs/protein_set/build_<stamp>.log
+  outputs/logs/build_protein_set_<stamp>.log
 
 Every mechanical value (accession, length, sequence/entry version, MD5,
 segment coordinates) comes from the UniProt data. No value is typed in.
@@ -49,7 +49,7 @@ VERIFICATION = ROOT / "data" / "uniprot_verification.ini"
 RAW = ROOT / "data" / "uniprot_raw"
 OUT_ACC = ROOT / "config" / "accessions.ini"
 OUT_SEG = ROOT / "config" / "segments.ini"
-LOG_DIR = ROOT / "outputs" / "protein_set"
+LOG_DIR = ROOT / "outputs" / "logs"
 
 FETCHED_TIERS = {"1", "2"}
 
@@ -311,7 +311,7 @@ def main() -> int:
     OUT_SEG.write_text(seg_txt, encoding="utf-8")
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     log.append(f"  wrote {OUT_ACC}\n  wrote {OUT_SEG}")
-    (LOG_DIR / f"build_{stamp}.log").write_text("\n".join(log) + "\n", encoding="utf-8")
+    (LOG_DIR / f"build_protein_set_{stamp}.log").write_text("\n".join(log) + "\n", encoding="utf-8")
     print("\n".join(log))
     return 0
 

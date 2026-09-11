@@ -16,7 +16,7 @@ Residue FRACTIONS (count / total) only — no masses. Masses belong to the compo
 This script makes no decisions and writes nothing to config/.
 
 Outputs (all under --outdir, default outputs/isoform_processing/):
-  isoform_processing_deltas_<stamp>.txt     everything printed, one file per run
+  (log: outputs/logs/isoform_processing_deltas_<stamp>.log)
   isoform_deltas.csv           per-AA mol % for every compared isoform pair
   processing_deltas.csv        per-AA mol % full vs mature for every processed entry
   isoform_notes.txt            the verbatim UniProt isoform notes
@@ -156,7 +156,8 @@ def main() -> int:
     out = Path(args.outdir)
     out.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y-%m-%dT%H%M")
-    sys.stdout = _Tee(out / f"isoform_processing_deltas_{stamp}.txt")
+    (ROOT_LOGS := Path("outputs") / "logs").mkdir(parents=True, exist_ok=True)
+    sys.stdout = _Tee(ROOT_LOGS / f"isoform_processing_deltas_{stamp}.log")
     print(f"# isoform_processing_deltas.py run {stamp}   datadir={data}   outdir={out}\n")
 
     ini = configparser.ConfigParser()
@@ -233,8 +234,8 @@ def main() -> int:
             wr.writerow([gene, acc, "master", n, mat, rem] + [f"{fm[x]:.4f}" for x in AA])
     print("\n  (pp = percentage points of residue mol fraction within that protein;"
           "\n   tier-level effect needs Layer B and is reported at aggregation)")
-    print(f"\nWrote {out}/isoform_processing_deltas_{stamp}.txt, isoform_notes.txt, "
-          f"isoform_deltas.csv, processing_deltas.csv")
+    print(f"\nWrote {out}/isoform_notes.txt, isoform_deltas.csv, processing_deltas.csv; "
+          f"log outputs/logs/isoform_processing_deltas_{stamp}.log")
     sys.stdout.flush()
     return 0
 

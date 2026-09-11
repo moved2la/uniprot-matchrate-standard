@@ -9,7 +9,7 @@ gene against UniProt (reviewed, human) by EXACT GENE NAME, and writes:
                                           (folder is emptied at the start of each run)
   data/uniprot_raw/<ACCESSION[-N]>.fasta  every isoform sequence
   data/uniprot_verification.ini           one section per gene
-  data/verify_accessions_<stamp>.log      everything printed, incl. flags (one per run)
+  outputs/logs/verify_accessions_<stamp>.log   everything printed, incl. flags (one per run)
   stdout                                  summary table + flags
 
 No biological judgement is made here. The seed accession is only used to
@@ -203,12 +203,12 @@ def main() -> int:
     ap.add_argument("--no-isoforms", action="store_true",
                     help="skip per-isoform FASTA fetches")
     ap.add_argument("--log", default=None,
-                    help="log file (default: <outdir>/verify_accessions_<timestamp>.log, one per run)")
+                    help="log file (default: outputs/logs/verify_accessions_<timestamp>.log, one per run)")
     args = ap.parse_args()
 
     stamp = datetime.now().strftime("%Y-%m-%dT%H%M")
     log_path = (Path(args.log) if args.log
-                else Path(args.outdir) / f"verify_accessions_{stamp}.log")
+                else Path("outputs") / "logs" / f"verify_accessions_{stamp}.log")
     tee = _Tee(log_path)
     sys.stdout = tee
     print(f"# verify_accessions.py run {date.today().isoformat()}")

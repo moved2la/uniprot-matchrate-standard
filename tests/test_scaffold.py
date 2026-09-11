@@ -19,6 +19,7 @@ EXPECTED = [
     "src/muscle_aa/verify_accessions.py",
     "src/muscle_aa/isoform_processing_deltas.py",
     "src/muscle_aa/build_protein_set.py",
+    "run.py",
     "config/protein_set_decisions.ini",
 ]
 

@@ -1,0 +1,201 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P13929",
+   "uniProtkbId": "ENOB_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2012-11-28",
+    "entryVersion": 235,
+    "sequenceVersion": 5
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000303",
+        "source": "PubMed",
+        "id": "11506403"
+       }
+      ],
+      "value": "Beta-enolase"
+     },
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P15429"
+        }
+       ],
+       "value": "4.2.1.11"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "2-phospho-D-glycerate hydro-lyase"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "Q1KYT0"
+        }
+       ],
+       "value": "Enolase 3"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2336366"
+        }
+       ],
+       "value": "Muscle-specific enolase"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "2336366"
+         }
+        ],
+        "value": "MSE"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Skeletal muscle enolase"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:3354"
+       }
+      ],
+      "value": "ENO3"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P13929-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P13929-2"
+       ],
+       "sequenceIds": [
+        "VSP_037753"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "P13929-3"
+       ],
+       "sequenceIds": [
+        "VSP_037752"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "value": "The alpha/alpha homodimer is expressed in embryo and in most adult tissues. The alpha/beta heterodimer and the beta/beta homodimer are found in striated muscle, and the alpha/gamma heterodimer and the gamma/gamma homodimer in neurons"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "22814378"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 434,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Beta-enolase",
+     "featureId": "PRO_0000134107"
+    }
+   ],
+   "sequence": {
+    "value": "MAMQKIFAREILDSRGNPTVEVDLHTAKGRFRAAVPSGASTGIYEALELRDGDKGRYLGKGVLKAVENINNTLGPALLQKKLSVVDQEKVDKFMIELDGTENKSKFGANAILGVSLAVCKAGAAEKGVPLYRHIADLAGNPDLILPVPAFNVINGGSHAGNKLAMQEFMILPVGASSFKEAMRIGAEVYHHLKGVIKAKYGKDATNVGDEGGFAPNILENNEALELLKTAIQAAGYPDKVVIGMDVAASEFYRNGKYDLDFKSPDDPARHITGEKLGELYKSFIKNYPVVSIEDPFDQDDWATWTSFLSGVNIQIVGDDLTVTNPKRIAQAVEKKACNCLLLKVNQIGSVTESIQACKLAQSNGWGVMVSHRSGETEDTFIADLVVGLCTGQIKTGAPCRSERLAKYNQLMRIEEALGDKAIFAGRKFRNPKAK",
+    "length": 434,
+    "molWeight": 46987,
+    "crc64": "4D9D8DCF32CF153F",
+    "md5": "F7D3A199AA9112A56CF1A3390E0B8038"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000016A894"
+   }
+  }
+ ]
+}

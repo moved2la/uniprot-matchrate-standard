@@ -1,0 +1,232 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P45378",
+   "uniProtkbId": "TNNT3_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 196,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Troponin T, fast skeletal muscle"
+     },
+     "shortNames": [
+      {
+       "value": "TnTf"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Beta-TnTF"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Fast skeletal muscle troponin T"
+      },
+      "shortNames": [
+       {
+        "value": "fTnT"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TNNT3"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "synonyms": [
+        {
+         "value": "Tnt1"
+        }
+       ],
+       "isoformIds": [
+        "P45378-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "synonyms": [
+        {
+         "value": "Tnt3"
+        }
+       ],
+       "isoformIds": [
+        "P45378-2"
+       ],
+       "sequenceIds": [
+        "VSP_007914"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "synonyms": [
+        {
+         "value": "Tnt1f"
+        }
+       ],
+       "isoformIds": [
+        "P45378-3"
+       ],
+       "sequenceIds": [
+        "VSP_007915"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "4"
+       },
+       "synonyms": [
+        {
+         "value": "Tnt3f"
+        }
+       ],
+       "isoformIds": [
+        "P45378-4"
+       ],
+       "sequenceIds": [
+        "VSP_007914",
+        "VSP_007915",
+        "VSP_007916"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "5"
+       },
+       "synonyms": [
+        {
+         "value": "Tnt3f*"
+        }
+       ],
+       "isoformIds": [
+        "P45378-5"
+       ],
+       "sequenceIds": [
+        "VSP_009121"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "6"
+       },
+       "isoformIds": [
+        "P45378-6"
+       ],
+       "sequenceIds": [
+        "VSP_034964"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "7"
+       },
+       "isoformIds": [
+        "P45378-7"
+       ],
+       "sequenceIds": [
+        "VSP_007914",
+        "VSP_007915"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ],
+     "note": {
+      "texts": [
+       {
+        "value": "Additional isoforms seem to exist."
+       }
+      ]
+     }
+    },
+    {
+     "texts": [
+      {
+       "value": "In fetal and adult fast skeletal muscles, with a higher level expression in fetal than in adult muscle"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P02641"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 269,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Troponin T, fast skeletal muscle",
+     "featureId": "PRO_0000186178"
+    }
+   ],
+   "sequence": {
+    "value": "MSDEEVEQVEEQYEEEEEAQEEAAEVHEEVHEPEEVQEDTAEEDAEEEKPRPKLTAPKIPEGEKVDFDDIQKKRQNKDLMELQALIDSHFEARKKEEEELVALKERIEKRRAERAEQQRIRAEKERERQNRLAEEKARREEEDAKRRAEDDLKKKKALSSMGANYSSYLAKADQKRGKKQTAREMKKKILAERRKPLNIDHLGEDKLRDKAKELWETLHQLEIDKFEFGEKLKRQKYDITTLRSRIDQAQKHSKKAGTPAKGKVGGRWK",
+    "length": 269,
+    "molWeight": 31825,
+    "crc64": "87B25AF8773D742F",
+    "md5": "39FBD6A7EDF07D8D00B732C483F8DD9A"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000ED9058"
+   }
+  }
+ ]
+}

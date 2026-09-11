@@ -1,0 +1,77 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P02585",
+   "uniProtkbId": "TNNC2_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 209,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Troponin C, skeletal muscle"
+     }
+    }
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TNNC2"
+     }
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "978749"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 160,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Troponin C, skeletal muscle",
+     "featureId": "PRO_0000073703"
+    }
+   ],
+   "sequence": {
+    "value": "MTDQQAEARSYLSEEMIAEFKAAFDMFDADGGGDISVKELGTVMRMLGQTPTKEELDAIIEEVDEDGSGTIDFEEFLVMMVRQMKEDAKGKSEEELAECFRIFDRNADGYIDPEELAEIFRASGEHVTDEEIESLMKDGDKNNDGRIDFDEFLKMMEGVQ",
+    "length": 160,
+    "molWeight": 18122,
+    "crc64": "EA93729732A0F916",
+    "md5": "06B233C60D394B9694756CFC972D1C5E"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000014A6DB"
+   }
+  }
+ ]
+}

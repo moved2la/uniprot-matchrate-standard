@@ -246,7 +246,14 @@ def main() -> int:
         r["reviewed_hits_synonym_only"] = ",".join(h["accession"] for h in others) or ""
 
         if not primary:
-            flags.append(f"{gene}: NO reviewed human entry with primary gene {gene}")
+            if others:
+                syn = ", ".join(f"{h['accession']} (primary gene {h['gene_primary']})"
+                                for h in others)
+                flags.append(f"{gene}: no entry with PRIMARY gene {gene}, but matched "
+                             f"as synonym: {syn} — symbol probably renamed; "
+                             f"re-run with the primary symbol")
+            else:
+                flags.append(f"{gene}: NO reviewed human entry matches {gene} at all")
             rows.append((gene, group, seed, "NONE", "", "", "", "NO-HIT"))
             continue
         if len(primary) > 1:

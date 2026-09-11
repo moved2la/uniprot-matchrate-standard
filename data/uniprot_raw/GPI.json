@@ -1,0 +1,314 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P06744",
+   "uniProtkbId": "G6PI_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 255,
+    "sequenceVersion": 4
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000303",
+        "source": "PubMed",
+        "id": "2387591"
+       }
+      ],
+      "value": "Glucose-6-phosphate isomerase"
+     },
+     "shortNames": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2387591"
+        }
+       ],
+       "value": "GPI"
+      }
+     ],
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "28803808"
+        }
+       ],
+       "value": "5.3.1.9"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "11004567"
+        }
+       ],
+       "value": "Autocrine motility factor"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11004567"
+         }
+        ],
+        "value": "AMF"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P12709"
+        }
+       ],
+       "value": "D-hexose-6-phosphate anomerase"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "Q9N1E2"
+        }
+       ],
+       "value": "Glucose-6-phosphate C2-epimerase"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q9N1E2"
+         }
+        ],
+        "value": "5.1.3.-"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "3352745"
+        }
+       ],
+       "value": "Neuroleukin"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "3352745"
+         }
+        ],
+        "value": "NLK"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "12163179"
+        }
+       ],
+       "value": "Phosphoglucose isomerase"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "12163179"
+         }
+        ],
+        "value": "PGI"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "11004567"
+        }
+       ],
+       "value": "Phosphohexose isomerase"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11004567"
+         }
+        ],
+        "value": "PHI"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "10727272"
+        }
+       ],
+       "value": "Sperm antigen 36"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "10727272"
+         }
+        ],
+        "value": "SA-36"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000303",
+        "source": "PubMed",
+        "id": "2387591"
+       },
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:4458"
+       }
+      ],
+      "value": "GPI"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P06744-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P06744-2"
+       ],
+       "sequenceIds": [
+        "VSP_043475",
+        "VSP_043476"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "Reference",
+       "id": "Ref.8"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "19413330"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 558,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Glucose-6-phosphate isomerase",
+     "featureId": "PRO_0000180537"
+    }
+   ],
+   "sequence": {
+    "value": "MAALTRDPQFQKLQQWYREHRSELNLRRLFDANKDRFNHFSLTLNTNHGHILVDYSKNLVTEDVMRMLVDLAKSRGVEAARERMFNGEKINYTEGRAVLHVALRNRSNTPILVDGKDVMPEVNKVLDKMKSFCQRVRSGDWKGYTGKTITDVINIGIGGSDLGPLMVTEALKPYSSGGPRVWYVSNIDGTHIAKTLAQLNPESSLFIIASKTFTTQETITNAETAKEWFLQAAKDPSAVAKHFVALSTNTTKVKEFGIDPQNMFEFWDWVGGRYSLWSAIGLSIALHVGFDNFEQLLSGAHWMDQHFRTTPLEKNAPVLLALLGIWYINCFGCETHAMLPYDQYLHRFAAYFQQGDMESNGKYITKSGTRVDHQTGPIVWGEPGTNGQHAFYQLIHQGTKMIPCDFLIPVQTQHPIRKGLHHKILLANFLAQTEALMRGKSTEEARKELQAAGKSPEDLERLLPHKVFEGNRPTNSIVFTKLTPFMLGALVAMYEHKIFVQGIIWDINSFDQWGVELGKQLAKKIEPELDGSAQVTSHDASTNGLINFIKQQREARVQ",
+    "length": 558,
+    "molWeight": 63147,
+    "crc64": "7C8E95277BDC79A6",
+    "md5": "A9F34D53BB46F352D615B218F9FEBB48"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000111E50"
+   }
+  }
+ ]
+}

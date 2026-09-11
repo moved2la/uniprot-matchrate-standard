@@ -1,0 +1,77 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P17661",
+   "uniProtkbId": "DESM_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 240,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Desmin"
+     }
+    }
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "DES"
+     }
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P02542"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 470,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Desmin",
+     "featureId": "PRO_0000063771"
+    }
+   ],
+   "sequence": {
+    "value": "MSQAYSSSQRVSSYRRTFGGAPGFPLGSPLSSPVFPRAGFGSKGSSSSVTSRVYQVSRTSGGAGGLGSLRASRLGTTRTPSSYGAGELLDFSLADAVNQEFLTTRTNEKVELQELNDRFANYIEKVRFLEQQNAALAAEVNRLKGREPTRVAELYEEELRELRRQVEVLTNQRARVDVERDNLLDDLQRLKAKLQEEIQLKEEAENNLAAFRADVDAATLARIDLERRIESLNEEIAFLKKVHEEEIRELQAQLQEQQVQVEMDMSKPDLTAALRDIRAQYETIAAKNISEAEEWYKSKVSDLTQAANKNNDALRQAKQEMMEYRHQIQSYTCEIDALKGTNDSLMRQMRELEDRFASEASGYQDNIARLEEEIRHLKDEMARHLREYQDLLNVKMALDVEIATYRKLLEGEESRINLPIQTYSALNFRETSPEQRGSEVHTKKTVMIKTIETRDGEVVSEATQQQHEVL",
+    "length": 470,
+    "molWeight": 53536,
+    "crc64": "1B5D9EA93C3BB319",
+    "md5": "69DA5E21AB5D09B231E60F82C894FDA1"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000001603"
+   }
+  }
+ ]
+}

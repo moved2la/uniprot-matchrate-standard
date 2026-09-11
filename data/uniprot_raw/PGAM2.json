@@ -1,0 +1,128 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P15259",
+   "uniProtkbId": "PGAM2_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 229,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Phosphoglycerate mutase 2"
+     },
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P18669"
+        }
+       ],
+       "value": "5.4.2.11"
+      },
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P18669"
+        }
+       ],
+       "value": "5.4.2.4"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "BPG-dependent PGAM 2"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Muscle-specific phosphoglycerate mutase"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Phosphoglycerate mutase isozyme M"
+      },
+      "shortNames": [
+       {
+        "value": "PGAM-M"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:8889"
+       }
+      ],
+      "value": "PGAM2"
+     },
+     "synonyms": [
+      {
+       "value": "PGAMM"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "2822696"
+        }
+       ],
+       "value": "Expressed in the heart and muscle. Not found in the liver and brain"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 253,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Phosphoglycerate mutase 2",
+     "featureId": "PRO_0000179829"
+    }
+   ],
+   "sequence": {
+    "value": "MATHRLVMVRHGESTWNQENRFCGWFDAELSEKGTEEAKRGAKAIKDAKMEFDICYTSVLKRAIRTLWAILDGTDQMWLPVVRTWRLNERHYGGLTGLNKAETAAKHGEEQVKIWRRSFDIPPPPMDEKHPYYNSISKERRYAGLKPGELPTCESLKDTIARALPFWNEEIVPQIKAGKRVLIAAHGNSLRGIVKHLEGMSDQAIMELNLPTGIPIVYELNKELKPTKPMQFLGDEETVRKAMEAVAAQGKAK",
+    "length": 253,
+    "molWeight": 28766,
+    "crc64": "0FDC97631104FCF7",
+    "md5": "47FF9F58271314F4642A601E192F086C"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000013E3E8"
+   }
+  }
+ ]
+}

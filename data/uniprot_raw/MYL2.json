@@ -1,0 +1,187 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P10916",
+   "uniProtkbId": "MLRV_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 222,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000305"
+       }
+      ],
+      "value": "Myosin regulatory light chain 2, ventricular/cardiac muscle isoform"
+     },
+     "shortNames": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P08733"
+        }
+       ],
+       "value": "MLC-2"
+      },
+      {
+       "value": "MLC-2v"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "Reference",
+         "id": "Ref.3"
+        }
+       ],
+       "value": "Cardiac myosin light chain 2"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "Q7M2V4"
+        }
+       ],
+       "value": "Myosin light chain 2, slow skeletal/ventricular muscle isoform"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q7M2V4"
+         }
+        ],
+        "value": "MLC-2s/v"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2704627"
+        }
+       ],
+       "value": "Ventricular myosin light chain 2"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:7583"
+       }
+      ],
+      "value": "MYL2"
+     },
+     "synonyms": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "8287067"
+        }
+       ],
+       "value": "MLC2"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "23365102"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "32453731"
+        }
+       ],
+       "value": "Highly expressed in type I muscle fibers"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P51667"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 166,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myosin regulatory light chain 2, ventricular/cardiac muscle isoform",
+     "featureId": "PRO_0000198727"
+    }
+   ],
+   "sequence": {
+    "value": "MAPKKAKKRAGGANSNVFSMFEQTQIQEFKEAFTIMDQNRDGFIDKNDLRDTFAALGRVNVKNEEIDEMIKEAPGPINFTVFLTMFGEKLKGADPEETILNAFKVFDPEGKGVLKADYVREMLTTQAERFSKEEVDQMFAAFPPDVTGNLDYKNLVHIITHGEEKD",
+    "length": 166,
+    "molWeight": 18789,
+    "crc64": "EA0BEF886AA3FAF5",
+    "md5": "2B529764C53534A7639CE3FB69D9DDAD"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000000DF6"
+   }
+  }
+ ]
+}

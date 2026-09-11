@@ -1,0 +1,115 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P28289",
+   "uniProtkbId": "TMOD1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "1992-12-01",
+    "entryVersion": 197,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Tropomodulin-1"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Erythrocyte tropomodulin"
+      },
+      "shortNames": [
+       {
+        "value": "E-Tmod"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TMOD1"
+     },
+     "synonyms": [
+      {
+       "value": "D9S57E"
+      },
+      {
+       "value": "TMOD"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P28289-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P28289-2"
+       ],
+       "sequenceIds": [
+        "VSP_056863",
+        "VSP_056864"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "value": "Highly expressed in the erythrocyte, heart and skeletal muscle"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 359,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Tropomodulin-1",
+     "featureId": "PRO_0000186128"
+    }
+   ],
+   "sequence": {
+    "value": "MSYRRELEKYRDLDEDEILGALTEEELRTLENELDELDPDNALLPAGLRQKDQTTKAPTGPFKREELLDHLEKQAKEFKDREDLVPYTGEKRGKVWVPKQKPLDPVLESVTLEPELEEALANASDAELCDIAAILGMHTLMSNQQYYQALSSSSIMNKEGLNSVIKPTQYKPVPDEEPNSTDVEETLERIKNNDPKLEEVNLNNIRNIPIPTLKAYAEALKENSYVKKFSIVGTRSNDPVAYALAEMLKENKVLKTLNVESNFISGAGILRLVEALPYNTSLVEMKIDNQSQPLGNKVEMEIVSMLEKNATLLKFGYHFTQQGPRLRASNAMMNNNDLVRKRRLADLTGPIIPKCRSGV",
+    "length": 359,
+    "molWeight": 40569,
+    "crc64": "732B7D7798B88A48",
+    "md5": "32F50E2B57961C4AF21AC61858E599EC"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000013707E"
+   }
+  }
+ ]
+}

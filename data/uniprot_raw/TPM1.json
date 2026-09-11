@@ -1,0 +1,269 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P09493",
+   "uniProtkbId": "TPM1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "1990-11-01",
+    "entryVersion": 246,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Tropomyosin alpha-1 chain"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Alpha-tropomyosin"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Tropomyosin-1"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TPM1"
+     },
+     "synonyms": [
+      {
+       "value": "C15orf13"
+      },
+      {
+       "value": "TMSA"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "synonyms": [
+        {
+         "value": "Skeletal muscle"
+        },
+        {
+         "value": "TPM1alpha"
+        }
+       ],
+       "isoformIds": [
+        "P09493-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "synonyms": [
+        {
+         "value": "Smooth muscle"
+        }
+       ],
+       "isoformIds": [
+        "P09493-2"
+       ],
+       "sequenceIds": [
+        "VSP_006576",
+        "VSP_006578",
+        "VSP_006579"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "synonyms": [
+        {
+         "value": "Fibroblast"
+        },
+        {
+         "value": "TM3"
+        }
+       ],
+       "isoformIds": [
+        "P09493-3"
+       ],
+       "sequenceIds": [
+        "VSP_006577",
+        "VSP_006579"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "4"
+       },
+       "isoformIds": [
+        "P09493-4"
+       ],
+       "sequenceIds": [
+        "VSP_006577"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "5"
+       },
+       "isoformIds": [
+        "P09493-5"
+       ],
+       "sequenceIds": [
+        "VSP_017498",
+        "VSP_017499"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "6"
+       },
+       "synonyms": [
+        {
+         "value": "10"
+        },
+        {
+         "value": "TPM1kappa"
+        }
+       ],
+       "isoformIds": [
+        "P09493-6"
+       ],
+       "sequenceIds": [
+        "VSP_036064"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "7"
+       },
+       "isoformIds": [
+        "P09493-7"
+       ],
+       "sequenceIds": [
+        "VSP_036064",
+        "VSP_006579"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "8"
+       },
+       "isoformIds": [
+        "P09493-8"
+       ],
+       "sequenceIds": [
+        "VSP_047297",
+        "VSP_047298",
+        "VSP_047299",
+        "VSP_047300",
+        "VSP_006579"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "9"
+       },
+       "isoformIds": [
+        "P09493-9"
+       ],
+       "sequenceIds": [
+        "VSP_006579"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "10"
+       },
+       "isoformIds": [
+        "P09493-10"
+       ],
+       "sequenceIds": [
+        "VSP_047299",
+        "VSP_047300",
+        "VSP_047301"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ],
+     "note": {
+      "texts": [
+       {
+        "value": "Additional isoforms seem to exist."
+       }
+      ]
+     }
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "15249230"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "Reference",
+         "id": "Ref.15"
+        }
+       ],
+       "value": "Detected in primary breast cancer tissues but undetectable in normal breast tissues in Sudanese patients. Isoform 1 is expressed in adult and fetal skeletal muscle and cardiac tissues, with higher expression levels in the cardiac tissues. Isoform 10 is expressed in adult and fetal cardiac tissues, but not in skeletal muscle"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 284,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Tropomyosin alpha-1 chain",
+     "featureId": "PRO_0000205620"
+    }
+   ],
+   "sequence": {
+    "value": "MDAIKKKMQMLKLDKENALDRAEQAEADKKAAEDRSKQLEDELVSLQKKLKGTEDELDKYSEALKDAQEKLELAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIESRAQKDEEKMEIQEIQLKEAKHIAEDADRKYEEVARKLVIIESDLERAEERAELSEGKCAELEEELKTVTNNLKSLEAQAEKYSQKEDRYEEEIKVLSDKLKEAETRAEFAERSVTKLEKSIDDLEDELYAQKLKYKAISEELDHALNDMTSI",
+    "length": 284,
+    "molWeight": 32709,
+    "crc64": "F57139E2B0972F4D",
+    "md5": "D1DB59BC86C4AD2D189DF97DCFB8F0B2"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000040637"
+   }
+  }
+ ]
+}

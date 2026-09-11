@@ -1,0 +1,89 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "Q08043",
+   "uniProtkbId": "ACTN3_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2008-11-25",
+    "entryVersion": 211,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Alpha-actinin-3"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Alpha-actinin skeletal muscle isoform 3"
+      }
+     },
+     {
+      "fullName": {
+       "value": "F-actin cross-linking protein"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "ACTN3"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "10192379"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "11440986"
+        }
+       ],
+       "value": "Expression restricted to fast (type 2) skeletal muscle fibers (at protein level)"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 901,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Alpha-actinin-3",
+     "featureId": "PRO_0000073438"
+    }
+   ],
+   "sequence": {
+    "value": "MMMVMQPEGLGAGEGRFAGGGGGGEYMEQEEDWDRDLLLDPAWEKQQRKTFTAWCNSHLRKAGTQIENIEEDFRNGLKLMLLLEVISGERLPRPDKGKMRFHKIANVNKALDFIASKGVKLVSIGAEEIVDGNLKMTLGMIWTIILRFAIQDISVEETSAKEGLLLWCQRKTAPYRNVNVQNFHTSWKDGLALCALIHRHRPDLIDYAKLRKDDPIGNLNTAFEVAEKYLDIPKMLDAEDIVNTPKPDEKAIMTYVSCFYHAFAGAEQAETAANRICKVLAVNQENEKLMEEYEKLASELLEWIRRTVPWLENRVGEPSMSAMQRKLEDFRDYRRLHKPPRIQEKCQLEINFNTLQTKLRLSHRPAFMPSEGKLVSDIANAWRGLEQVEKGYEDWLLSEIRRLQRLQHLAEKFRQKASLHEAWTRGKEEMLSQRDYDSALLQEVRALLRRHEAFESDLAAHQDRVEHIAALAQELNELDYHEAASVNSRCQAICDQWDNLGTLTQKRRDALERMEKLLETIDRLQLEFARRAAPFNNWLDGAVEDLQDVWLVHSVEETQSLLTAHDQFKATLPEADRERGAIMGIQGEIQKICQTYGLRPCSTNPYITLSPQDINTKWDMVRKLVPSCDQTLQEELARQQVNERLRRQFAAQANAIGPWIQAKVEEVGRLAAGLAGSLEEQMAGLRQQEQNIINYKTNIDRLEGDHQLLQESLVFDNKHTVYSMEHIRVGWEQLLTSIARTINEVENQVLTRDAKGLSQEQLNEFRASFNHFDRKQNGMMEPDDFRACLISMGYDLGEVEFARIMTMVDPNAAGVVTFQAFIDFMTRETAETDTTEQVVASFKILAGDKNYITPEELRRELPAKQAEYCIRRMVPYKGSGAPAGALDYVAFSSALYGESDL",
+    "length": 901,
+    "molWeight": 103241,
+    "crc64": "C49B7885E7E1EDA7",
+    "md5": "0170763DEF6A9BE53820EC51681330EA"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000183CB47"
+   }
+  }
+ ]
+}

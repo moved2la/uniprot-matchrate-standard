@@ -1,0 +1,133 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P68133",
+   "uniProtkbId": "ACTS_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "1986-07-21",
+    "entryVersion": 200,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Actin, alpha skeletal muscle"
+     },
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P68137"
+        }
+       ],
+       "value": "3.6.4.-"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Alpha-actin-1"
+      }
+     }
+    ],
+    "contains": [
+     {
+      "recommendedName": {
+       "fullName": {
+        "value": "Actin, alpha skeletal muscle, intermediate form"
+       }
+      }
+     }
+    ],
+    "flag": "Precursor"
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "ACTA1"
+     },
+     "synonyms": [
+      {
+       "value": "ACTA"
+      }
+     ]
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed"
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 377,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Actin, alpha skeletal muscle, intermediate form",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P62737"
+      }
+     ],
+     "featureId": "PRO_0000442803"
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 3,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 377,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Actin, alpha skeletal muscle",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P68135"
+      }
+     ],
+     "featureId": "PRO_0000442804"
+    }
+   ],
+   "sequence": {
+    "value": "MCDEDETTALVCDNGSGLVKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIITNWDDMEKIWHHTFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVMSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWITKQEYDEAGPSIVHRKCF",
+    "length": 377,
+    "molWeight": 42051,
+    "crc64": "DF2A3A046346A179",
+    "md5": "326E1941DB6EE9EFED178FE1030AF06F"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000000860"
+   }
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "Q9UKX2",
+   "uniProtkbId": "MYH2_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2000-05-01",
+    "entryVersion": 220,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000305"
+       }
+      ],
+      "value": "Myosin-2"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:7572"
+        }
+       ],
+       "value": "Myosin heavy chain 2"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Myosin heavy chain 2a"
+      },
+      "shortNames": [
+       {
+        "value": "MyHC-2a"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Myosin heavy chain IIa"
+      },
+      "shortNames": [
+       {
+        "value": "MyHC-IIa"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Myosin heavy chain, skeletal muscle, adult 2"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:7572"
+       }
+      ],
+      "value": "MYH2"
+     },
+     "synonyms": [
+      {
+       "value": "MYHSA2"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "Q9UKX2-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "Q9UKX2-2"
+       ],
+       "sequenceIds": [
+        "VSP_056291"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1941,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myosin-2",
+     "featureId": "PRO_0000123393"
+    }
+   ],
+   "sequence": {
+    "value": "MSSDSELAVFGEAAPFLRKSERERIEAQNRPFDAKTSVFVAEPKESFVKGTIQSREGGKVTVKTEGGATLTVKDDQVFPMNPPKYDKIEDMAMMTHLHEPAVLYNLKERYAAWMIYTYSGLFCVTVNPYKWLPVYKPEVVTAYRGKKRQEAPPHIFSISDNAYQFMLTDRENQSILITGESGAGKTVNTKRVIQYFATIAVTGEKKKEEITSGKIQGTLEDQIISANPLLEAFGNAKTVRNDNSSRFGKFIRIHFGTTGKLASADIETYLLEKSRVVFQLKAERSYHIFYQITSNKKPELIEMLLITTNPYDYPFVSQGEISVASIDDQEELMATDSAIDILGFTNEEKVSIYKLTGAVMHYGNLKFKQKQREEQAEPDGTEVADKAAYLQSLNSADLLKALCYPRVKVGNEYVTKGQTVEQVSNAVGALAKAVYEKMFLWMVARINQQLDTKQPRQYFIGVLDIAGFEIFDFNSLEQLCINFTNEKLQQFFNHHMFVLEQEEYKKEGIEWTFIDFGMDLAACIELIEKPMGIFSILEEECMFPKATDTSFKNKLYDQHLGKSANFQKPKVVKGKAEAHFALIHYAGVVDYNITGWLEKNKDPLNETVVGLYQKSAMKTLAQLFSGAQTAEGEGAGGGAKKGGKKKGSSFQTVSALFRENLNKLMTNLRSTHPHFVRCIIPNETKTPGAMEHELVLHQLRCNGVLEGIRICRKGFPSRILYADFKQRYKVLNASAIPEGQFIDSKKASEKLLASIDIDHTQYKFGHTKVFFKAGLLGLLEEMRDDKLAQLITRTQARCRGFLARVEYQRMVERREAIFCIQYNIRSFMNVKHWPWMKLFFKIKPLLKSAETEKEMATMKEEFQKIKDELAKSEAKRKELEEKMVTLLKEKNDLQLQVQAEAEGLADAEERCDQLIKTKIQLEAKIKEVTERAEDEEEINAELTAKKRKLEDECSELKKDIDDLELTLAKVEKEKHATENKVKNLTEEMAGLDETIAKLTKEKKALQEAHQQTLDDLQAEEDKVNTLTKAKIKLEQQVDDLEGSLEQEKKLRMDLERAKRKLEGDLKLAQESIMDIENEKQQLDEKLKKKEFEISNLQSKIEDEQALGIQLQKKIKELQARIEELEEEIEAERASRAKAEKQRSDLSRELEEISERLEEAGGATSAQIEMNKKREAEFQKMRRDLEEATLQHEATAATLRKKHADSVAELGEQIDNLQRVKQKLEKEKSEMKMEIDDLASNVETVSKAKGNLEKMCRTLEDQLSELKSKEEEQQRLINDLTAQRGRLQTESGEFSRQLDEKEALVSQLSRGKQAFTQQIEELKRQLEEEIKAKNALAHALQSSRHDCDLLREQYEEEQESKAELQRALSKANTEVAQWRTKYETDAIQRTEELEEAKKKLAQRLQAAEEHVEAVNAKCASLEKTKQRLQNEVEDLMLDVERTNAACAALDKKQRNFDKILAEWKQKCEETHAELEASQKEARSLGTELFKIKNAYEESLDQLETLKRENKNLQQEISDLTEQIAEGGKRIHELEKIKKQVEQEKCELQAALEEAEASLEHEEGKILRIQLELNQVKSEVDRKIAEKDEEIDQLKRNHIRIVESMQSTLDAEIRSRNDAIRLKKKMEGDLNEMEIQLNHANRMAAEALRNYRNTQGILKDTQIHLDDALRSQEDLKEQLAMVERRANLLQAEIEELRATLEQTERSRKIAEQELLDASERVQLLHTQNTSLINTKKKLETDISQMQGEMEDILQEARNAEEKAKKAITDAAMMAEELKKEQDTSAHLERMKKNMEQTVKDLQLRLDEAEQLALKGGKKQIQKLEARVRELEGEVESEQKRNAEAVKGLRKHERRVKELTYQTEEDRKNILRLQDLVDKLQAKVKSYKRQAEEAEEQSNTNLAKFRKLQHELEEAEERADIAESQVNKLRVKSREVHTKVISEE",
+    "length": 1941,
+    "molWeight": 223044,
+    "crc64": "681E866F83AEA83F",
+    "md5": "752EDFCF8522A1F085DEF37A64BBD9F9"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000012FB6C"
+   }
+  }
+ ]
+}

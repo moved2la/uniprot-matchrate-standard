@@ -1,0 +1,262 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P06753",
+   "uniProtkbId": "TPM3_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2013-06-26",
+    "entryVersion": 255,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Tropomyosin alpha-3 chain"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Gamma-tropomyosin"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Tropomyosin-3"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Tropomyosin-5"
+      },
+      "shortNames": [
+       {
+        "value": "hTM5"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TPM3"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "synonyms": [
+        {
+         "value": "Skeletal muscle"
+        }
+       ],
+       "isoformIds": [
+        "P06753-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "synonyms": [
+        {
+         "value": "Cytoskeletal"
+        },
+        {
+         "value": "TM30nm"
+        }
+       ],
+       "isoformIds": [
+        "P06753-2"
+       ],
+       "sequenceIds": [
+        "VSP_006604",
+        "VSP_006605",
+        "VSP_006606"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "P06753-3"
+       ],
+       "sequenceIds": [
+        "VSP_006604",
+        "VSP_006605",
+        "VSP_006607"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "4"
+       },
+       "isoformIds": [
+        "P06753-4"
+       ],
+       "sequenceIds": [
+        "VSP_047302",
+        "VSP_047303",
+        "VSP_047304",
+        "VSP_047305",
+        "VSP_047306"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "5"
+       },
+       "isoformIds": [
+        "P06753-5"
+       ],
+       "sequenceIds": [
+        "VSP_047302",
+        "VSP_047303",
+        "VSP_047304",
+        "VSP_006606"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "6"
+       },
+       "isoformIds": [
+        "P06753-6"
+       ],
+       "sequenceIds": [
+        "VSP_006604",
+        "VSP_006605"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "7"
+       },
+       "isoformIds": [
+        "P06753-7"
+       ],
+       "sequenceIds": [
+        "VSP_054792",
+        "VSP_006606"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ],
+     "note": {
+      "texts": [
+       {
+        "value": "Additional isoforms seem to exist."
+       }
+      ]
+     }
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P58776"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 285,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Tropomyosin alpha-3 chain",
+     "featureId": "PRO_0000205632"
+    },
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "sequence": "P06753-2"
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ]
+    },
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "sequence": "P06753-3"
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ]
+    }
+   ],
+   "sequence": {
+    "value": "MMEAIKKKMQMLKLDKENALDRAEQAEAEQKQAEERSKQLEDELAAMQKKLKGTEDELDKYSEALKDAQEKLELAEKKAADAEAEVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIENRALKDEEKMELQEIQLKEAKHIAEEADRKYEEVARKLVIIEGDLERTEERAELAESKCSELEEELKNVTNNLKSLEAQAEKYSQKEDKYEEEIKILTDKLKEAETRAEFAERSVAKLEKTIDDLEDELYAQKLKYKAISEELDHALNDMTSI",
+    "length": 285,
+    "molWeight": 32950,
+    "crc64": "99EAD24C45460A14",
+    "md5": "8675E9F4C97A6B94EB04B83B56C4A67E"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000013D90D"
+   }
+  }
+ ]
+}

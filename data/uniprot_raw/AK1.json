@@ -1,0 +1,174 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P00568",
+   "uniProtkbId": "KAD1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2002-04-16",
+    "entryVersion": 238,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000255",
+        "source": "HAMAP-Rule",
+        "id": "MF_03171"
+       }
+      ],
+      "value": "Adenylate kinase isoenzyme 1"
+     },
+     "shortNames": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000255",
+         "source": "HAMAP-Rule",
+         "id": "MF_03171"
+        }
+       ],
+       "value": "AK 1"
+      }
+     ],
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "23416111"
+        }
+       ],
+       "value": "2.7.4.3"
+      },
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "23416111"
+        }
+       ],
+       "value": "2.7.4.4"
+      },
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000255",
+         "source": "HAMAP-Rule",
+         "id": "MF_03171"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "23416111"
+        }
+       ],
+       "value": "2.7.4.6"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000255",
+         "source": "HAMAP-Rule",
+         "id": "MF_03171"
+        }
+       ],
+       "value": "ATP-AMP transphosphorylase 1"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000255",
+         "source": "HAMAP-Rule",
+         "id": "MF_03171"
+        }
+       ],
+       "value": "ATP:AMP phosphotransferase"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000255",
+         "source": "HAMAP-Rule",
+         "id": "MF_03171"
+        }
+       ],
+       "value": "Adenylate monophosphate kinase"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000255",
+         "source": "HAMAP-Rule",
+         "id": "MF_03171"
+        }
+       ],
+       "value": "Myokinase"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000255",
+        "source": "HAMAP-Rule",
+        "id": "MF_03171"
+       },
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:361"
+       }
+      ],
+      "value": "AK1"
+     }
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 194,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Adenylate kinase isoenzyme 1",
+     "featureId": "PRO_0000158910"
+    }
+   ],
+   "sequence": {
+    "value": "MEEKLKKTKIIFVVGGPGSGKGTQCEKIVQKYGYTHLSTGDLLRSEVSSGSARGKKLSEIMEKGQLVPLETVLDMLRDAMVAKVNTSKGFLIDGYPREVQQGEEFERRIGQPTLLLYVDAGPETMTQRLLKRGETSGRVDDNEETIKKRLETYYKATEPVIAFYEKRGIVRKVNAEGSVDSVFSQVCTHLDALK",
+    "length": 194,
+    "molWeight": 21635,
+    "crc64": "95EC5AAA92D1F00F",
+    "md5": "D27795E65806E8A18430E30C96459AB3"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000012DB89"
+   }
+  }
+ ]
+}

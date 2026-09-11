@@ -1,0 +1,135 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P47755",
+   "uniProtkbId": "CAZA2_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 214,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "F-actin-capping protein subunit alpha-2"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "CapZ alpha-2"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "CAPZA2"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P47755-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P47755-2"
+       ],
+       "sequenceIds": [
+        "VSP_053871",
+        "VSP_053872"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "12665801"
+      },
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "Reference",
+       "id": "Ref.8"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "19413330"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "22223895"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "22814378"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 286,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "F-actin-capping protein subunit alpha-2",
+     "featureId": "PRO_0000208627"
+    }
+   ],
+   "sequence": {
+    "value": "MADLEEQLSDEEKVRIAAKFIIHAPPGEFNEVFNDVRLLLNNDNLLREGAAHAFAQYNLDQFTPVKIEGYEDQVLITEHGDLGNGKFLDPKNRICFKFDHLRKEATDPRPCEVENAVESWRTSVETALRAYVKEHYPNGVCTVYGKKIDGQQTIIACIESHQFQAKNFWNGRWRSEWKFTITPSTTQVVGILKIQVHYYEDGNVQLVSHKDIQDSLTVSNEVQTAKEFIKIVEAAENEYQTAISENYQTMSDTTFKALRRQLPVTRTKIDWNKILSYKIGKEMQNA",
+    "length": 286,
+    "molWeight": 32949,
+    "crc64": "B5E1B617A38E758B",
+    "md5": "29F64519081CCF32C39249596935A0ED"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI00001270FC"
+   }
+  }
+ ]
+}

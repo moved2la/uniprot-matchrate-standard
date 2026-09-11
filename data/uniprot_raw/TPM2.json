@@ -1,0 +1,154 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P07951",
+   "uniProtkbId": "TPM2_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "1988-08-01",
+    "entryVersion": 233,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Tropomyosin beta chain"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Beta-tropomyosin"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Tropomyosin-2"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TPM2"
+     },
+     "synonyms": [
+      {
+       "value": "TMSB"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "synonyms": [
+        {
+         "value": "Skeletal muscle"
+        }
+       ],
+       "isoformIds": [
+        "P07951-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "synonyms": [
+        {
+         "value": "non-muscle"
+        },
+        {
+         "value": "Fibroblast TM36"
+        },
+        {
+         "value": "Epithelial TMe1"
+        }
+       ],
+       "isoformIds": [
+        "P07951-2"
+       ],
+       "sequenceIds": [
+        "VSP_006595",
+        "VSP_006596"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "synonyms": [
+        {
+         "value": "non-muscle"
+        }
+       ],
+       "isoformIds": [
+        "P07951-3"
+       ],
+       "sequenceIds": [
+        "VSP_006594",
+        "VSP_006595",
+        "VSP_006596"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "Reference",
+         "id": "Ref.10"
+        }
+       ],
+       "value": "Present in primary breast cancer tissue, absent from normal breast tissue"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 284,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Tropomyosin beta chain",
+     "featureId": "PRO_0000205627"
+    }
+   ],
+   "sequence": {
+    "value": "MDAIKKKMQMLKLDKENAIDRAEQAEADKKQAEDRCKQLEEEQQALQKKLKGTEDEVEKYSESVKEAQEKLEQAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIENRAMKDEEKMELQEMQLKEAKHIAEDSDRKYEEVARKLVILEGELERSEERAEVAESKCGDLEEELKIVTNNLKSLEAQADKYSTKEDKYEEEIKLLEEKLKEAETRAEFAERSVAKLEKTIDDLEDEVYAQKMKYKAISEELDNALNDITSL",
+    "length": 284,
+    "molWeight": 32851,
+    "crc64": "18E330568E14E0BE",
+    "md5": "AA5EBBC5EF55CF5C4D7CAD79220ADFA7"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000137258"
+   }
+  }
+ ]
+}

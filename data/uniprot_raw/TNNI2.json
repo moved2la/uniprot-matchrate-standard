@@ -1,0 +1,114 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P48788",
+   "uniProtkbId": "TNNI2_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 191,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Troponin I, fast skeletal muscle"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Troponin I, fast-twitch isoform"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TNNI2"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P48788-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P48788-2"
+       ],
+       "sequenceIds": [
+        "VSP_046052"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P02643"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 182,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Troponin I, fast skeletal muscle",
+     "featureId": "PRO_0000186143"
+    }
+   ],
+   "sequence": {
+    "value": "MGDEEKRNRAITARRQHLKSVMLQIAATELEKEESRREAEKQNYLAEHCPPLHIPGSMSEVQELCKQLHAKIDAAEEEKYDMEVRVQKTSKELEDMNQKLFDLRGKFKRPPLRRVRMSADAMLKALLGSKHKVCMDLRANLKQVKKEDTEKERDLRDVGDWRKNIEEKSGMEGRKKMFESES",
+    "length": 182,
+    "molWeight": 21339,
+    "crc64": "A204BF5616D748BB",
+    "md5": "5BB18FD1DE52C588A6DB3373EF26A361"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000001605"
+   }
+  }
+ ]
+}

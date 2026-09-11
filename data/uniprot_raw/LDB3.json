@@ -1,0 +1,249 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "O75112",
+   "uniProtkbId": "LDB3_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2005-12-06",
+    "entryVersion": 208,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "LIM domain-binding protein 3"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Protein cypher"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Z-band alternatively spliced PDZ-motif protein"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:15710"
+       }
+      ],
+      "value": "LDB3"
+     },
+     "synonyms": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "EMBL",
+         "id": "BAA31588.1"
+        }
+       ],
+       "value": "KIAA0613"
+      },
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "EMBL",
+         "id": "CAB46728.1"
+        }
+       ],
+       "value": "ZASP"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000305"
+         }
+        ],
+        "value": "1"
+       },
+       "isoformIds": [
+        "O75112-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10427098"
+         }
+        ],
+        "value": "2"
+       },
+       "isoformIds": [
+        "O75112-2"
+       ],
+       "sequenceIds": [
+        "VSP_051898",
+        "VSP_051900"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10427098"
+         }
+        ],
+        "value": "3"
+       },
+       "isoformIds": [
+        "O75112-3"
+       ],
+       "sequenceIds": [
+        "VSP_051897"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10427098"
+         }
+        ],
+        "value": "4"
+       },
+       "isoformIds": [
+        "O75112-4"
+       ],
+       "sequenceIds": [
+        "VSP_051899",
+        "VSP_051901",
+        "VSP_051902"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10427098"
+         }
+        ],
+        "value": "5"
+       },
+       "isoformIds": [
+        "O75112-5"
+       ],
+       "sequenceIds": [
+        "VSP_051901",
+        "VSP_051902"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10427098"
+         }
+        ],
+        "value": "6"
+       },
+       "isoformIds": [
+        "O75112-6"
+       ],
+       "sequenceIds": [
+        "VSP_051898",
+        "VSP_051901",
+        "VSP_051902"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "7"
+       },
+       "isoformIds": [
+        "O75112-7"
+       ],
+       "sequenceIds": [
+        "VSP_051899",
+        "VSP_051900"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "10427098"
+        }
+       ],
+       "value": "Expressed primarily in skeletal muscle and to a lesser extent in heart. Also detected in brain and placenta"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 727,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "LIM domain-binding protein 3",
+     "featureId": "PRO_0000075767"
+    }
+   ],
+   "sequence": {
+    "value": "MSYSVTLTGPGPWGFRLQGGKDFNMPLTISRITPGSKAAQSQLSQGDLVVAIDGVNTDTMTHLEAQNKIKSASYNLSLTLQKSKRPIPISTTAPPVQTPLPVIPHQKDPALDTNGSLVAPSPSPEARASPGTPGTPELRPTFSPAFSRPSAFSSLAEASDPGPPRASLRAKTSPEGARDLLGPKALPGSSQPRQYNNPIGLYSAETLREMAQMYQMSLRGKASGVGLPGGSLPIKDLAVDSASPVYQAVIKSQNKPEDEADEWARRSSNLQSRSFRILAQMTGTEFMQDPDEEALRRSSTPIEHAPVCTSQATTPLLPASAQPPAAASPSAASPPLATAAAHTAIASASTTAPASSPADSPRPQASSYSPAVAASSAPATHTSYSEGPAAPAPKPRVVTTASIRPSVYQPVPASTYSPSPGANYSPTPYTPSPAPAYTPSPAPAYTPSPVPTYTPSPAPAYTPSPAPNYNPAPSVAYSGGPAEPASRPPWVTDDSFSQKFAPGKSTTSISKQTLPRGGPAYTPAGPQVPPLARGTVQRAERFPASSRTPLCGHCNNVIRGPFLVAMGRSWHPEEFTCAYCKTSLADVCFVEEQNNVYCERCYEQFFAPLCAKCNTKIMGEVMHALRQTWHTTCFVCAACKKPFGNSLFHMEDGEPYCEKDYINLFSTKCHGCDFPVEAGDKFIEALGHTWHDTCFICAVCHVNLEGQPFYSKKDRPLCKKHAHTINL",
+    "length": 727,
+    "molWeight": 77135,
+    "crc64": "67B5B699D2B2AB68",
+    "md5": "B6DFACB13C486B051D6BE8FC1C6FA6D1"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000034ECFC"
+   }
+  }
+ ]
+}

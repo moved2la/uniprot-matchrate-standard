@@ -1,0 +1,118 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P20472",
+   "uniProtkbId": "PRVA_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 210,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Parvalbumin alpha"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "15122922"
+        },
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "39584689"
+        }
+       ],
+       "value": "Alpha-parvalbumin"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15122922"
+         },
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "39584689"
+         }
+        ],
+        "value": "Alpha-PV"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "PVALB"
+     }
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "10036163"
+      },
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "8354278"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 110,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Parvalbumin alpha",
+     "featureId": "PRO_0000073588"
+    }
+   ],
+   "sequence": {
+    "value": "MSMTDLLNAEDIKKAVGAFSATDSFDHKKFFQMVGLKKKSADDVKKVFHMLDKDKSGFIEEDELGFILKGFSPDARDLSAKETKMLMAAGDKDGDGKIGVDEFSTLVAES",
+    "length": 110,
+    "molWeight": 12059,
+    "crc64": "03ABDD22E24AEA11",
+    "md5": "B2145FEEA143A04AEE70231CD443064A"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI00000527B7"
+   }
+  }
+ ]
+}

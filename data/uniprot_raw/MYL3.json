@@ -1,0 +1,190 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P08590",
+   "uniProtkbId": "MYL3_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 215,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000305"
+       }
+      ],
+      "value": "Myosin light chain 3"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "Reference",
+         "id": "Ref.5"
+        }
+       ],
+       "value": "Cardiac myosin light chain 1"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "Reference",
+          "id": "Ref.5"
+         }
+        ],
+        "value": "CMLC1"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Myosin light chain 1, slow-twitch muscle B/ventricular isoform"
+      },
+      "shortNames": [
+       {
+        "value": "MLC1SB"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "3417683"
+        }
+       ],
+       "value": "Ventricular myosin alkali light chain"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "3357795"
+        }
+       ],
+       "value": "Ventricular myosin light chain 1"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "3357795"
+         }
+        ],
+        "value": "VLCl"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2789520"
+        }
+       ],
+       "value": "Ventricular/slow twitch myosin alkali light chain"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "2789520"
+         }
+        ],
+        "value": "MLC-lV/sb"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:7584"
+       }
+      ],
+      "value": "MYL3"
+     }
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P09542"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 195,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myosin light chain 3",
+     "featureId": "PRO_0000198696"
+    }
+   ],
+   "sequence": {
+    "value": "MAPKKPEPKKDDAKAAPKAAPAPAPPPEPERPKEVEFDASKIKIEFTPEQIEEFKEAFMLFDRTPKCEMKITYGQCGDVLRALGQNPTQAEVLRVLGKPRQEELNTKMMDFETFLPMLQHISKNKDTGTYEDFVEGLRVFDKEGNGTVMGAELRHVLATLGERLTEDEVEKLMAGQEDSNGCINYEAFVKHIMSS",
+    "length": 195,
+    "molWeight": 21932,
+    "crc64": "306CF328841729DD",
+    "md5": "E70712AAB10D0C75B74DA58B8904DFE5"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000000CA2"
+   }
+  }
+ ]
+}

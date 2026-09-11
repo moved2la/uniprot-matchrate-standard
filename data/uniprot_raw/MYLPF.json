@@ -1,0 +1,163 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "Q96A32",
+   "uniProtkbId": "MYL11_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2001-12-01",
+    "entryVersion": 171,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000305"
+       }
+      ],
+      "value": "Myosin regulatory light chain 11"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "14756420"
+        }
+       ],
+       "value": "Fast skeletal myosin light chain 2"
+      }
+     },
+     {
+      "fullName": {
+       "value": "MLC2B"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "HGNC",
+         "id": "HGNC:29824"
+        }
+       ],
+       "value": "Myosin light chain 11"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Myosin regulatory light chain 2, skeletal muscle isoform"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:29824"
+       }
+      ],
+      "value": "MYL11"
+     },
+     "synonyms": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "14756420"
+        }
+       ],
+       "value": "HSRLC"
+      },
+      {
+       "value": "MYLPF"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "14756420"
+        }
+       ],
+       "value": "Expressed in fetal and adult skeletal muscle"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P02608"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 169,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myosin regulatory light chain 11",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P02608"
+      }
+     ],
+     "featureId": "PRO_0000283746"
+    }
+   ],
+   "sequence": {
+    "value": "MAPKRAKRRTVEGGSSSVFSMFDQTQIQEFKEAFTVIDQNRDGIIDKEDLRDTFAAMGRLNVKNEELDAMMKEASGPINFTVFLTMFGEKLKGADPEDVITGAFKVLDPEGKGTIKKKFLEELLTTQCDRFSQEEIKNMWAAFPPDVGGNVDYKNICYVITHGDAKDQE",
+    "length": 169,
+    "molWeight": 19015,
+    "crc64": "2CE585D6B1F8769D",
+    "md5": "892916BB51CCB53AA174F1F16EBEC313"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000070AC6"
+   }
+  }
+ ]
+}

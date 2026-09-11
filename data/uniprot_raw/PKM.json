@@ -1,0 +1,384 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P14618",
+   "uniProtkbId": "KPYM_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 283,
+    "sequenceVersion": 4
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Pyruvate kinase PKM"
+     },
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "15996096"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "1854723"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "20847263"
+        }
+       ],
+       "value": "2.7.1.40"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2813362"
+        }
+       ],
+       "value": "Cytosolic thyroid hormone-binding protein"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "2813362"
+         }
+        ],
+        "value": "CTHBP"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "9466265"
+        }
+       ],
+       "value": "Opa-interacting protein 3"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "9466265"
+         }
+        ],
+        "value": "OIP-3"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Pyruvate kinase 2/3"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Pyruvate kinase muscle isozyme"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Threonine-protein kinase PKM2"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22901803"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24120661"
+         }
+        ],
+        "value": "2.7.11.1"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Thyroid hormone-binding protein 1"
+      },
+      "shortNames": [
+       {
+        "value": "THBP1"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Tumor M2-PK"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Tyrosine-protein kinase PKM2"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "22306293"
+         },
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24120661"
+         }
+        ],
+        "value": "2.7.10.2"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "p58"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "PKM"
+     },
+     "synonyms": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "9466265"
+        }
+       ],
+       "value": "OIP3"
+      },
+      {
+       "value": "PK2"
+      },
+      {
+       "value": "PK3"
+      },
+      {
+       "value": "PKM2"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "2854097"
+         }
+        ],
+        "value": "M2"
+       },
+       "synonyms": [
+        {
+         "value": "M2-PK"
+        },
+        {
+         "value": "PKM2"
+        }
+       ],
+       "isoformIds": [
+        "P14618-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "2854097"
+         }
+        ],
+        "value": "M1"
+       },
+       "synonyms": [
+        {
+         "value": "M1-PK"
+        },
+        {
+         "value": "PKM1"
+        }
+       ],
+       "isoformIds": [
+        "P14618-2",
+        "P14786-1"
+       ],
+       "sequenceIds": [
+        "VSP_011101"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "P14618-3"
+       ],
+       "sequenceIds": [
+        "VSP_043370"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "18191611"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "18337823"
+        }
+       ],
+       "value": "Specifically expressed in proliferating cells, such as embryonic stem cells, embryonic carcinoma cells, as well as cancer cells"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY",
+     "molecule": "Isoform M2"
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "18337823"
+        }
+       ],
+       "value": "Expressed in adult tissues (PubMed:18337823). Not expressed in tumor cells (PubMed:18337823)"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY",
+     "molecule": "Isoform M1"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "12665801"
+      },
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "1854723"
+      },
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "Reference",
+       "id": "Ref.11"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "19413330"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "25944712"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 531,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Pyruvate kinase PKM",
+     "featureId": "PRO_0000112088"
+    }
+   ],
+   "sequence": {
+    "value": "MSKPHSEAGTAFIQTQQLHAAMADTFLEHMCRLDIDSPPITARNTGIICTIGPASRSVETLKEMIKSGMNVARLNFSHGTHEYHAETIKNVRTATESFASDPILYRPVAVALDTKGPEIRTGLIKGSGTAEVELKKGATLKITLDNAYMEKCDENILWLDYKNICKVVEVGSKIYVDDGLISLQVKQKGADFLVTEVENGGSLGSKKGVNLPGAAVDLPAVSEKDIQDLKFGVEQDVDMVFASFIRKASDVHEVRKVLGEKGKNIKIISKIENHEGVRRFDEILEASDGIMVARGDLGIEIPAEKVFLAQKMMIGRCNRAGKPVICATQMLESMIKKPRPTRAEGSDVANAVLDGADCIMLSGETAKGDYPLEAVRMQHLIAREAEAAIYHLQLFEELRRLAPITSDPTEATAVGAVEASFKCCSGAIIVLTKSGRSAHQVARYRPRAPIIAVTRNPQTARQAHLYRGIFPVLCKDPVQEAWAEDVDLRVNFAMNVGKARGFFKKGDVVIVLTGWRPGSGFTNTMRVVPVP",
+    "length": 531,
+    "molWeight": 57937,
+    "crc64": "AA94D7818ED6BBAD",
+    "md5": "B9F341DB7EDC1C70C1439F8176EA2889"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000169DBC"
+   }
+  }
+ ]
+}

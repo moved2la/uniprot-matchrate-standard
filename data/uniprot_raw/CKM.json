@@ -1,0 +1,100 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P06732",
+   "uniProtkbId": "KCRM_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "1990-11-01",
+    "entryVersion": 228,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Creatine kinase M-type"
+     },
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P00563"
+        }
+       ],
+       "value": "2.7.3.2"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Creatine kinase M chain"
+      }
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Creatine phosphokinase M-type"
+      },
+      "shortNames": [
+       {
+        "value": "CPK-M"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "M-CK"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "CKM"
+     },
+     "synonyms": [
+      {
+       "value": "CKMM"
+      }
+     ]
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 381,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Creatine kinase M-type",
+     "featureId": "PRO_0000211975"
+    }
+   ],
+   "sequence": {
+    "value": "MPFGNTHNKFKLNYKPEEEYPDLSKHNNHMAKVLTLELYKKLRDKETPSGFTVDDVIQTGVDNPGHPFIMTVGCVAGDEESYEVFKELFDPIISDRHGGYKPTDKHKTDLNHENLKGGDDLDPNYVLSSRVRTGRSIKGYTLPPHCSRGERRAVEKLSVEALNSLTGEFKGKYYPLKSMTEKEQQQLIDDHFLFDKPVSPLLLASGMARDWPDARGIWHNDNKSFLVWVNEEDHLRVISMEKGGNMKEVFRRFCVGLQKIEEIFKKAGHPFMWNQHLGYVLTCPSNLGTGLRGGVHVKLAHLSKHPKFEEILTRLRLQKRGTGGVDTAAVGSVFDVSNADRLGSSEVEQVQLVVDGVKLMVEMEKKLEKGQSIDDMIPAQK",
+    "length": 381,
+    "molWeight": 43101,
+    "crc64": "418FEAD0C2E138C8",
+    "md5": "56058FEB4D9C3F7490332024FE9E2678"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000012DCC3"
+   }
+  }
+ ]
+}

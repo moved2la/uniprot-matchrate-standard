@@ -1,0 +1,147 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P50461",
+   "uniProtkbId": "CSRP3_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "1996-10-01",
+    "entryVersion": 213,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Cysteine and glycine-rich protein 3"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Cardiac LIM protein"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Cysteine-rich protein 3"
+      },
+      "shortNames": [
+       {
+        "value": "CRP3"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "LIM domain protein, cardiac"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Muscle LIM protein"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "CSRP3"
+     },
+     "synonyms": [
+      {
+       "value": "CLP"
+      },
+      {
+       "value": "MLP"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "synonyms": [
+        {
+         "value": "MLP-a"
+        }
+       ],
+       "isoformIds": [
+        "P50461-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "synonyms": [
+        {
+         "value": "MLP-b"
+        }
+       ],
+       "isoformIds": [
+        "P50461-2"
+       ],
+       "sequenceIds": [
+        "VSP_058575",
+        "VSP_058576"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "24860983"
+        }
+       ],
+       "value": "Cardiac and slow-twitch skeletal muscles. Isoform 2 is expressed in striated muscle. Isoform 2 is specifically expressed at higher levels in patients with neuromuscular diseases, such as limb-girdle muscular dystrophy 2A (LGMD2A), Duchenne muscular dystrophy (DMD) and dermatomyositis (PubMed:24860983)"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 194,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Cysteine and glycine-rich protein 3",
+     "featureId": "PRO_0000075727"
+    }
+   ],
+   "sequence": {
+    "value": "MPNWGGGAKCGACEKTVYHAEEIQCNGRSFHKTCFHCMACRKALDSTTVAAHESEIYCKVCYGRRYGPKGIGYGQGAGCLSTDTGEHLGLQFQQSPKPARSVTTSNPSKFTAKFGESEKCPRCGKSVYAAEKVMGGGKPWHKTCFRCAICGKSLESTNVTDKDGELYCKVCYAKNFGPTGIGFGGLTQQVEKKE",
+    "length": 194,
+    "molWeight": 20969,
+    "crc64": "FDB6E4F8D258C35F",
+    "md5": "0DBD5549D0A805CA18BA4B9F2EE52BB0"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000011DC5F"
+   }
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P00558",
+   "uniProtkbId": "PGK1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 257,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Phosphoglycerate kinase 1"
+     },
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "26942675"
+        }
+       ],
+       "value": "2.7.11.1"
+      },
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "30323285"
+        }
+       ],
+       "value": "2.7.2.3"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Cell migration-inducing gene 10 protein"
+      }
+     },
+     {
+      "fullName": {
+       "value": "Primer recognition protein 2"
+      },
+      "shortNames": [
+       {
+        "value": "PRP 2"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:8896"
+       }
+      ],
+      "value": "PGK1"
+     },
+     "synonyms": [
+      {
+       "value": "PGKA"
+      }
+     ],
+     "orfNames": [
+      {
+       "value": "MIG10"
+      },
+      {
+       "value": "OK/SW-cl.110"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P00558-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P00558-2"
+       ],
+       "sequenceIds": [
+        "VSP_056159"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "26677959"
+        }
+       ],
+       "value": "Mainly expressed in spermatogonia. Localized on the principle piece in the sperm (at protein level). Expression significantly decreased in the testis of elderly men"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "7391027"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "22814378"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 417,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Phosphoglycerate kinase 1",
+     "featureId": "PRO_0000145831"
+    }
+   ],
+   "sequence": {
+    "value": "MSLSNKLTLDKLDVKGKRVVMRVDFNVPMKNNQITNNQRIKAAVPSIKFCLDNGAKSVVLMSHLGRPDGVPMPDKYSLEPVAVELKSLLGKDVLFLKDCVGPEVEKACANPAAGSVILLENLRFHVEEEGKGKDASGNKVKAEPAKIEAFRASLSKLGDVYVNDAFGTAHRAHSSMVGVNLPQKAGGFLMKKELNYFAKALESPERPFLAILGGAKVADKIQLINNMLDKVNEMIIGGGMAFTFLKVLNNMEIGTSLFDEEGAKIVKDLMSKAEKNGVKITLPVDFVTADKFDENAKTGQATVASGIPAGWMGLDCGPESSKKYAEAVTRAKQIVWNGPVGVFEWEAFARGTKALMDEVVKATSRGCITIIGGGDTATCCAKWNTEDKVSHVSTGGGASLELLEGKVLPGVDALSNI",
+    "length": 417,
+    "molWeight": 44615,
+    "crc64": "B5DFC7B5FA01767C",
+    "md5": "7E9C0B3C11306A3463E3BE6EBB98602D"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI00000727EE"
+   }
+  }
+ ]
+}

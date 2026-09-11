@@ -1,0 +1,146 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P02144",
+   "uniProtkbId": "MYG_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 218,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000303",
+        "source": "PubMed",
+        "id": "5285572"
+       }
+      ],
+      "value": "Myoglobin"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305",
+         "source": "PubMed",
+         "id": "32891753"
+        }
+       ],
+       "value": "Nitrite reductase MB"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "32891753"
+         }
+        ],
+        "value": "1.7.-.-"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305",
+         "source": "PubMed",
+         "id": "34679218"
+        }
+       ],
+       "value": "Pseudoperoxidase MB"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "34679218"
+         }
+        ],
+        "value": "1.11.1.-"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:6915"
+       }
+      ],
+      "value": "MB"
+     }
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "5285572"
+      },
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "7895732"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 154,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myoglobin",
+     "featureId": "PRO_0000053303"
+    }
+   ],
+   "sequence": {
+    "value": "MGLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG",
+    "length": 154,
+    "molWeight": 17184,
+    "crc64": "F6A41F19A525F09C",
+    "md5": "B840EB6446F9F188023424AF40675A36"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000016846B"
+   }
+  }
+ ]
+}

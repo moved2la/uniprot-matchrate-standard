@@ -1,0 +1,233 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P00338",
+   "uniProtkbId": "LDHA_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 269,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000305"
+       }
+      ],
+      "value": "L-lactate dehydrogenase A chain"
+     },
+     "shortNames": [
+      {
+       "value": "LDH-A"
+      }
+     ],
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "11276087"
+        }
+       ],
+       "value": "1.1.1.27"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Cell proliferation-inducing gene 19 protein"
+      }
+     },
+     {
+      "fullName": {
+       "value": "LDH muscle subunit"
+      },
+      "shortNames": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "11276087"
+         }
+        ],
+        "value": "LDH-M"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Renal carcinoma antigen NY-REN-59"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:6535"
+       }
+      ],
+      "value": "LDHA"
+     },
+     "orfNames": [
+      {
+       "value": "PIG19"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P00338-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P00338-2"
+       ],
+       "sequenceIds": [
+        "VSP_014261",
+        "VSP_042787"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "P00338-3"
+       ],
+       "sequenceIds": [
+        "VSP_042206"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "4"
+       },
+       "isoformIds": [
+        "P00338-4"
+       ],
+       "sequenceIds": [
+        "VSP_042786"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "5"
+       },
+       "isoformIds": [
+        "P00338-5"
+       ],
+       "sequenceIds": [
+        "VSP_042788",
+        "VSP_042789"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    },
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305",
+         "source": "PubMed",
+         "id": "11276087"
+        }
+       ],
+       "value": "Predominantly expressed in anaerobic tissues such as skeletal muscle and liver"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "Reference",
+       "id": "Ref.10"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "19413330"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "22223895"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 332,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "L-lactate dehydrogenase A chain",
+     "featureId": "PRO_0000168411"
+    }
+   ],
+   "sequence": {
+    "value": "MATLKDQLIYNLLKEEQTPQNKITVVGVGAVGMACAISILMKDLADELALVDVIEDKLKGEMMDLQHGSLFLRTPKIVSGKDYNVTANSKLVIITAGARQQEGESRLNLVQRNVNIFKFIIPNVVKYSPNCKLLIVSNPVDILTYVAWKISGFPKNRVIGSGCNLDSARFRYLMGERLGVHPLSCHGWVLGEHGDSSVPVWSGMNVAGVSLKTLHPDLGTDKDKEQWKEVHKQVVESAYEVIKLKGYTSWAIGLSVADLAESIMKNLRRVHPVSTMIKGLYGIKDDVFLSVPCILGQNGISDLVKVTLTSEEEARLKKSADTLWGIQKELQF",
+    "length": 332,
+    "molWeight": 36689,
+    "crc64": "401E8604CEB7F908",
+    "md5": "F107329C51DC2F245E37B0C38E359526"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000013C8AF"
+   }
+  }
+ ]
+}

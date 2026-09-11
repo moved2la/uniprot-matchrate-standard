@@ -1,0 +1,211 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "Q00872",
+   "uniProtkbId": "MYPC1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "1999-07-15",
+    "entryVersion": 208,
+    "sequenceVersion": 2
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Myosin-binding protein C, slow-type"
+     },
+     "shortNames": [
+      {
+       "value": "Slow MyBP-C"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "C-protein, skeletal muscle slow isoform"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "MYBPC1"
+     },
+     "synonyms": [
+      {
+       "value": "MYBPCS"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "Q00872-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "Q00872-2"
+       ],
+       "sequenceIds": [
+        "VSP_039105",
+        "VSP_039106"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "Q00872-3"
+       ],
+       "sequenceIds": [
+        "VSP_039106"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "4"
+       },
+       "isoformIds": [
+        "Q00872-4"
+       ],
+       "sequenceIds": [
+        "VSP_039105",
+        "VSP_039106",
+        "VSP_045241"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "5"
+       },
+       "isoformIds": [
+        "Q00872-5"
+       ],
+       "sequenceIds": [
+        "VSP_046736",
+        "VSP_039106",
+        "VSP_045241"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "6"
+       },
+       "isoformIds": [
+        "Q00872-6"
+       ],
+       "sequenceIds": [
+        "VSP_046740"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "7"
+       },
+       "isoformIds": [
+        "Q00872-7"
+       ],
+       "sequenceIds": [
+        "VSP_046737",
+        "VSP_039106",
+        "VSP_046739"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "8"
+       },
+       "isoformIds": [
+        "Q00872-8"
+       ],
+       "sequenceIds": [
+        "VSP_046735",
+        "VSP_039106",
+        "VSP_045241"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "9"
+       },
+       "isoformIds": [
+        "Q00872-9"
+       ],
+       "sequenceIds": [
+        "VSP_046738",
+        "VSP_039106",
+        "VSP_045241"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "10"
+       },
+       "isoformIds": [
+        "Q00872-10"
+       ],
+       "sequenceIds": [
+        "VSP_039106",
+        "VSP_045241"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1141,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myosin-binding protein C, slow-type",
+     "featureId": "PRO_0000072689"
+    }
+   ],
+   "sequence": {
+    "value": "MPEPTKKEENEVPAPAPPPEEPSKEKEAGTTPAKDWTLVETPPGEEQAKQNANSQLSILFIEKPQGGTVKVGEDITFIAKVKAEDLLRKPTIKWFKGKWMDLASKAGKHLQLKETFERHSRVYTFEMQIIKAKDNFAGNYRCEVTYKDKFDSCSFDLEVHESTGTTPNIDIRSAFKRSGEGQEDAGELDFSGLLKRREVKQQEEEPQVDVWELLKNAKPSEYEKIAFQYGITDLRGMLKRLKRMRREEKKSAAFAKILDPAYQVDKGGRVRFVVELADPKLEVKWYKNGQEIRPSTKYIFEHKGCQRILFINNCQMTDDSEYYVTAGDEKCSTELFVREPPIMVTKQLEDTTAYCGERVELECEVSEDDANVKWFKNGEEIIPGPKSRYRIRVEGKKHILIIEGATKADAAEYSVMTTGGQSSAKLSVDLKPLKILTPLTDQTVNLGKEICLKCEISENIPGKWTKNGLPVQESDRLKVVHKGRIHKLVIANALTEDEGDYVFAPDAYNVTLPAKVHVIDPPKIILDGLDADNTVTVIAGNKLRLEIPISGEPPPKAMWSRGDKAIMEGSGRIRTESYPDSSTLVIDIAERDDSGVYHINLKNEAGEAHASIKVKVVDFPDPPVAPTVTEVGDDWCIMNWEPPAYDGGSPILGYFIERKKKQSSRWMRLNFDLCKETTFEPKKMIEGVAYEVRIFAVNAIGISKPSMPSRPFVPLAVTSPPTLLTVDSVTDTTVTMRWRPPDHIGAAGLDGYVLEYCFEGSTSAKQSDENGEAAYDLPAEDWIVANKDLIDKTKFTITGLPTDAKIFVRVKAVNAAGASEPKYYSQPILVKEIIEPPKIRIPRHLKQTYIRRVGEAVNLVIPFQGKPRPELTWKKDGAEIDKNQINIRNSETDTIIFIRKAERSHSGKYDLQVKVDKFVETASIDIQIIDRPGPPQIVKIEDVWGENVALTWTPPKDDGNAAITGYTIQKADKKSMEWFTVIEHYHRTSATITELVIGNEYYFRVFSENMCGLSEDATMTKESAVIARDGKIYKNPVYEDFDFSEAPMFTQPLVNTYAIAGYNATLNCSVRGNPKPKITWMKNKVAIVDDPRYRMFSNQGVCTLEIRKPSPYDGGTYCCKAVNDLGTVEIECKLEVKVIAQ",
+    "length": 1141,
+    "molWeight": 128294,
+    "crc64": "8B3A91422CA9F2B2",
+    "md5": "DFCFCD82E9CBC26A894A7A96C9746203"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000012FBC7"
+   }
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P04406",
+   "uniProtkbId": "G3P_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 281,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000303",
+        "source": "PubMed",
+        "id": "6096136"
+       }
+      ],
+      "value": "Glyceraldehyde-3-phosphate dehydrogenase"
+     },
+     "shortNames": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "2987855"
+        }
+       ],
+       "value": "GAPDH"
+      }
+     ],
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "3170585"
+        }
+       ],
+       "value": "1.2.1.12"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000305"
+        }
+       ],
+       "value": "Peptidyl-cysteine S-nitrosylase GAPDH"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P04797"
+         }
+        ],
+        "value": "2.6.99.-"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000303",
+        "source": "PubMed",
+        "id": "2987855"
+       },
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:4141"
+       }
+      ],
+      "value": "GAPDH"
+     },
+     "synonyms": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "6096136"
+        }
+       ],
+       "value": "GAPD"
+      }
+     ],
+     "orfNames": [
+      {
+       "value": "CDABP0047"
+      },
+      {
+       "value": "OK/SW-cl.12"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P04406-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P04406-2"
+       ],
+       "sequenceIds": [
+        "VSP_047289"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "12665801"
+      },
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "Reference",
+       "id": "Ref.19"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 335,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Glyceraldehyde-3-phosphate dehydrogenase",
+     "featureId": "PRO_0000145486"
+    }
+   ],
+   "sequence": {
+    "value": "MGKVKVGVNGFGRIGRLVTRAAFNSGKVDIVAINDPFIDLNYMVYMFQYDSTHGKFHGTVKAENGKLVINGNPITIFQERDPSKIKWGDAGAEYVVESTGVFTTMEKAGAHLQGGAKRVIISAPSADAPMFVMGVNHEKYDNSLKIISNASCTTNCLAPLAKVIHDNFGIVEGLMTTVHAITATQKTVDGPSGKLWRDGRGALQNIIPASTGAAKAVGKVIPELNGKLTGMAFRVPTANVSVVDLTCRLEKPAKYDDIKKVVKQASEGPLKGILGYTEHQVVSSDFNSDTHSSTFDAGAGIALNDHFVKLISWYDNEFGYSNRVVDLMAHMASKE",
+    "length": 335,
+    "molWeight": 36053,
+    "crc64": "C9C135E8AE3E8744",
+    "md5": "B6EA07CCD5812B42EA024C079A4DDB8F"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000013C8ED"
+   }
+  }
+ ]
+}

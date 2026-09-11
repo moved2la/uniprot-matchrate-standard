@@ -1,0 +1,148 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P05976",
+   "uniProtkbId": "MYL1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 210,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Myosin light chain 1/3, skeletal muscle isoform"
+     },
+     "shortNames": [
+      {
+       "value": "MLC1/MLC3"
+      },
+      {
+       "value": "MLC1F/MLC3F"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Myosin light chain alkali 1/2"
+      },
+      "shortNames": [
+       {
+        "value": "Myosin light chain A1/A2"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "MYL1"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "MLC1"
+       },
+       "isoformIds": [
+        "P05976-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "MLC3"
+       },
+       "isoformIds": [
+        "P05976-2",
+        "P06741-1"
+       ],
+       "sequenceIds": [
+        "VSP_038686"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P02602"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 194,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myosin light chain 1/3, skeletal muscle isoform",
+     "featureId": "PRO_0000198681"
+    },
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "sequence": "P05976-2"
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ]
+    }
+   ],
+   "sequence": {
+    "value": "MAPKKDVKKPVAAAAAAPAPAPAPAPAPAPAKPKEEKIDLSAIKIEFSKEQQDEFKEAFLLFDRTGDSKITLSQVGDVLRALGTNPTNAEVRKVLGNPSNEELNAKKIEFEQFLPMMQAISNNKDQATYEDFVEGLRVFDKEGNGTVMGAELRHVLATLGEKMKEEEVEALMAGQEDSNGCINYEAFVKHIMSI",
+    "length": 194,
+    "molWeight": 21145,
+    "crc64": "DA1F5C5E4C8A2124",
+    "md5": "F377F2EABE908E55E6A6867EF00220D4"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000013E94F"
+   }
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P13805",
+   "uniProtkbId": "TNNT1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 208,
+    "sequenceVersion": 4
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Troponin T, slow skeletal muscle"
+     },
+     "shortNames": [
+      {
+       "value": "TnTs"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Slow skeletal muscle troponin T"
+      },
+      "shortNames": [
+       {
+        "value": "sTnT"
+       }
+      ]
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TNNT1"
+     },
+     "synonyms": [
+      {
+       "value": "TNT"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P13805-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P13805-2"
+       ],
+       "sequenceIds": [
+        "VSP_006639",
+        "VSP_006640"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "P13805-3"
+       ],
+       "sequenceIds": [
+        "VSP_006640"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 278,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Troponin T, slow skeletal muscle",
+     "featureId": "PRO_0000186168"
+    }
+   ],
+   "sequence": {
+    "value": "MSDTEEQEYEEEQPEEEAAEEEEEAPEEPEPVAEPEEERPKPSRPVVPPLIPPKIPEGERVDFDDIHRKRMEKDLLELQTLIDVHFEQRKKEEEELVALKERIERRRSERAEQQRFRTEKERERQAKLAEEKMRKEEEEAKKRAEDDAKKKKVLSNMGAHFGGYLVKAEQKRGKRQTGREMKVRILSERKKPLDIDYMGEEQLRARSAWLPPSQPSCPAREKAQELSDWIHQLESEKFDLMAKLKQQKYEINVLYNRISHAQKFRKGAGKGRVGGRWK",
+    "length": 278,
+    "molWeight": 32948,
+    "crc64": "D94DB18BC5804E04",
+    "md5": "4918340ED555A10D7A14EC3BFEA8012E"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000016A37B"
+   }
+  }
+ ]
+}

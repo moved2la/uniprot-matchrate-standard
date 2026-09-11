@@ -1,0 +1,96 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P52907",
+   "uniProtkbId": "CAZA1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 228,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "F-actin-capping protein subunit alpha-1"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "CapZ alpha-1"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:1488"
+       }
+      ],
+      "value": "CAPZA1"
+     }
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "Reference",
+       "id": "Ref.7"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "19413330"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 286,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "F-actin-capping protein subunit alpha-1",
+     "featureId": "PRO_0000208624"
+    }
+   ],
+   "sequence": {
+    "value": "MADFDDRVSDEEKVRIAAKFITHAPPGEFNEVFNDVRLLLNNDNLLREGAAHAFAQYNMDQFTPVKIEGYEDQVLITEHGDLGNSRFLDPRNKISFKFDHLRKEASDPQPEEADGGLKSWRESCDSALRAYVKDHYSNGFCTVYAKTIDGQQTIIACIESHQFQPKNFWNGRWRSEWKFTITPPTAQVVGVLKIQVHYYEDGNVQLVSHKDVQDSLTVSNEAQTAKEFIKIIENAENEYQTAISENYQTMSDTTFKALRRQLPVTRTKIDWNKILSYKIGKEMQNA",
+    "length": 286,
+    "molWeight": 32923,
+    "crc64": "0F47ADAB6A3689DD",
+    "md5": "BB29C1DC6B42C568FCD06BAB67279DB6"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI00001270FA"
+   }
+  }
+ ]
+}

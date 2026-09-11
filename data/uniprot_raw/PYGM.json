@@ -1,0 +1,152 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P11217",
+   "uniProtkbId": "PYGM_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 258,
+    "sequenceVersion": 6
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000305",
+        "source": "PubMed",
+        "id": "3447177"
+       }
+      ],
+      "value": "Glycogen phosphorylase, muscle form"
+     },
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "1150650"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "8316268"
+        }
+       ],
+       "value": "2.4.1.1"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000303",
+         "source": "PubMed",
+         "id": "9633816"
+        }
+       ],
+       "value": "Myophosphorylase"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:9726"
+       }
+      ],
+      "value": "PYGM"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P11217-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P11217-2"
+       ],
+       "sequenceIds": [
+        "VSP_043047"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P00489"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 842,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Glycogen phosphorylase, muscle form",
+     "featureId": "PRO_0000188529"
+    }
+   ],
+   "sequence": {
+    "value": "MSRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKISGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGHVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRILVDLERMDWDKAWDVTVRTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEVIAERIGEDFISDLDQLRKLLSFVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDIQVKRIHEYKRQLLNCLHVITLYNRIKREPNKFFVPRTVMIGGKAAPGYHMAKMIIRLVTAIGDVVNHDPAVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDKLDQRGYNAQEYYDRIPELRQVIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEDYIKCQEKVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEAI",
+    "length": 842,
+    "molWeight": 97092,
+    "crc64": "EBDB7D80D740B68F",
+    "md5": "39512190091ACBE3A0FB5018C57E1275"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000013C5AC"
+   }
+  }
+ ]
+}

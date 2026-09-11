@@ -1,0 +1,151 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P19429",
+   "uniProtkbId": "TNNI3_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 230,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Troponin I, cardiac muscle"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Cardiac troponin I"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TNNI3"
+     },
+     "synonyms": [
+      {
+       "value": "TNNC1"
+      }
+     ]
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "2226863"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 210,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Troponin I, cardiac muscle",
+     "featureId": "PRO_0000186151"
+    }
+   ],
+   "sequence": {
+    "value": "MADGSSDAAREPRPAPAPIRRRSSNYRAYATEPHAKKKSKISASRKLQLKTLLLQIAKQELEREAEERRGEKGRALSTRCQPLELAGLGFAELQDLCRQLHARVDKVDEERYDIEAKVTKNITEIADLTQKIFDLRGKFKRPTLRRVRISADAMMQALLGARAKESLDLRAHLKQVKKEDTEKENREVGDWRKNIDALSGMEGRKKKFES",
+    "length": 210,
+    "molWeight": 24008,
+    "crc64": "20A804F8C24AE1B0",
+    "md5": "45B8A1A6ECEE24173971BEC82DD0DB73"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000155A10"
+   }
+  },
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P63316",
+   "uniProtkbId": "TNNC1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2004-10-11",
+    "entryVersion": 181,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Troponin C, slow skeletal and cardiac muscles"
+     },
+     "shortNames": [
+      {
+       "value": "TN-C"
+      }
+     ]
+    }
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TNNC1"
+     },
+     "synonyms": [
+      {
+       "value": "TNNC"
+      }
+     ]
+    }
+   ],
+   "comments": [],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 161,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Troponin C, slow skeletal and cardiac muscles",
+     "featureId": "PRO_0000073697"
+    }
+   ],
+   "sequence": {
+    "value": "MDDIYKAAVEQLTEEQKNEFKAAFDIFVLGAEDGCISTKELGKVMRMLGQNPTPEELQEMIDEVDEDGSGTVDFDEFLVMMVRCMKDDSKGKSEEELSDLFRMFDKNADGYIDLDELKIMLQATGETITEDDIEELMKDGDKNNDGRIDYDEFLEFMKGVE",
+    "length": 161,
+    "molWeight": 18403,
+    "crc64": "34DCCC46D503A312",
+    "md5": "A5DA62F909864AF0275714083F025687"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI00000012E6"
+   }
+  }
+ ]
+}

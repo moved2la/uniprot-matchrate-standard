@@ -1,0 +1,150 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P47756",
+   "uniProtkbId": "CAPZB_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2022-10-12",
+    "entryVersion": 229,
+    "sequenceVersion": 5
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "F-actin-capping protein subunit beta"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "CapZ beta"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:1491"
+       }
+      ],
+      "value": "CAPZB"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P47756-2"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P47756-1"
+       ],
+       "sequenceIds": [
+        "VSP_061615"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "P47756-3"
+       ],
+       "isoformSequenceStatus": "Not described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000269",
+       "source": "PubMed",
+       "id": "12665801"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "19413330"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "22223895"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "22814378"
+      },
+      {
+       "evidenceCode": "ECO:0007744",
+       "source": "PubMed",
+       "id": "25944712"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 272,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "F-actin-capping protein subunit beta",
+     "featureId": "PRO_0000204634"
+    }
+   ],
+   "sequence": {
+    "value": "MSDQQLDCALDLMRRLPPQQIEKNLSDLIDLVPSLCEDLLSSVDQPLKIARDKVVGKDYLLCDYNRDGDSYRSPWSNKYDPPLEDGAMPSARLRKLEVEANNAFDQYRDLYFEGGVSSVYLWDLDHGFAGVILIKKAGDGSKKIKGCWDSIHVVEVQEKSSGRTAHYKLTSTVMLWLQTNKSGSGTMNLGGSLTRQMEKDETVSDCSPHIANIGRLVEDMENKIRSTLNEIYFGKTKDIVNGLRSVQTFADKSKQEALKNDLVEALKRKQQC",
+    "length": 272,
+    "molWeight": 30629,
+    "crc64": "E6466A68B1254FD0",
+    "md5": "5892BB2070CB38D220D92C0301ED4AE6"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000028D73"
+   }
+  }
+ ]
+}

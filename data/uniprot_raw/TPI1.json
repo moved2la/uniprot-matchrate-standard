@@ -1,0 +1,180 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P60174",
+   "uniProtkbId": "TPIS_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2020-10-07",
+    "entryVersion": 212,
+    "sequenceVersion": 4
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000305",
+        "source": "PubMed",
+        "id": "18562316"
+       }
+      ],
+      "value": "Triosephosphate isomerase"
+     },
+     "shortNames": [
+      {
+       "value": "TIM"
+      }
+     ],
+     "ecNumbers": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "18562316"
+        }
+       ],
+       "value": "5.3.1.1"
+      }
+     ]
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000250",
+         "source": "UniProtKB",
+         "id": "P00939"
+        }
+       ],
+       "value": "Methylglyoxal synthase"
+      },
+      "ecNumbers": [
+       {
+        "evidences": [
+         {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P00939"
+         }
+        ],
+        "value": "4.2.3.3"
+       }
+      ]
+     },
+     {
+      "fullName": {
+       "value": "Triose-phosphate isomerase"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:12009"
+       }
+      ],
+      "value": "TPI1"
+     },
+     "synonyms": [
+      {
+       "value": "TPI"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "commentType": "ALTERNATIVE PRODUCTS",
+     "events": [
+      "Alternative promoter usage",
+      "Alternative splicing"
+     ],
+     "isoforms": [
+      {
+       "name": {
+        "value": "1"
+       },
+       "isoformIds": [
+        "P60174-1"
+       ],
+       "isoformSequenceStatus": "Displayed"
+      },
+      {
+       "name": {
+        "value": "2"
+       },
+       "isoformIds": [
+        "P60174-3"
+       ],
+       "sequenceIds": [
+        "VSP_060722"
+       ],
+       "isoformSequenceStatus": "Described"
+      },
+      {
+       "name": {
+        "value": "3"
+       },
+       "isoformIds": [
+        "P60174-4"
+       ],
+       "sequenceIds": [
+        "VSP_060721"
+       ],
+       "isoformSequenceStatus": "Described"
+      }
+     ]
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed"
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 249,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Triosephosphate isomerase",
+     "featureId": "PRO_0000090113"
+    }
+   ],
+   "sequence": {
+    "value": "MAPSRKFFVGGNWKMNGRKQSLGELIGTLNAAKVPADTEVVCAPPTAYIDFARQKLDPKIAVAAQNCYKVTNGAFTGEISPGMIKDCGATWVVLGHSERRHVFGESDELIGQKVAHALAEGLGVIACIGEKLDEREAGITEKVVFEQTKVIADNVKDWSKVVLAYEPVWAIGTGKTATPQQAQEVHEKLRGWLKSNVSDAVAQSTRIIYGGSVTGATCKELASQPDVDGFLVGGASLKPEFVDIINAKQ",
+    "length": 249,
+    "molWeight": 26669,
+    "crc64": "73844175635F858E",
+    "md5": "A8D44FC2C980A7677A3B54788D0FA323"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000002F08E"
+   }
+  }
+ ]
+}

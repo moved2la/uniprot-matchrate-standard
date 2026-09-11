@@ -1,0 +1,108 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "Q9NPC6",
+   "uniProtkbId": "MYOZ2_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2000-10-01",
+    "entryVersion": 176,
+    "sequenceVersion": 1
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Myozenin-2"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Calsarcin-1"
+      }
+     },
+     {
+      "fullName": {
+       "value": "FATZ-related protein 2"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "evidences": [
+       {
+        "evidenceCode": "ECO:0000312",
+        "source": "HGNC",
+        "id": "HGNC:1330"
+       }
+      ],
+      "value": "MYOZ2"
+     },
+     "synonyms": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000312",
+         "source": "EMBL",
+         "id": "AAF63623.1"
+        }
+       ],
+       "value": "C4orf5"
+      }
+     ]
+    }
+   ],
+   "comments": [
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "11114196"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "11161785"
+        }
+       ],
+       "value": "Expressed specifically in heart and skeletal muscle"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 264,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Myozenin-2",
+     "featureId": "PRO_0000111099"
+    }
+   ],
+   "sequence": {
+    "value": "MLSHNTMMKQRKQQATAIMKEVHGNDVDGMDLGKKVSIPRDIMLEELSHLSNRGARLFKMRQRRSDKYTFENFQYQSRAQINHSIAMQNGKVDGSNLEGGSQQAPLTPPNTPDPRSPPNPDNIAPGYSGPLKEIPPEKFNTTAVPKYYQSPWEQAISNDPELLEALYPKLFKPEGKAELPDYRSFNRVATPFGGFEKASRMVKFKVPDFELLLLTDPRFMSFVNPLSGRRSFNRTPKGWISENIPIVITTEPTDDTTVPESEDL",
+    "length": 264,
+    "molWeight": 29898,
+    "crc64": "8636AEF79A6F8916",
+    "md5": "1E94947E7FEEE26B5CC6153A9C4A7399"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI000004665D"
+   }
+  }
+ ]
+}

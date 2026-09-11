@@ -1,0 +1,105 @@
+{
+ "results": [
+  {
+   "entryType": "UniProtKB reviewed (Swiss-Prot)",
+   "primaryAccession": "P19237",
+   "uniProtkbId": "TNNI1_HUMAN",
+   "entryAudit": {
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 191,
+    "sequenceVersion": 3
+   },
+   "proteinDescription": {
+    "recommendedName": {
+     "fullName": {
+      "value": "Troponin I, slow skeletal muscle"
+     }
+    },
+    "alternativeNames": [
+     {
+      "fullName": {
+       "value": "Troponin I, slow-twitch isoform"
+      }
+     }
+    ]
+   },
+   "genes": [
+    {
+     "geneName": {
+      "value": "TNNI1"
+     }
+    }
+   ],
+   "comments": [
+    {
+     "texts": [
+      {
+       "evidences": [
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "2365354"
+        },
+        {
+         "evidenceCode": "ECO:0000269",
+         "source": "PubMed",
+         "id": "8144655"
+        }
+       ],
+       "value": "Highest levels observed in human skeletal muscle (e.g. gastrocnemious muscle), differentiated cultures of primary human muscle cells and rhabdomyosarcoma cells cultured in low serum medium. Expressed in C2 muscle cell myoblasts and myotubes"
+      }
+     ],
+     "commentType": "TISSUE SPECIFICITY"
+    }
+   ],
+   "features": [
+    {
+     "type": "Initiator methionine",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Removed",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000250",
+       "source": "UniProtKB",
+       "id": "P02645"
+      }
+     ]
+    },
+    {
+     "type": "Chain",
+     "location": {
+      "start": {
+       "value": 2,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 187,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "Troponin I, slow skeletal muscle",
+     "featureId": "PRO_0000186139"
+    }
+   ],
+   "sequence": {
+    "value": "MPEVERKPKITASRKLLLKSLMLAKAKECWEQEHEEREAEKVRYLAERIPTLQTRGLSLSALQDLCRELHAKVEVVDEERYDIEAKCLHNTREIKDLKLKVMDLRGKFKRPPLRRVRVSADAMLRALLGSKHKVSMDLRANLKSVKKEDTEKERPVEVGDWRKNVEAMSGMEGRKKMFDAAKSPTSQ",
+    "length": 187,
+    "molWeight": 21692,
+    "crc64": "7A8363CC7559B962",
+    "md5": "CFA30F9BC1AD1CADFE8CC0599612ED4D"
+   },
+   "extraAttributes": {
+    "uniParcId": "UPI0000000CCA"
+   }
+  }
+ ]
+}

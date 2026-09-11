@@ -8,6 +8,13 @@ Formalized from `00_project_plan.md` §6. Any change here is a logged decision.
 Free-text `note` and `justification` keys allowed anywhere. Comments with `#`.
 Biology lives in config, not in code.
 
+## Terminology
+
+- **Paralog** — a different gene (MYH1 vs MYH2). Own accession, own entry in every config.
+- **Isoform** — a splice/promoter variant of the *same* gene (Q8WZ42-4). Suffix on the accession.
+- Never write "MYH isoforms" for paralogs in project docs; write "MYH paralogs" or "MYH genes".
+  Full statement in `docs/methods.md` § Terminology.
+
 ## Accession identity
 
 `ACCESSION` = canonical sequence. `ACCESSION-N` = a specific UniProt isoform.

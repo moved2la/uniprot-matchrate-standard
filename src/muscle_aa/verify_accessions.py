@@ -8,6 +8,7 @@ gene against UniProt (reviewed, human) by EXACT GENE NAME, and writes:
   data/uniprot_raw/<GENE>.json            raw search response (provenance)
   data/uniprot_raw/<ACCESSION[-N]>.fasta  every isoform sequence
   data/uniprot_verification.ini           one section per gene
+  data/verify_accessions.log              everything printed, incl. flags
   stdout                                  summary table + flags
 
 No biological judgement is made here. The seed accession is only used to
@@ -17,6 +18,7 @@ human in config/accessions.ini after reading this output.
 Usage:
     python verify_accessions.py [--candidates config/candidates_step1.ini]
                                 [--outdir data] [--no-isoforms]
+                                [--log data/verify_accessions.log]
 
 Stdlib only. Tested against UniProt REST API (rest.uniprot.org).
 """
@@ -43,7 +45,7 @@ PAUSE = 0.35  # seconds between requests — polite rate
 FIELDS = ",".join([
     "accession", "id", "protein_name", "gene_primary", "gene_names",
     "length", "mass", "sequence", "sequence_version", "version",
-    "date_seq_mod", "cc_alternative_products", "cc_tissue_specificity",
+    "date_sequence_modified", "cc_alternative_products", "cc_tissue_specificity",
     "ft_init_met", "ft_signal", "ft_propep", "ft_chain", "ft_transit",
     "ft_peptide",
 ])
@@ -69,7 +71,12 @@ def _get(url: str, retries: int = 4) -> tuple[bytes, dict]:
             if e.code in (429, 500, 502, 503, 504):
                 time.sleep(2 ** attempt)
                 continue
-            raise
+            body = ""
+            try:
+                body = e.read().decode(errors="replace")[:600]
+            except Exception:  # noqa: BLE001
+                pass
+            raise RuntimeError(f"HTTP {e.code} for {url}\n  server said: {body}") from e
         except urllib.error.URLError as e:
             last_err = e
             time.sleep(2 ** attempt)
@@ -156,13 +163,41 @@ def parse_entry(e: dict) -> dict:
 
 
 # ---------------------------------------------------------------- main ----
+class _Tee:
+    """Write to stdout and a log file at once."""
+
+    def __init__(self, path: Path):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        self._f = open(path, "w", encoding="utf-8")
+        self._out = sys.stdout
+
+    def write(self, s: str) -> None:
+        self._out.write(s)
+        self._f.write(s)
+
+    def flush(self) -> None:
+        self._out.flush()
+        self._f.flush()
+
+    def close(self) -> None:
+        self._f.close()
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--candidates", default="config/candidates_step1.ini")
     ap.add_argument("--outdir", default="data")
     ap.add_argument("--no-isoforms", action="store_true",
                     help="skip per-isoform FASTA fetches")
+    ap.add_argument("--log", default=None,
+                    help="log file (default: <outdir>/verify_accessions.log)")
     args = ap.parse_args()
+
+    log_path = Path(args.log) if args.log else Path(args.outdir) / "verify_accessions.log"
+    tee = _Tee(log_path)
+    sys.stdout = tee
+    print(f"# verify_accessions.py run {date.today().isoformat()}")
+    print(f"# candidates: {args.candidates}   outdir: {args.outdir}   log: {log_path}\n")
 
     cands = configparser.ConfigParser()
     cands.optionxform = str  # keep key case
@@ -305,6 +340,10 @@ def main() -> int:
         print("\nFLAGS (require a human decision or a fix):")
         for f in flags:
             print("  -", f)
+    else:
+        print("\nNo flags.")
+    print(f"Log written to {log_path}")
+    tee.flush()
     return 0
 
 

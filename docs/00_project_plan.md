@@ -1,8 +1,8 @@
 # Project Plan — Sequence-Derived Amino Acid Standard for Human Skeletal Muscle
 
-**Status:** Planning complete, Step 1 ready to open
+**Status:** Step 0 and Step 1 complete (2026-09-10). Step 2 ready to open; Step 3a in progress in parallel.
 **Planning thread:** this document is the output of the planning thread. Each step below is executed in its own thread using its handoff doc in `docs/handoffs/`.
-**Last updated:** 2026-09-09
+**Last updated:** 2026-09-10
 
 ---
 

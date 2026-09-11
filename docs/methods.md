@@ -3,7 +3,97 @@
 Written incrementally, one section per step. Becomes the paper's Methods.
 
 ## Protein set definition
-_(Step 1 — criterion and isoform rationale to be inserted at step close)_
+
+### Inclusion criterion
+
+A protein is classified as myofibrillar (Tier 1) if it is a stoichiometric structural
+constituent of the sarcomere — thick filament, thin filament, Z-disc, M-band, or the
+titin/nebulin scaffold — such that its abundance in the fibre is set by sarcomere assembly
+rather than by metabolic demand, and it partitions to the high-ionic-strength-extractable
+myofibrillar fraction under classical differential extraction. Proteins that regulate,
+modify, or transiently associate with the sarcomere (kinases, chaperones, calcium-handling
+proteins) and soluble enzymes and oxygen carriers are Tier 2. Cytoskeletal networks that
+link sarcomeres to each other or to the sarcolemma but are not part of the sarcomeric
+lattice (desmin intermediate filaments, costameric proteins) partition with the insoluble
+stromal residue and belong with the Tier 3 ECM/stromal set. Abundance is not a Tier 1
+criterion: every protein meeting the structural definition is enumerated in Layer A, and
+its contribution is determined solely by its Layer B mass fraction.
+
+Applying this criterion, the Tier 1 set comprises 37 entries from 36 genes: the three
+adult human limb-muscle myosin heavy chains (MYH7, MYH2, MYH1), five myosin light chains
+(MYL1 as two products, MYL11, MYL3, MYL2), actin (ACTA1), titin, nebulin, three
+tropomyosins, six troponin subunits, two myosin-binding proteins C, two α-actinins, two
+myomesins, obscurin, myotilin, ZASP (LDB3), muscle LIM protein (CSRP3), two myozenins, two
+tropomodulins, and the three CapZ subunits. MYH4 (IIb) is recorded and excluded: it
+contributes 0.3 % of total myosin heavy chain in human single fibres by iBAQ
+(Momenzadeh et al. 2023, Table S2). Desmin is assigned to Tier 3 and not modelled here.
+Fifteen sarcoplasmic proteins are drafted as Tier 2 without weights.
+
+### Accession verification
+
+Every entry was resolved by querying UniProt REST (release 2026_03) for reviewed human
+entries by exact gene name (`gene_exact:<GENE> AND organism_id:9606 AND reviewed:true`),
+not by trusting a remembered accession. The candidate accession list carried into this
+step was used only to flag disagreement; it was wrong in one case (TMOD4: Q9NZR1 is
+tropomodulin-2; the correct entry is Q9NZQ9) and stale in one (MYLPF, renamed MYL11).
+For each entry the sequence length, sequence version, entry version, and MD5 checksum
+of the canonical sequence were recorded and the MD5 verified against UniProt's published
+value. All 53 resolved entries matched.
+
+### Isoform selection
+
+Where UniProt lists more than one splice isoform, the isoform expressed in adult human
+skeletal muscle was selected on the basis of UniProt's own isoform names, tissue
+annotations, and alternative-sequence (VSP) features, supported by primary literature
+where UniProt is silent. The canonical (Displayed) isoform was retained unless one of
+these sources indicated otherwise. Four entries use a non-canonical isoform:
+
+- **Titin (Q8WZ42-4, 33,445 aa).** The canonical 34,350-residue entry is a
+  meta-transcript containing every exon. UniProt annotates isoform 4 ("Soleus") as the
+  form expressed in skeletal muscle. The residue-composition difference from the
+  canonical does not exceed 0.10 percentage points for any amino acid; the 905-residue
+  length difference enters Layer B through molecular weight.
+- **MYL1 MLC3f (P05976-2, 150 aa)**, carried alongside MLC1f (P05976-1, 194 aa). The two
+  are separate light chains from alternative promoters of one gene; MLC1f's 53-residue
+  N-terminal extension is replaced by 9 residues in MLC3f, shifting Ala and Pro content
+  by 4.7 percentage points each. Both are stoichiometric components of fast myosin and
+  receive separate mass fractions in Layer B.
+- **Myomesin-1 (P52179-2, 1589 aa).** The canonical isoform carries a 96-residue
+  serine/proline-rich insert (residues 836–931) that defines the embryonic-heart
+  EH-myomesin isoform and is absent from adult skeletal muscle (Agarkova et al. 2000).
+- **CapZ β1 (P47756-1, 277 aa).** The β1 and β2 subunits are identical except for the
+  C-terminal tail; β1 is the Z-disc isoform of striated muscle and β2 the non-muscle
+  isoform (Schafer et al. 1994; Hart et al. 1999). UniProt displays β2 (272 aa) as the
+  canonical sequence.
+
+Splice variants that cannot be distinguished by proteomic protein groups and whose
+composition differs from the selected isoform by less than one percentage point on any
+amino acid (fast troponin T Tnt1 vs Tnt3; slow MyBP-C variants; nebulin length variants)
+are recorded as Layer B uncertainty rather than resolved at Layer A.
+
+### Fiber-type assignment
+
+Each Tier 1 entry is assigned to type I, type II (IIa, IIx), or all fibres on the basis of
+UniProt tissue annotation where present (MYL2: type I; ACTN3: type II; CSRP3: slow;
+TNNT3: fast) and the defining isoform relationships otherwise (MYH7/MYH2/MYH1; slow vs fast
+troponins, tropomyosins, light chains, MyBP-C). Proteins expressed in more than one fibre
+type at differing levels are assigned to all fibres and their fibre-type-specific
+abundance is left to Layer B.
+
+### N-terminal processing
+
+Mature-protein sequences follow UniProt feature annotation exactly (Initiator
+methionine, Propeptide, Chain); no cleavage is inferred from the N-end rule for entries
+UniProt leaves unannotated. Of the 37 Tier 1 entries, 12 have the initiator methionine
+annotated as removed (the four light chains and MLC3f, TPM3, TNNT3, TNNI1, TNNI2, TNNC2,
+CAPZA1, CAPZA2, CAPZB); α-skeletal actin additionally loses Cys2 (UniProt annotates an
+intermediate-form chain 2–377 and a mature chain 3–377). Both the mature ("master") and
+full-translation ("metabolic") residue sets are carried through the pipeline via segment
+flags; the primary standard is the mature set. Within a single protein the largest
+composition shift produced by processing is −0.59 percentage points of methionine (fast
+troponin C, 160 residues) and −0.26 percentage points of cysteine (actin). The
+tier-level effect, which additionally depends on Layer B mass fractions, is reported in
+the aggregation step rather than asserted here.
 
 ### Terminology: isoform versus paralog
 
@@ -31,16 +121,16 @@ carried as separate entries. Isoform differences are exact at Layer A (sequence)
 propagate to Layer B through molecular weight in the intensity-to-mass conversion.
 
 ## Sequence acquisition and composition calculation
-_(Step 2)_
+_(sequence harvest and composition engine — pending)_
 
 ## Mass fraction derivation
-_(Step 3)_
+_(Layer B — pending)_
 
 ## Aggregation and uncertainty
-_(Step 4)_
+_(pending)_
 
 ## Validation against laboratory data
-_(Step 5)_
+_(pending)_
 
 ## Match Rate
-_(Step 6)_
+_(pending)_

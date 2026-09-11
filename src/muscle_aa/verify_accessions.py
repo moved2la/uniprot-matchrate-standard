@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-verify_accessions.py — Step 1 accession verification against UniProt REST.
+verify_accessions.py — protein-set accession verification against UniProt REST.
 
 Reads a candidates .ini (gene -> optional seed accession), resolves every
 gene against UniProt (reviewed, human) by EXACT GENE NAME, and writes:
@@ -16,7 +16,7 @@ flag disagreement with what UniProt returns. Isoform CHOICE is made by a
 human in config/accessions.ini after reading this output.
 
 Usage:
-    python verify_accessions.py [--candidates config/candidates_step1.ini]
+    python verify_accessions.py [--candidates config/gene_candidates.ini]
                                 [--outdir data] [--no-isoforms]
                                 [--log <path>]   (default: data/verify_accessions_<timestamp>.log)
 
@@ -38,7 +38,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 BASE = "https://rest.uniprot.org/uniprotkb"
-UA = "uniprot-matchrate-standard/step1 (verify_accessions.py; stdlib urllib)"
+UA = "uniprot-matchrate-standard (verify_accessions.py; stdlib urllib)"
 PAUSE = 0.35  # seconds between requests — polite rate
 
 # Return fields requested from the search endpoint.
@@ -197,7 +197,7 @@ class _Tee:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--candidates", default="config/candidates_step1.ini")
+    ap.add_argument("--candidates", default="config/gene_candidates.ini")
     ap.add_argument("--outdir", default="data")
     ap.add_argument("--no-isoforms", action="store_true",
                     help="skip per-isoform FASTA fetches")

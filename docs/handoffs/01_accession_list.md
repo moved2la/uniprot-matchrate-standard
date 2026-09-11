@@ -160,8 +160,20 @@ verified      = 2026-09-XX
 
 ## Deferred / raised
 
-_(fill in during the thread)_
+- **MLC3f initiator Met.** Met1 removal applied to P05976-2 by inheritance (UniProt lists FT INIT_MET twice on P05976; the merged former P06741 entry carried its own). Step 2: confirm against the isoform-specific feature in the entry JSON; if absent, keep the flag and note the basis. Effect bound: 1 residue in 150.
+- **MYL1 MLC1f / MLC3f shared peptides.** MLC3f is a suffix of MLC1f (identical C-terminal 141 aa). Proteomics protein groups will not separate them cleanly. Step 3 must decide unique-peptide quantification for this pair (raise with the MYH1/2/4 razor-peptide question already in 03a).
+- **MYOM2 fiber type.** Assigned `all`; literature reports M-protein enriched in fast fibers. Step 3 data will show it; a source is needed before it is asserted in the paper.
+- **Tier 2 isoforms provisional (D36).** PKM M1 vs M2 in particular. Step 3.
+- **TNNT3 Tnt1 vs Tnt3, MYBPC1 variants, NEB length variants** — logged as Layer B uncertainty (D31). Step 4 should include an isoform-swap sensitivity run using `outputs/isoform_processing/isoform_deltas.csv`.
+- **CAPZB boundary numbering.** Our locus (identical prefix 245) differs by one from Hart et al.'s "first 246" — counting convention; noted for the paper.
+- **Desmin → Tier 3.** Raise in the collagen/ECM pipeline scope.
+- **Verification tooling.** `verify_accessions.py` and `isoform_processing_deltas.py` become project tools; Step 2's `fetch.py` should reuse the request/MD5 code rather than duplicate it.
 
 ## Handoff to Step 2
 
-_(fill in at completion — list the final accession count per tier, any accession where the canonical sequence should NOT be used, and any segments.ini entries Step 2 must handle specially)_
+- **Counts.** Tier 1: 37 entries (36 genes; MYL1 → 2). Tier 2: 15. `tier = excluded`: MYH4. `tier = 3`: DES. Step 2 fetches tier 1 and 2 only.
+- **Non-canonical isoforms (fetch by isoform id):** TTN `Q8WZ42-4`, MYL1_MLC3f `P05976-2`, MYOM1 `P52179-2`, CAPZB `P47756-1`. NEB uses canonical, but note UniProt's displayed isoform id for it is `P20929-2` — fetch by bare accession.
+- **MD5.** Canonical entries carry UniProt's published MD5 in `accessions.ini` (`md5_kind = uniprot_published`); the four isoform entries carry a locally computed MD5 (`md5_kind = computed_from_isoform_fasta`). `fetch.py` must verify the former against the JSON checksum and the latter against the stored value plus length.
+- **segments.ini entries with `in_master_molecule = false`:** 27 (26 initiator-Met segments + ACTA1 Cys2). ACTA1 has three segments. Everything else is a single whole-chain segment.
+- **Sequence versions** are those of the parent entry; isoforms carry none. `entry_version` is recorded too, so a UniProt update that changes annotation without changing sequence is still detectable.
+- **Reuse:** `verify_accessions.py` already does the REST search, MD5, feature and isoform capture with retries; `fetch.py` should be built from it, adding `data/sequences.ini` output and the hard-fail on mismatch.

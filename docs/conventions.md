@@ -34,7 +34,7 @@ Inherited from the collagen pipeline. One or more sections per accession:
 
 Coordinates are 1-indexed, inclusive, on the fetched sequence.
 `master` segment set = sections with `in_master_molecule = true`; `metabolic` = all sections.
-Where no processing occurs, one whole-chain section with an explicit note — Step 2 never infers.
+Where no processing occurs, one whole-chain section with an explicit note — the harvest never infers.
 
 ## Citation schema (every literature-derived number)
 
@@ -59,6 +59,24 @@ Mass fractions are normalized within tier.
 ## Fiber type
 
 `I | IIa | IIx | all`. `all` means expressed in more than one type; level is Layer B's job.
+
+## Naming: stages, not step numbers
+
+Step numbers belong to the project plan (`docs/00_project_plan.md`, `docs/handoffs/`,
+`docs/decisions.md`). Nothing the repository ships — config, code, tests, outputs,
+methods, README — refers to a step number. Use the stage name:
+
+| plan step | name used in shipped files |
+|---|---|
+| 1 | protein set (definition / verification) |
+| 2 | sequence harvest; composition engine (Layer A) |
+| 3 | mass-fraction assignment (Layer B) |
+| 4 | aggregation |
+| 5 | laboratory validation |
+| 6 | Match Rate |
+
+Tool and output names say what they do (`verify_accessions.py`,
+`isoform_processing_deltas.py`, `outputs/isoform_processing/`), never which step made them.
 
 ## Directories
 

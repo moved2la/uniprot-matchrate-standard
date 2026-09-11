@@ -4,7 +4,7 @@
 **Plan:** `docs/00_project_plan.md`
 **Depends on:** Step 1 (`config/accessions.ini`, `config/segments.ini`)
 **Feeds:** Step 3 (needs molecular weights for iBAQ→mass), Step 4 (needs composition vectors)
-**Status:** DRAFT — the "Inputs from Step 1" section is filled in when Step 1 closes. Everything else is final.
+**Status:** READY — Step 1 closed 2026-09-10; inputs filled in below.
 
 ---
 
@@ -32,10 +32,10 @@ Two modules and one data file. `fetch.py` pulls every accession in `accessions.i
 
 ### Inputs from Step 1 (fill in at Step 1 close)
 
-- Final accession count, Tier 1: ___ Tier 2: ___
-- Accessions using a non-canonical isoform ID: ___
-- `segments.ini` entries with `in_master_molecule = false` (i.e., anything actually processed): ___
-- Anything Step 1 flagged for Step 2: ___
+- Final accession count, Tier 1: **37** (36 genes; MYL1 carried as MLC1f + MLC3f). Tier 2: **15**. Skip `tier = excluded` (MYH4) and `tier = 3` (DES).
+- Accessions using a non-canonical isoform ID: **Q8WZ42-4** (TTN), **P05976-2** (MYL1_MLC3f), **P52179-2** (MYOM1), **P47756-1** (CAPZB).
+- `segments.ini` entries with `in_master_molecule = false`: **27** — one `.met1` segment on 26 entries, plus `P68133.cys2` (ACTA1 has three segments: met1, cys2, chain 3-377).
+- Anything Step 1 flagged for Step 2: confirm MLC3f (P05976-2) initiator-Met feature from the isoform JSON; `accessions.ini` carries `md5_kind` to tell published vs computed checksums apart; build `fetch.py` from `verify_accessions.py`. See 01 handoff "Deferred / raised".
 
 ## Tasks
 

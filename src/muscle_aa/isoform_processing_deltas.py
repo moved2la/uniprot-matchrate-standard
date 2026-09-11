@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-step1_deltas.py — Step 1 decision support. Reads what verify_accessions.py
+isoform_processing_deltas.py — Decision support for isoform and processing choices in the protein set. Reads what verify_accessions.py
 wrote (data/uniprot_raw/*.json, *.fasta, data/uniprot_verification.ini) and
 prints three things a human needs to close the isoform and processing
 decisions:
@@ -12,16 +12,16 @@ decisions:
   3. PROCESSING DELTAS — for every entry with a removed Met / propeptide,
      mature chain vs full translation, per amino acid.
 
-Residue FRACTIONS (count / total) only — no masses. Masses are Step 2.
+Residue FRACTIONS (count / total) only — no masses. Masses belong to the composition engine.
 This script makes no decisions and writes nothing to config/.
 
-Outputs (all under --outdir, default outputs/step1/):
-  step1_deltas_<stamp>.txt     everything printed, one file per run
+Outputs (all under --outdir, default outputs/isoform_processing/):
+  isoform_processing_deltas_<stamp>.txt     everything printed, one file per run
   isoform_deltas.csv           per-AA mol % for every compared isoform pair
   processing_deltas.csv        per-AA mol % full vs mature for every processed entry
   isoform_notes.txt            the verbatim UniProt isoform notes
 
-Usage:  python src/muscle_aa/step1_deltas.py [--datadir data] [--outdir outputs/step1]
+Usage:  python src/muscle_aa/isoform_processing_deltas.py [--datadir data] [--outdir outputs/isoform_processing]
 """
 
 from __future__ import annotations
@@ -149,15 +149,15 @@ class _Tee:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--datadir", default="data")
-    ap.add_argument("--outdir", default="outputs/step1")
+    ap.add_argument("--outdir", default="outputs/isoform_processing")
     args = ap.parse_args()
     data = Path(args.datadir)
     raw = data / "uniprot_raw"
     out = Path(args.outdir)
     out.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y-%m-%dT%H%M")
-    sys.stdout = _Tee(out / f"step1_deltas_{stamp}.txt")
-    print(f"# step1_deltas.py run {stamp}   datadir={data}   outdir={out}\n")
+    sys.stdout = _Tee(out / f"isoform_processing_deltas_{stamp}.txt")
+    print(f"# isoform_processing_deltas.py run {stamp}   datadir={data}   outdir={out}\n")
 
     ini = configparser.ConfigParser()
     ini.optionxform = str
@@ -232,8 +232,8 @@ def main() -> int:
             wr.writerow([gene, acc, "metabolic", n, mat, rem] + [f"{ff[x]:.4f}" for x in AA])
             wr.writerow([gene, acc, "master", n, mat, rem] + [f"{fm[x]:.4f}" for x in AA])
     print("\n  (pp = percentage points of residue mol fraction within that protein;"
-          "\n   tier-level effect needs Layer B and is reported in Step 4)")
-    print(f"\nWrote {out}/step1_deltas_{stamp}.txt, isoform_notes.txt, "
+          "\n   tier-level effect needs Layer B and is reported at aggregation)")
+    print(f"\nWrote {out}/isoform_processing_deltas_{stamp}.txt, isoform_notes.txt, "
           f"isoform_deltas.csv, processing_deltas.csv")
     sys.stdout.flush()
     return 0

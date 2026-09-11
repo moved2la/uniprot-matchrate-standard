@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "Sequence-derived amino acid standard for human skeletal muscle (Layer A exact / Layer B cited)"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-dependencies = []          # stdlib only for fetch/verify; add numpy/pandas at Step 4 if needed
+dependencies = []          # stdlib only for fetch/verify; add numpy/pandas for aggregation if needed
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]

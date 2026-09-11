@@ -14,6 +14,6 @@ Each step runs in its own thread from its handoff in `docs/handoffs/`.
     pip install -e ".[dev]"
     pytest
 
-Step 1 verification run (needs network):
+Verify the protein set against UniProt (needs network):
 
-    python src/muscle_aa/verify_accessions.py --candidates config/candidates_step1.ini --outdir data
+    python src/muscle_aa/verify_accessions.py --candidates config/gene_candidates.ini --outdir data

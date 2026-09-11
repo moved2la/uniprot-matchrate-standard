@@ -47,7 +47,7 @@ FIELDS = ",".join([
     "length", "mass", "sequence", "sequence_version", "version",
     "date_sequence_modified", "cc_alternative_products", "cc_tissue_specificity",
     "ft_init_met", "ft_signal", "ft_propep", "ft_chain", "ft_transit",
-    "ft_peptide",
+    "ft_peptide", "ft_var_seq",
 ])
 
 PROCESSING_FEATURES = {
@@ -132,10 +132,22 @@ def parse_entry(e: dict) -> dict:
         "entry_version": audit.get("entryVersion", ""),
         "last_seq_update": audit.get("lastSequenceUpdateDate", ""),
         "features": [],
+        "var_seq": [],
         "isoforms": [],
         "tissue_specificity": "",
     }
     for f in e.get("features", []):
+        if f.get("type") == "Alternative sequence":
+            loc = f.get("location", {})
+            out["var_seq"].append({
+                "id": f.get("featureId", ""),
+                "start": _text(loc, "start", "value"),
+                "end": _text(loc, "end", "value"),
+                "description": f.get("description", ""),
+                "alt": _text(f, "alternativeSequence", "alternativeSequences", default=[""])[0]
+                       if _text(f, "alternativeSequence", "alternativeSequences", default=None) else "",
+                "orig": _text(f, "alternativeSequence", "originalSequence"),
+            })
         if f.get("type") in PROCESSING_FEATURES:
             loc = f.get("location", {})
             out["features"].append({
@@ -302,6 +314,12 @@ def main() -> int:
                          f"{sorted({f['type'] for f in nontrivial})} — segments.ini")
 
         r["tissue_specificity"] = h["tissue_specificity"] or "(none annotated)"
+
+        # Alternative sequence features — what each isoform actually changes
+        for i, v in enumerate(h["var_seq"], 1):
+            change = (f"{v['orig'][:20]}{'…' if len(v['orig'])>20 else ''} -> "
+                      f"{v['alt'][:20]}{'…' if len(v['alt'])>20 else ''}") if v["orig"] else "(missing)"
+            r[f"var_seq_{i}"] = f"{v['id']} | {v['start']}-{v['end']} | {v['description']} | {change}"
 
         # Isoforms
         r["isoform_count"] = str(len(h["isoforms"]))

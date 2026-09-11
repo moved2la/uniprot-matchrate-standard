@@ -64,7 +64,24 @@ def frac(seq: str) -> dict[str, float]:
     return {a: 100.0 * c.get(a, 0) / n for a in AA}
 
 
+def diff_locus(a: str, b: str) -> str:
+    """Common prefix/suffix lengths and the differing core, alignment-free."""
+    pre = 0
+    while pre < min(len(a), len(b)) and a[pre] == b[pre]:
+        pre += 1
+    suf = 0
+    while (suf < min(len(a), len(b)) - pre) and a[-1 - suf] == b[-1 - suf]:
+        suf += 1
+    core_a, core_b = a[pre:len(a) - suf], b[pre:len(b) - suf]
+    return (f"identical prefix {pre} aa, identical suffix {suf} aa; "
+            f"A differs at {pre + 1}-{len(a) - suf} ({len(core_a)} aa), "
+            f"B differs at {pre + 1}-{len(b) - suf} ({len(core_b)} aa)\n"
+            f"      A core: {core_a[:60]}{'…' if len(core_a) > 60 else ''}\n"
+            f"      B core: {core_b[:60]}{'…' if len(core_b) > 60 else ''}")
+
+
 def print_delta(label_a: str, seq_a: str, label_b: str, seq_b: str) -> dict:
+    print("    locus:", diff_locus(seq_a, seq_b))
     fa, fb = frac(seq_a), frac(seq_b)
     print(f"    {'aa':>3} {label_a[:14]:>14} {label_b[:14]:>14} {'delta(pp)':>10}")
     worst = ("", 0.0)
@@ -155,6 +172,10 @@ def main() -> int:
     print("=" * 78)
     for g in NOTE_GENES:
         isoform_notes(raw, g)
+        if g in ini:
+            for k, v in ini[g].items():
+                if k.startswith("var_seq_"):
+                    _n(f"    {v}")
         _n("")
     (out / "isoform_notes.txt").write_text("\n".join(NOTES_BUF) + "\n", encoding="utf-8")
 

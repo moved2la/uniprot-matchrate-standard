@@ -18,3 +18,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src", "."]   # so tests can import muscle_aa without installing the package

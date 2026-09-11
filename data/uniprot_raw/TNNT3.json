@@ -215,6 +215,181 @@
      },
      "description": "Troponin T, fast skeletal muscle",
      "featureId": "PRO_0000186178"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 23,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 46,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "8062920"
+      }
+     ],
+     "featureId": "VSP_009121",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 23,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 33,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2, isoform 4 and isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "8062920"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "8172653"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.4"
+      }
+     ],
+     "featureId": "VSP_007914",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 34,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 46,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 6",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "17974005"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.6"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.7"
+      }
+     ],
+     "featureId": "VSP_034964",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 39,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 46,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3, isoform 4 and isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "8062920"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.4"
+      }
+     ],
+     "featureId": "VSP_007915",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 240,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 252,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "8062920"
+      }
+     ],
+     "featureId": "VSP_007916",
+     "alternativeSequence": {
+      "originalSequence": "TTLRSRIDQAQKH",
+      "alternativeSequences": [
+       "MNVRARVQMLAKF"
+      ]
+     }
     }
    ],
    "sequence": {

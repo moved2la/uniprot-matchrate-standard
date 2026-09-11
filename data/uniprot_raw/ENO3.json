@@ -184,6 +184,57 @@
      },
      "description": "Beta-enolase",
      "featureId": "PRO_0000134107"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 61,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 104,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_037752",
+     "alternativeSequence": {
+      "originalSequence": "GVLKAVENINNTLGPALLQKKLSVVDQEKVDKFMIELDGTENKS",
+      "alternativeSequences": [
+       "A"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 150,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 177,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_037753",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

@@ -288,6 +288,605 @@
      },
      "description": "Titin",
      "featureId": "PRO_0000239311"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 555,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 646,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "8937992"
+      }
+     ],
+     "featureId": "VSP_019138",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 556,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 601,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3, isoform 9 and isoform 10",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "7569978"
+      }
+     ],
+     "featureId": "VSP_019139",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3434,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3434,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 12",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_045935",
+     "alternativeSequence": {
+      "originalSequence": "E",
+      "alternativeSequences": [
+       "EGFSKFEENTSNSQWHVSLSVSFKKEPLGQKPSFIQPLSSLRVHNGETVRFHARVSGIPKPEIQWFHNQQLILPTKDVVFHFEESTGMALMLIVDAYSEHAGQYSCKAANSAGEATCAATLTVTPKVQALDRQSSGKDVRESTKSQAVADSSFTKEESKISQKEIKSFQGSSYEYEVQVFESVSQSSIHTAASVQDTQLCHTASLSQIAESTELSKECAKESTGEAPKIFLHLQDVTVKCGDTAQFLCVLKDDSFIDVTWTHEGAKIEESERLKQSQNGNIQFLTICNVQLVDQGLYSCIVHNDCGERTTSAVLSVEG"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3434,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3434,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 8 and isoform 10",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_019140",
+     "alternativeSequence": {
+      "originalSequence": "E",
+      "alternativeSequences": [
+       "EGFSKFEENTSNSQWHVSLSVSFKKEPLGQKPSFIQPLSSLRVHNGETVRFHARVSGIPKPEIQWFHNQQLILPTKDVVFHFEESTGMALMLIVDAYSEHAGQYSCKAANSAGEATCAATLTVTPK"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3434,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3434,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 9",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_042903",
+     "alternativeSequence": {
+      "originalSequence": "E",
+      "alternativeSequences": [
+       "EVQALDRQSSGKDVRESAKSQAVADSSFTKEESKISQKEIKSFQGSSYEYEVQVFESVSQSSIHTAASVQDTQLCHTASLSQIAESTELSKECAKESTGEAPKIFLHLQDVTVKCGDTAQFLCVLKDDSFIDVTWTHEGAKIEESERLKQSQNGNIQFLTICNVQLVDQGLYSCIVHNDCGERTTSAVLSVEG"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3435,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3645,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_019141",
+     "alternativeSequence": {
+      "originalSequence": "APESILHERIEQEIEMEMKEFSSSFLSAEEEGLHSAELQLSKINETLELLSESPVYPTKFDSEKEGTGPIFIKEVSNADISMGDVATLSVTVIGIPKPKIQWFFNGVLLTPSADYKFVFDGDDHSLIILFTKLEDEGEYTCMASNDYGKTICSAYLKINSKGEGHKDTETESAVAKSLEKLGGPCPPHFLKELKPIRCAQGLPAIFEYTVV",
+      "alternativeSequences": [
+       "VQALDRQSSGKDVRESTKSQAVADSSFTKEESKISQKEIKSFQGSSYEYEVQVFESVSQSSIHTAASVQDTQLCHTASLSQIAESTELSKECAKESTGEAPKIFLHLQDVTVKCGDTAQFLCVLKDDSFIDVTWTHEGAKIEESERLKQSQNGNIQFLTICNVQLVDQGLYSCIVHNDCGERTTSAVLSVEGAPESILHERIEQEIEMEMK"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3454,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 4380,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4 and isoform 11",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "7569978"
+      }
+     ],
+     "featureId": "VSP_019142",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3455,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 5604,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 6",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_019143",
+     "alternativeSequence": {
+      "originalSequence": "FSSSFLSAEEEGLHSAELQLSKINETLELLSESPVYPTKFDSEKEGTGPIFIKEVSNADISMGDVATLSVTVIGIPKPKIQWFFNGVLLTPSADYKFVFDGDDHSLIILFTKLEDEGEYTCMASNDYGKTICSAYLKINSKGEGHKDTETESAVAKSLEKLGGPCPPHFLKELKPIRCAQGLPAIFEYTVVGEPAPTVTWFKENKQLCTSVYYTIIHNPNGSGTFIVNDPQREDSGLYICKAENMLGESTCAAELLVLLEDTDMTDTPCKAKSTPEAPEDFPQTPLKGPAVEALDSEQEIATFVKDTILKAALITEENQQLSYEHIAKANELSSQLPLGAQELQSILEQDKLTPESTREFLCINGSIHFQPLKEPSPNLQLQIVQSQKTFSKEGILMPEEPETQAVLSDTEKIFPSAMSIEQINSLTVEPLKTLLAEPEGNYPQSSIEPPMHSYLTSVAEEVLSPKEKTVSDTNREQRVTLQKQEAQSALILSQSLAEGHVESLQSPDVMISQVNYEPLVPSEHSCTEGGKILIESANPLENAGQDSAVRIEEGKSLRFPLALEEKQVLLKEEHSDNVVMPPDQIIESKREPVAIKKVQEVQGRDLLSKESLLSGIPEEQRLNLKIQICRALQAAVASEQPGLFSEWLRNIEKVEVEAVNITQEPRHIMCMYLVTSAKSVTEEVTIIIEDVDPQMANLKMELRDALCAIIYEEIDILTAEGPRIQQGAKTSLQEEMDSFSGSQKVEPITEPEVESKYLISTEEVSYFNVQSRVKYLDATPVTKGVASAVVSDEKQDESLKPSEEKEESSSESGTEEVATVKIQEAEGGLIKEDGPMIHTPLVDTVSEEGDIVHLTTSITNAKEVNWYFENKLVPSDEKFKCLQDQNTYTLVIDKVNTEDHQGEYVCEALNDSGKTATSAKLTVVKRAAPVIKRKIEPLEVALGHLAKFTCEIQSAPNVRFQWFKAGREIYESDKCSIRSSKYISSLEILRTQVVDCGEYTCKASNEYGSVSCTATLTVTEAYPPTFLSRPKSLTTFVGKAAKFICTVTGTPVIETIWQKDGAALSPSPNWRISDAENKHILELSNLTIQDRGVYSCKASNKFGADICQAELIIIDKPHFIKELEPVQSAINKKVHLECQVDEDRKVTVTWSKDGQKLPPGKDYKICFEDKIATLEIPLAKLKDSGTYVCTASNEAGSSSCSATVTVREPPSFVKKVDPSYLMLPGESARLHCKLKGSPVIQVTWFKNNKELSESNTVRMYFVNSEAILDITDVKVEDSGSYSCEAVNDVGSDSCSTEIVIKEPPSFIKTLEPADIVRGTNALLQCEVSGTGPFEISWFKDKKQIRSSKKYRLFSQKSLVCLEIFSFNSADVGEYECVVANEVGKCGCMATHLLKEPPTFVKKVDDLIALGGQTVTLQAAVRGSEPISVTWMKGQEVIREDGKIKMSFSNGVAVLIIPDVQISFGGKYTCLAENEAGSQTSVGELIVKEPAKIIERAELIQVTAGDPATLEYTVAGTPELKPKWYKDGRPLVASKKYRISFKNNVAQLKFYSAELHDSGQYTFEISNEVGSSSCETTFTVLDRDIAPFFTKPLRNVDSVVNGTCRLDCKIAGSLPMRVSWFKDGKEIAASDRYRIAFVEGTASLEIIRVDMNDAGNFTCRATNSVGSKDSSGALIVQEPPSFVTKPGSKDVLPGSAVCLKSTFQGSTPLTIRWFKGNKELVSGGSCYITKEALESSLELYLVKTSDSGTYTCKVSNVAGGVECSANLFVKEPATFVEKLEPSQLLKKGDATQLACKVTGTPPIKITWFANDREIKESSKHRMSFVESTAVLRLTDVGIEDSGEYMCEAQNEAGSDHCSSIVIVKESPYFTKEFKPIEVLKEYDVMLLAEVAGTPPFEITWFKDNTILRSGRKYKTFIQDHLVSLQILKFVAADAGEYQCRVTNEVGSSICSARVTLREPPSFIKKIESTSSLRGGTAAFQATLKGSLPITVTWLKDSDEITEDDNIRMTFENNVASLYLSGIEVKHDGKYVCQAKNDAGIQRCSALLSVKEPATITEEAVSIDVTQGDPATLQVKFSGTKEITAKWFKDGQELTLGSKYKISVTDTVSILKIISTEKKDSGEYTFEVQNDVGRSSCKARINVLDLIIPPSF",
+      "alternativeSequences": [
+       "LFSEGESEHSERDTRDAFSDSEDIDHKSMAAKRYASRISSTSSWPEYFKPSFTQKLTFKYVLEGEPVVFTCRLIACPTPEMTWFHNNRPIPTGLRRIIKAESDLHHHSSSLEIKRVQDRDSGSYRLLAINSEGSAESTASLLVIQKGQDEKYLEFLKRAERTHENVEALVERGEDRIKVDLRFTGSPFNKKQDVEQKGMMRTIHFKTMSSAKKTDYMYDEEYLESKSDIRGWLNVGESFLDKETKVKLQRLREARKTLMEKKKLSLLDTSSEISSRTLRSEASDKDILFSREDMKIRSMSDLAESYKVDHSAESIVQNPHALSNQMDQNIESEELPTSFQTIVDEEIFQTEIRMSQEALVKESLPKDHLYGEILVNENTQARGQLEEIMANTTIGESSTYITNVCEKEEVYETPENVSQAITPHASESFGTLVNVEESEEIASERIKKDDLRELQLSASTRIDEFKTEQKEENMRFFENSFRKRPQRCPPSFLQEIESQEVYEGDSCNFVCHFQGYPQPIVTWYNNDMPIPRNQNFIIHSLENYSILTLSSVHHQNEGSITCVLFNQYGTVKTTSMLKVKAKQKHDVKAHKVPVFHDYLDEEEELALVFDQAKGAHPSMSQEGQTNLHLLKTNPPVPPSGDTELLSFPVEIQVTAATPIPEQDKESKEVFQTEELEPKAMPQDQVTQSPKHRFVFLSDITNEPPKMLQEMPKHARCREGDSIILECLISGEPQPVVTWFQNGVLLKQNQKFQFEEVNCSHQLYIKDVNSQDSGKYKCVAENNSGAVESVSDLTVEPVTYRENSQFENIGEIYGKYSRDQQLQDQGESVRAHFYDYPAGPFTPWTNVKEYSVRDYFQSLETIEQIDQKEQVRCIPSREKIPRFVHGASRTIKISKPIRAEFIQCQAEGKERHVSEKSKLHQAEGTVYPFVDDFSDVTIKKEIRNNFGKLGRSEKENVQECAQSDYLPNIHSERISDSYNTKDSSAIVYEESLGEEIHYPGKKVKHRIIEFEKLHVEKGVLEKRPTRTSIVNPPQKKIDDKAFSLKQRESRSSNLNANMYQAEKMSPNTESDSSNIAINLKLLSSQTHKEFDAQEREQQEKISLIDKPAISKRAEHESPITFDLKQFHTQIKHTDVKFQELDSGQPEEAYFKIQHPADTENIVFDLKQMYSHIGDPALEFQGQETREQQEIHYKEKIPSPETLQPDTHNISKSVQNNVFASQEISSSQELSNRTMVEKSSIDENSISLEKEVRHVQEQNLDILKTDLSLKSFSEEIYSESCALLPTSSADIEETDLSEKSCPLENGGRSSISHLKKAASEEKPLGVGEMEEECTLEPELAAFPKQDGGTQEYTDATLEDHRGDVQEADTLHRQLSLSQCFPLLMTEEQQNPGEQISTNIHASGEEKCYEEVQVQNEASFSTLEGEMIETSFSQNIPKLDEAHTTEAAESETSLTQYLLAAGKREVPETKDTRDQAKLVQSESITSMEVEEVTFNTVYEYYNQKQESLGRPLSPESDISIGVGSTTSEEISELDQFYTPPSSVEYFESPKSPDLYFNPSDITKQSSIHSGGETVERYSTPLGEVAERYSTPSEGEVGERYSTPPGETLERYSTPPGETLERYSTPPGETLERYSTPPGETLERYSTPPGETLERYSTPPGEALERYSIPTGGPNPTGTFKTYPSKIEREDGTPNEHFYTPTEERGSAYEIWRSDSFGTPNEAIEPKDNEMPPSFIEPLTKRKVYENTTLGFIVEVEGLPVPGVKWYRNKSLLEPDERIKMERVGNVCSLEISNIQKGEGGEYMCHAVNIIGEAKSFANVDIMPQEERVVALPPPVTHQHVMEFDLEHTTSSRTPSPQEIVLEVELSEKDVKEFEKQVKIVTVPEFTPDHKSMIVSLDVLPFNFVDPNMDSREGEDKELKIDLEVFEMPPRFIMPICDFKIPENSDAVFKCSVIGIPTPEVKWYKEYMCIEPDNIKYVISEEKGSHTLKIRNVCLSDSATYRCRAVNCVGEAICRGFLTMGDSEIFAVIAKKSKVTLSSLMEELVLKSNYTDSFFEFQVVEGPPRFIKGISDCYAPIGTAAYFQCLVRGSPRPTVYWYKDGKLVQGRRFTVEESGTGFHNLFITSLVKSDEGEYRCVATNKSGMAESFAALTLT"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3646,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 4380,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_019144",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 4474,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11851,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3, isoform 9 and isoform 10",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "7569978"
+      }
+     ],
+     "featureId": "VSP_019145",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 5605,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 34350,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 6",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_019146",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 10382,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 10645,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "12785098"
+      }
+     ],
+     "featureId": "VSP_019147",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 10742,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 10931,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "12785098"
+      }
+     ],
+     "featureId": "VSP_019148",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11015,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11163,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "12785098"
+      }
+     ],
+     "featureId": "VSP_019149",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11117,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11117,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 12",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_045929",
+     "alternativeSequence": {
+      "originalSequence": "I",
+      "alternativeSequences": [
+       "VPKKPVPEKKVPVPAPKKVEPPPPPKVPEI"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11133,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11133,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 12",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_045930",
+     "alternativeSequence": {
+      "originalSequence": "E",
+      "alternativeSequences": [
+       "EAPPAKVSVVPKKPEPEKKVPPPGLKKAV"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11223,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11852,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "12785098"
+      }
+     ],
+     "featureId": "VSP_019150",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11421,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11421,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 12",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_045931",
+     "alternativeSequence": {
+      "originalSequence": "K",
+      "alternativeSequences": [
+       "KAPEVPKKIVPEEKVREAVLKKPEVPPAKVPGMPKKSVQEEKSPIVISEDTEMYIYEASEEAVLEEKVLVTQPQKTKPKLAKVPEPPKKVVPEDKIYVTIPKKRETPATKEPDTTRGIFPEVEPPEAIPEIPEHPPTEEFEVFKEVIPEGETPIVKRRKTPSPTVPESPREIVPVKETPMAAPLEIEIPPTKAPEAMKEVVPEMKIFEDVPEEPETPRMKTPEAPQEIIPAKTVPSKKREPPSVKVPEALQEIVPEKKTLVVPLRKPEVLPDEVPEALREVVPEKKVHPPQRAEVVPVKVHEAPKEIIPEKKVSVVPPKKPEVPPVKVPEASKEVIREEKVPLAPPKEPEVPPVKVPEPPKEVVPEKKAPVAPPKEPEVPPVKVPEAPKEVVPEKKVPVPPPKKPEVPPTKVPEVPKAAVPEKKLPEAIPPKPESPPPE"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11450,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11450,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 12",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_045932",
+     "alternativeSequence": {
+      "originalSequence": "P",
+      "alternativeSequences": [
+       "PKVPEAPKEVVLEKKASVAVPKKPEAPRAKVPEAAQEVVPEKKIPKAPIKKPEAPAVTVPEVPQEATEKEIPVAPPKKPEAPIVPVPEAQEVVPEKKVPKAPPTKPEAPPATVPEVPQEIVPEKKTLVLPKKPEVPPVTVPEAPKEVVLEKKVPSAPPKKPEVPPV"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11507,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11507,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 12",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_045933",
+     "alternativeSequence": {
+      "originalSequence": "E",
+      "alternativeSequences": [
+       "EVPEVLPPKEVVPEKKVPVPPAKKPEAPPPKVPEAPKEVVLEKKASVAVPKKPEAPRAKVPEAAQEVVPEKKIPKAPIKKPEAPAVTVPEVPQEAAEKEIPVAPPKKPEAPIVPVPEAQEVVPEKKVPKAPPTKPEAPPATVPEVPQEIVPEKKTLVLPKKPEVPPVTVPEAPKEVVLEKKVPSTPPKKPEVPPVKVPEAPKEVVPEKKVPVPPPKKPEVPPTKVPEVPKAAVPEKKVPEAIPPKPESPPPEVPEVLPPKEVVPEKKVPVPPAKKPEAPPPKVPEAPKEVVLEKKVSVAVPKKPEAPRAKVPEAAQEVVPEKKIPKAPIKKPEAPAVTVPEVPQEAAEKEIPVAPPKKPEAPIVPVPEAQEVVPEKKVPKAPPTKPEAPPATVPEVPQEIVPEKKTLVLPKKPEVPPVTVPEAPKEVVLEKKVPLAPPKKPEVPPVKVPEAPKEVVPEKKVPVTPPKKPEVPPVKVPEAPIEVVPEKKMPLAPPKKPEVPPVKVPEAPKEVVPEKKVPSAPPKKPEVPPVK"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11507,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11507,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "7569978"
+      }
+     ],
+     "featureId": "VSP_019151",
+     "alternativeSequence": {
+      "originalSequence": "E",
+      "alternativeSequences": [
+       "EVFEEPEESPSAPPKKPEVPPVR"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11790,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11790,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 13",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_047142",
+     "alternativeSequence": {
+      "originalSequence": "P",
+      "alternativeSequences": [
+       "PKEPEMPKKVVPVKKVPTVKKPETPAAKVPEVPKKLVPVKKEPVPVTKKPEVLPEKVPKVPEKIIPEKEVSVPIPAEPEVPPAEVEETPEEIIYEEKASITIGRKETPPVEEREIEKYIKPEEPEPEPQPEEIPV"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11793,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 11793,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 12",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_045934",
+     "alternativeSequence": {
+      "originalSequence": "P",
+      "alternativeSequences": [
+       "PEMPKKVVPVKKVPTVKKPETPAAKVPEVPKKLVPVKKEPVPVTKKPEVLPEKVPKVPEKIIPEKEVSVPIPAEPEVPPAEVEETPEEIIYEEKASITIGRKETPPVEEREIEKYIKPEEPEPEPQPEEIPVKEP"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 11985,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 12201,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "12785098"
+      }
+     ],
+     "featureId": "VSP_019152",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

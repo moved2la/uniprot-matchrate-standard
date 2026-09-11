@@ -96,6 +96,29 @@
      },
      "description": "Tropomodulin-4",
      "featureId": "PRO_0000186136"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 95,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 163,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_056865",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

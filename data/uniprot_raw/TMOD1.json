@@ -98,6 +98,57 @@
      },
      "description": "Tropomodulin-1",
      "featureId": "PRO_0000186128"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 6,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_056863",
+     "alternativeSequence": {
+      "originalSequence": "MSYRRE",
+      "alternativeSequences": [
+       "MSQVLS"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 7,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 133,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_056864",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

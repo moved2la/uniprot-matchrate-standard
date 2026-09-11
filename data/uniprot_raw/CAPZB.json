@@ -133,6 +133,27 @@
      },
      "description": "F-actin-capping protein subunit beta",
      "featureId": "PRO_0000204634"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 246,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 272,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "featureId": "VSP_061615",
+     "alternativeSequence": {
+      "originalSequence": "VQTFADKSKQEALKNDLVEALKRKQQC",
+      "alternativeSequences": [
+       "IDAIPDNQKFKQLQRELSQVLTQRQIYIQPDN"
+      ]
+     }
     }
    ],
    "sequence": {

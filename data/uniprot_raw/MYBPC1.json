@@ -194,6 +194,278 @@
      },
      "description": "Myosin-binding protein C, slow-type",
      "featureId": "PRO_0000072689"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 8,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 19,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 8",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      }
+     ],
+     "featureId": "VSP_046735",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 9,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 34,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      }
+     ],
+     "featureId": "VSP_046736",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 9,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 34,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_046737",
+     "alternativeSequence": {
+      "originalSequence": "ENEVPAPAPPPEEPSKEKEAGTTPAK",
+      "alternativeSequences": [
+       "DEEEVSPPSALPP"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 34,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 34,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2 and isoform 4",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "17974005"
+      }
+     ],
+     "featureId": "VSP_039105",
+     "alternativeSequence": {
+      "originalSequence": "K",
+      "alternativeSequences": [
+       "KDEEEVSPPSALPPGLGSRALERKDS"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 176,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 194,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 9",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      }
+     ],
+     "featureId": "VSP_046738",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 761,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 779,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2, isoform 3, isoform 4, isoform 5, isoform 7, isoform 8, isoform 9 and isoform 10",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "17974005"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "8375400"
+      }
+     ],
+     "featureId": "VSP_039106",
+     "alternativeSequence": {
+      "originalSequence": "STSAKQSDENGEAAYDLPA",
+      "alternativeSequences": [
+       "T"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1138,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1141,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_046739",
+     "alternativeSequence": {
+      "originalSequence": "VIAQ",
+      "alternativeSequences": [
+       "GGLSFCRLLLQGVPPNIIDSYLRDLHSSNPEEY"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1140,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1141,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4, isoform 5, isoform 8, isoform 9 and isoform 10",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "17974005"
+      }
+     ],
+     "featureId": "VSP_045241",
+     "alternativeSequence": {
+      "originalSequence": "AQ",
+      "alternativeSequences": [
+       "YQGVNTPGQPVFLEGQQQSLHNKDF"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1140,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1141,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 6",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      }
+     ],
+     "featureId": "VSP_046740",
+     "alternativeSequence": {
+      "originalSequence": "AQ",
+      "alternativeSequences": [
+       "YQGVNTPGQPVFLEGQQQVGSPSADSSCKAYLQT"
+      ]
+     }
     }
    ],
    "sequence": {

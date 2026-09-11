@@ -216,6 +216,155 @@
      },
      "description": "L-lactate dehydrogenase A chain",
      "featureId": "PRO_0000168411"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_042206",
+     "alternativeSequence": {
+      "originalSequence": "M",
+      "alternativeSequences": [
+       "MGEPSGGYTYTQTSIFLFHAKIPFGSKSNM"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 82,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 139,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_042786",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 230,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 274,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_014261",
+     "alternativeSequence": {
+      "originalSequence": "VHKQVVESAYEVIKLKGYTSWAIGLSVADLAESIMKNLRRVHPVS",
+      "alternativeSequences": [
+       "CRYTLGDPKGAAILKSSDVISFHCLGYNRILGGGCACCPFYLICD"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 237,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 241,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_042788",
+     "alternativeSequence": {
+      "originalSequence": "SAYEV",
+      "alternativeSequences": [
+       "RVFTE"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 242,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 332,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_042789",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 275,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 332,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_042787",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

@@ -113,6 +113,49 @@
      "featureId": "PRO_0000198681"
     },
     {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 53,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform MLC3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "2458299"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "3601661"
+      }
+     ],
+     "featureId": "VSP_038686",
+     "alternativeSequence": {
+      "originalSequence": "MAPKKDVKKPVAAAAAAPAPAPAPAPAPAPAKPKEEKIDLSAIKIEFSKEQQD",
+      "alternativeSequences": [
+       "MSFSADQIA"
+      ]
+     }
+    },
+    {
      "type": "Initiator methionine",
      "location": {
       "start": {

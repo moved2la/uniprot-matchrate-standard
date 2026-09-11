@@ -207,6 +207,282 @@
      "featureId": "PRO_0000205632"
     },
     {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 127,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_054792",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 81,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2, isoform 3 and isoform 6",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "3024106"
+      }
+     ],
+     "featureId": "VSP_006604",
+     "alternativeSequence": {
+      "originalSequence": "MMEAIKKKMQMLKLDKENALDRAEQAEAEQKQAEERSKQLEDELAAMQKKLKGTEDELDKYSEALKDAQEKLELAEKKAAD",
+      "alternativeSequences": [
+       "MAGITTIEAVKRKIQVLQQQADDAEERAERLQREVEGERRAREQ"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 2,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4 and isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_047302",
+     "alternativeSequence": {
+      "originalSequence": "MM",
+      "alternativeSequences": [
+       "MAGITTI"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 5,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 21,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4 and isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_047303",
+     "alternativeSequence": {
+      "originalSequence": "IKKKMQMLKLDKENALD",
+      "alternativeSequences": [
+       "VKRKIQVLQQQADDAEE"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 25,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 81,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4 and isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_047304",
+     "alternativeSequence": {
+      "originalSequence": "QAEAEQKQAEERSKQLEDELAAMQKKLKGTEDELDKYSEALKDAQEKLELAEKKAAD",
+      "alternativeSequences": [
+       "RLQREVEGERRAREQ"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 190,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 212,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2, isoform 3 and isoform 6",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "3024106"
+      }
+     ],
+     "featureId": "VSP_006605",
+     "alternativeSequence": {
+      "originalSequence": "KCSELEEELKNVTNNLKSLEAQA",
+      "alternativeSequences": [
+       "RCREMDEQIRLMDQNLKCLSAAE"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 259,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 285,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_006607",
+     "alternativeSequence": {
+      "originalSequence": "DELYAQKLKYKAISEELDHALNDMTSI",
+      "alternativeSequences": [
+       "ERLYSQLERNRLLSNELKLTLHDLCD"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 259,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 260,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_047305",
+     "alternativeSequence": {
+      "originalSequence": "DE",
+      "alternativeSequences": [
+       "ER"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 260,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 285,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2, isoform 5 and isoform 7",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "3024106"
+      }
+     ],
+     "featureId": "VSP_006606",
+     "alternativeSequence": {
+      "originalSequence": "ELYAQKLKYKAISEELDHALNDMTSI",
+      "alternativeSequences": [
+       "KLKCTKEEHLCTQRMLDQTLLDLNEM"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 263,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 285,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_047306",
+     "alternativeSequence": {
+      "originalSequence": "AQKLKYKAISEELDHALNDMTSI",
+      "alternativeSequences": [
+       "SQLERNRLLSNELKLTLHDLCD"
+      ]
+     }
+    },
+    {
      "type": "Initiator methionine",
      "location": {
       "start": {

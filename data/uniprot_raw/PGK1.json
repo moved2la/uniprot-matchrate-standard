@@ -169,6 +169,29 @@
      },
      "description": "Phosphoglycerate kinase 1",
      "featureId": "PRO_0000145831"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 28,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_056159",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

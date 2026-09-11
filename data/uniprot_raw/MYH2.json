@@ -125,6 +125,29 @@
      },
      "description": "Myosin-2",
      "featureId": "PRO_0000123393"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 659,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1891,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      }
+     ],
+     "featureId": "VSP_056291",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

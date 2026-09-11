@@ -97,6 +97,34 @@
      },
      "description": "Troponin I, fast skeletal muscle",
      "featureId": "PRO_0000186143"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 5,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      }
+     ],
+     "featureId": "VSP_046052",
+     "alternativeSequence": {
+      "originalSequence": "MGDEE",
+      "alternativeSequences": [
+       "MSQCK"
+      ]
+     }
     }
    ],
    "sequence": {

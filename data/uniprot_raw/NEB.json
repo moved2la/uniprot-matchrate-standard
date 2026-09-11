@@ -119,6 +119,91 @@
      },
      "description": "Nebulin",
      "featureId": "PRO_0000096775"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 2941,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3183,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 4",
+     "featureId": "VSP_062336",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 2961,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3203,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 1",
+     "featureId": "VSP_062337",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 4103,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 5560,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 1 and isoform 4",
+     "featureId": "VSP_062338",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 7105,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 7137,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 1, isoform 3 and isoform 4",
+     "featureId": "VSP_062339",
+     "alternativeSequence": {
+      "originalSequence": "RKYKSSAKMFLQHGCNEILRPDMLTALYNSHMW",
+      "alternativeSequences": [
+       "KKYRADYEQRKDKYHLVVDEPRHLLAKTAGDQI"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 7975,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 8129,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 1 and isoform 4",
+     "featureId": "VSP_062340",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

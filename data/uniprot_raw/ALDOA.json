@@ -161,6 +161,34 @@
      },
      "description": "Fructose-bisphosphate aldolase A",
      "featureId": "PRO_0000216936"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_047261",
+     "alternativeSequence": {
+      "originalSequence": "M",
+      "alternativeSequences": [
+       "MARRKPEGSSFNMTHLSMAMAFSFPPVASGQLHPQLGNTQHQTELGKELATTSTM"
+      ]
+     }
     }
    ],
    "sequence": {

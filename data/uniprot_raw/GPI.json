@@ -297,6 +297,57 @@
      },
      "description": "Glucose-6-phosphate isomerase",
      "featureId": "PRO_0000180537"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_043475",
+     "alternativeSequence": {
+      "originalSequence": "M",
+      "alternativeSequences": [
+       "MVALCSLQHLGSSDPRALPTLPTATSGQRPAKRRRKSPAM"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 135,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 162,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_043476",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

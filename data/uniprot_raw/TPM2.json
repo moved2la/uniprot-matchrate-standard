@@ -137,6 +137,118 @@
      },
      "description": "Tropomyosin beta chain",
      "featureId": "PRO_0000205627"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 80,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_006594",
+     "alternativeSequence": {
+      "originalSequence": "MDAIKKKMQMLKLDKENAIDRAEQAEADKKQAEDRCKQLEEEQQALQKKLKGTEDEVEKYSESVKEAQEKLEQAEKKATD",
+      "alternativeSequences": [
+       "MAGISSIDAVKKKIQSLQQVADEAEERAEHLQREADAERQARER"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 189,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 213,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2 and isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "2059197"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "3865200"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.4"
+      }
+     ],
+     "featureId": "VSP_006595",
+     "alternativeSequence": {
+      "originalSequence": "KCGDLEEELKIVTNNLKSLEAQADK",
+      "alternativeSequences": [
+       "RARQLEEELRTMDQALKSLMASEEE"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 258,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 284,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2 and isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "2059197"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "3865200"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.4"
+      }
+     ],
+     "featureId": "VSP_006596",
+     "alternativeSequence": {
+      "originalSequence": "DEVYAQKMKYKAISEELDNALNDITSL",
+      "alternativeSequences": [
+       "ETLASAKEENVEIHQTLDQTLLELNNL"
+      ]
+     }
     }
    ],
    "sequence": {

@@ -104,6 +104,57 @@
      },
      "description": "Troponin T, slow skeletal muscle",
      "featureId": "PRO_0000186168"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 25,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 35,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.4"
+      }
+     ],
+     "featureId": "VSP_006639",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 205,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 220,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2 and isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "Reference",
+       "id": "Ref.4"
+      }
+     ],
+     "featureId": "VSP_006640",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

@@ -135,6 +135,29 @@
      },
      "description": "Glycogen phosphorylase, muscle form",
      "featureId": "PRO_0000188529"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 82,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 169,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_043047",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

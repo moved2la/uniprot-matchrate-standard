@@ -118,6 +118,57 @@
      },
      "description": "F-actin-capping protein subunit alpha-2",
      "featureId": "PRO_0000208627"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 143,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 172,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_053871",
+     "alternativeSequence": {
+      "originalSequence": "VYGKKIDGQQTIIACIESHQFQAKNFWNGR",
+      "alternativeSequences": [
+       "EWSLEVRMEVYNHSFNHSSGWHLENSGSLL"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 173,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 286,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_053872",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

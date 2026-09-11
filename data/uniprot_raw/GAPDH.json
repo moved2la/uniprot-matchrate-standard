@@ -182,6 +182,27 @@
      },
      "description": "Glyceraldehyde-3-phosphate dehydrogenase",
      "featureId": "PRO_0000145486"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 42,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_047289",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

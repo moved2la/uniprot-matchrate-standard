@@ -167,6 +167,216 @@
      },
      "description": "Obscurin",
      "featureId": "PRO_0000235298"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 886,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 886,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "featureId": "VSP_062488",
+     "alternativeSequence": {
+      "originalSequence": "P",
+      "alternativeSequences": [
+       "PKAVFAKEQPACREVQAEVGASATLSCEVAQDQMEVTWYKDGKKLSSSSKVHVEAVGCMRRLVVQQVGQADSGEYSCEARGQRVSFRLDVAEP"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1538,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1538,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "featureId": "VSP_062489",
+     "alternativeSequence": {
+      "originalSequence": "Q",
+      "alternativeSequences": [
+       "QPAHREVQAEAGASATLSCEVAQAQTEVTWYKDGKKLSSSLKVHVEAAGCTRRLVVQQAGQADTGEYSCEAGGQQLSFRLQVAEPKAVFAKEQ"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1704,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1704,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "featureId": "VSP_062490",
+     "alternativeSequence": {
+      "originalSequence": "Q",
+      "alternativeSequences": [
+       "QLSFRLQVAEPKAVFAKEQVVFAKDQPVHREVQAEAGTSTMLSCEVAQAQTEVMWYKDGKKLSSSSKMRVEAVGCTRRLVVQEAGQADAGEYSCEAGGQRLSFHLHVAEPKVVFAKEQPACREVQAEAGASATLSCEVAQGQMEVTWYKDGKKLSSSSKVHMEASGYTRRLVVQQAGQADAGEYSCEAGGQR"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 2253,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 2253,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "featureId": "VSP_062491",
+     "alternativeSequence": {
+      "originalSequence": "R",
+      "alternativeSequences": [
+       "RNIQIVRPLEDVEVMEKDGATFSCEVSHDEVPGQWFWEGSKLRPTDNVRIRQEGR"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3878,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3878,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 7",
+     "featureId": "VSP_062492",
+     "alternativeSequence": {
+      "originalSequence": "R",
+      "alternativeSequences": [
+       "RTSATLTVRALPARFTQDLKTKEASEGATATLQCELSKVAPVEWKKGPETLRDGGRYSLKQDGTRCELQIHDLSVADAGEYSCMCGQERTSATLTVRALPARFTEGLRNEEAMEGATATLQCELSKAAPVEWRKGLEALRDGDKYSLRQDGAVCELQIHGLAMADNGVYSCVCGQERTSATLTVRALPARFIEDMRNQKATEGATVTLQCKLRKAAPVEWRKGPNTLKDGDRYSLKQDGTSCELQIRGLVIADAGEYSCICEQERTSATLTVRALPARFIEDVRNHEATEGATAVLQCELSKAAPVEWRKGSETLRDGDRYSLRQDGTRCELQIRGLAVEDTGEYLCVCGQERTSATLTVRALPARFIDNMTNQEAREGATATLHCELSKVAPVEWRKGPETLRDGDRHSLRQDGTRCELQIRGLSVADAGEYSCVCGQERTSATLTIRALPAKFTKGLRNEEATEGATAMLQCELSKVAPVEWRKGPETLRDGDRYNLRQDGTRCELQIHGLSVADTGEYSCVCGQEK"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 3886,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 3886,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 5",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_026970",
+     "alternativeSequence": {
+      "originalSequence": "K",
+      "alternativeSequences": [
+       "RALPARFTQDLKTKEASEGATATLQCELSKVAPVEWKKGPETLRDGGRYSLKQDGTRCELQIHDLSVADAGEYSCMCGQERTSATLTVRALPARFTEGLRNEEAMEGATATLQCELSKAAPVEWRKGLEALRDGDKYSLRQDGAVCELQIHGLAMADNGVYSCVCGQERTSATLTVRALPARFIEDMRNQKATEGATVTLQCKLRKAAPVEWRKGPNTLKDGDRYSLKQDGTSCELQIRGLVIADAGEYSCICEQERTSATLTVRALPARFIEDVRNHEATEGATAVLQCELSKAAPVEWRKGSETLRDGDRYSLRQDGTRCELQIRGLAVEDTGEYLCVCGQERTSATLTVRALPARFIDNMTNQEAREGATATLHCELSKVAPVEWRKGPETLRDGDRHSLRQDGTRCELQIRGLSVADAGEYSCVCGQERTSATLTIREATEGATAMLQCELSKVAPVEWRKGPETLRDGDRYNLRQDGTRCELQIHGLSVADTGEYSCVCGQEKTSATLTVK"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 5753,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 5753,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "10997877"
+      }
+     ],
+     "featureId": "VSP_018436",
+     "alternativeSequence": {
+      "originalSequence": "S",
+      "alternativeSequences": [
+       "SS"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 6221,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 6620,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "11448995"
+      }
+     ],
+     "featureId": "VSP_018437",
+     "alternativeSequence": {
+      "originalSequence": "DTTLERADQEVTSVLKRLLGPKAPGPSTGDLTGPGPCPRGAPALQETGSQPPVTGTSEAPAVPPRVPQPLLHEGPEQEPEAIARAQEWTVPIRMEGAAWPGAGTGELLWDVHSHVVRETTQRTYTYQAIDTHTARPPSMQVTIEDVQAQTGGTAQFEAIIEGDPQPSVTWYKDSVQLVDSTRLSQQQEGTTYSLVLRHVASKDAGVYTCLAQNTGGQVLCKAELLVLGGDNEPDSEKQSHRRKLHSFYEVKEEIGRGVFGFVKRVQHKGNKILCAAKFIPLRSRTRAQAYRERDILAALSHPLVTGLLDQFETRKTLILILELCSSEELLDRLYRKGVVTEAEVKVYIQQLVEGLHYLHSHGVLHLDIKPSNILMVHPAREDIKICDFGFAQNITPAELQ",
+      "alternativeSequences": [
+       "VTEQETKVPKKTVIIEETITTVVKSPRGQRRSPSKSPSRSPSRCSASPLRPGLLAPDLLYLPGAGQPRRPEAEPGQKPVVPTLYVTEAEAHSPALPGLSGPQPKWVEVEETIEVRVKKMGPQGVSPTTEVPRSSSGHLFTLPGATPGGDPNSNNSNNKLLAQEAWAQGTAMVGVREPLVFRVDARGSVDWAASGMGSLEEEGTMEEAGEEEGEDGDAFVTEESQDTHSLGDRDPKILTHNGRMLTLADLEDYVPGEGETFHCGGPGPGAPDDPPCEVSVIQREIGEPTVGQPVLLSVGHALGPRGPLGLFRPEPRGASPPGPQVRSLEGTSFLLREAPARPVGSAPWTQSFCTRIRRSADSGQSSFTTELSTQTVNFGTVGETVTLHICPDRDGDEAAQP"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 6621,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 7968,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "11448995"
+      }
+     ],
+     "featureId": "VSP_018438",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

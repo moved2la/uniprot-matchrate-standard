@@ -86,6 +86,34 @@
      },
      "description": "Myomesin-1",
      "featureId": "PRO_0000072684"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 836,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 931,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "15489334"
+      },
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "7505783"
+      }
+     ],
+     "featureId": "VSP_035663",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

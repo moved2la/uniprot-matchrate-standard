@@ -89,6 +89,34 @@
      },
      "description": "Alpha-actinin-2",
      "featureId": "PRO_0000073435"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 234,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 261,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_054923",
+     "alternativeSequence": {
+      "originalSequence": "IVNTPKPDERAIMTYVSCFYHAFAGAEQ",
+      "alternativeSequences": [
+       "LVYTARPDERAIMTYVSCYYHAFAGAQK"
+      ]
+     }
     }
    ],
    "sequence": {

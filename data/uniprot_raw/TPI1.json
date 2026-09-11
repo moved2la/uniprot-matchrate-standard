@@ -163,6 +163,53 @@
      },
      "description": "Triosephosphate isomerase",
      "featureId": "PRO_0000090113"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 82,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_060721",
+     "alternativeSequence": {}
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 1,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000305"
+      }
+     ],
+     "featureId": "VSP_060722",
+     "alternativeSequence": {
+      "originalSequence": "M",
+      "alternativeSequences": [
+       "MAEDGEEAEFHFAALYISGQWPRLRADTDLQRLGSSAM"
+      ]
+     }
     }
    ],
    "sequence": {

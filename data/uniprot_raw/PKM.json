@@ -367,6 +367,62 @@
      },
      "description": "Pyruvate kinase PKM",
      "featureId": "PRO_0000112088"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 1,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 82,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 3",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_043370",
+     "alternativeSequence": {
+      "originalSequence": "MSKPHSEAGTAFIQTQQLHAAMADTFLEHMCRLDIDSPPITARNTGIICTIGPASRSVETLKEMIKSGMNVARLNFSHGTHE",
+      "alternativeSequences": [
+       "MSPEAQPQRTKGPQQPCRSPIVKPGLPSFRPSSCTQPWLTHSWSTCAAWTLIHHPSQPGTLASSVPL"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 389,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 433,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform M1",
+     "evidences": [
+      {
+       "evidenceCode": "ECO:0000303",
+       "source": "PubMed",
+       "id": "14702039"
+      }
+     ],
+     "featureId": "VSP_011101",
+     "alternativeSequence": {
+      "originalSequence": "IYHLQLFEELRRLAPITSDPTEATAVGAVEASFKCCSGAIIVLTK",
+      "alternativeSequences": [
+       "MFHRKLFEELVRASSHSTDLMEAMAMGSVEASYKCLAAALIVLTE"
+      ]
+     }
     }
    ],
    "sequence": {

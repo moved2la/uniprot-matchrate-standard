@@ -130,6 +130,43 @@
      },
      "description": "Cysteine and glycine-rich protein 3",
      "featureId": "PRO_0000075727"
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 38,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 59,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "featureId": "VSP_058575",
+     "alternativeSequence": {
+      "originalSequence": "MACRKALDSTTVAAHESEIYCK",
+      "alternativeSequences": [
+       "TLAQDLFPLCHLWEESGVHKC"
+      ]
+     }
+    },
+    {
+     "type": "Alternative sequence",
+     "location": {
+      "start": {
+       "value": 60,
+       "modifier": "EXACT"
+      },
+      "end": {
+       "value": 194,
+       "modifier": "EXACT"
+      }
+     },
+     "description": "in isoform 2",
+     "featureId": "VSP_058576",
+     "alternativeSequence": {}
     }
    ],
    "sequence": {

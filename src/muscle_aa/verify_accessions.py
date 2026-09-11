@@ -6,6 +6,7 @@ Reads a candidates .ini (gene -> optional seed accession), resolves every
 gene against UniProt (reviewed, human) by EXACT GENE NAME, and writes:
 
   data/uniprot_raw/<GENE>.json            raw search response (provenance)
+                                          (folder is emptied at the start of each run)
   data/uniprot_raw/<ACCESSION[-N]>.fasta  every isoform sequence
   data/uniprot_verification.ini           one section per gene
   data/verify_accessions_<stamp>.log      everything printed, incl. flags (one per run)
@@ -221,6 +222,12 @@ def main() -> int:
 
     outdir = Path(args.outdir)
     raw = outdir / "uniprot_raw"
+    # Start from empty so nothing from a previous run or a removed gene lingers:
+    # every file in uniprot_raw/ after a run was written by that run.
+    if raw.exists():
+        for old in raw.iterdir():
+            if old.is_file():
+                old.unlink()
     raw.mkdir(parents=True, exist_ok=True)
 
     report = configparser.ConfigParser()

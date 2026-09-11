@@ -1,0 +1,8 @@
+# pytest run 2026-09-10T2046   exit status 0
+# 5 passed, 0 failed/other, 5 total
+
+PASSED   tests/test_scaffold.py::test_layout_exists
+PASSED   tests/test_scaffold.py::test_tools_compile
+PASSED   tests/test_scaffold.py::test_accessions_schema
+PASSED   tests/test_scaffold.py::test_every_fetched_accession_has_segments
+PASSED   tests/test_scaffold.py::test_segments_cover_full_length

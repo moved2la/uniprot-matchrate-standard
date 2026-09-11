@@ -1,4 +1,4 @@
-# step1_deltas.py run 2026-09-10T1952   datadir=data   outdir=outputs\step1
+# step1_deltas.py run 2026-09-10T2001   datadir=data   outdir=outputs\step1
 
 ==============================================================================
 1. ISOFORM NOTES (verbatim from UniProt JSON)
@@ -310,4 +310,4 @@
   (pp = percentage points of residue mol fraction within that protein;
    tier-level effect needs Layer B and is reported in Step 4)
 
-Wrote outputs\step1/step1_deltas_2026-09-10T1952.txt, isoform_notes.txt, isoform_deltas.csv, processing_deltas.csv
+Wrote outputs\step1/step1_deltas_2026-09-10T2001.txt, isoform_notes.txt, isoform_deltas.csv, processing_deltas.csv

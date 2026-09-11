@@ -1,0 +1,313 @@
+# step1_deltas.py run 2026-09-10T2010   datadir=data   outdir=outputs\step1
+
+==============================================================================
+1. ISOFORM NOTES (verbatim from UniProt JSON)
+==============================================================================
+  [TTN] Q8WZ42  events=['Alternative splicing']
+    comment-level note: A number of isoforms may be produced, ranging from 27000 to 33000 residues in different striated muscle tissues, the size of the full-length protein may be up to 38138 residues.
+    Q8WZ42-1               name='1'      syn=''                                       status=Displayed      VSP=
+    Q8WZ42-2               name='2'      syn=''                                       status=Described      VSP=VSP_019138
+    Q8WZ42-3               name='3'      syn='Small cardiac N2-B'                     status=Described      VSP=VSP_019139,VSP_019145
+    Q8WZ42-4               name='4'      syn='Soleus'                                 status=Described      VSP=VSP_019142,VSP_019151
+    Q8WZ42-5               name='5'      syn=''                                       status=Described      VSP=VSP_019147,VSP_019148,VSP_019149,VSP_019150,VSP_019152
+    Q8WZ42-6               name='6'      syn='Small cardiac novex-3'                  status=Described      VSP=VSP_019143,VSP_019146
+    Q8WZ42-7               name='7'      syn='Cardiac novex-2'                        status=Described      VSP=VSP_019141,VSP_019144
+    Q8WZ42-8               name='8'      syn='Cardiac novex-1'                        status=Described      VSP=VSP_019140
+    Q8WZ42-9               name='9'      syn=''                                       status=Described      VSP=VSP_019139,VSP_042903,VSP_019145
+    Q8WZ42-10              name='10'     syn=''                                       status=Described      VSP=VSP_019139,VSP_019140,VSP_019145
+    Q8WZ42-11              name='11'     syn=''                                       status=Described      VSP=VSP_019142
+    Q8WZ42-12              name='12'     syn=''                                       status=Described      VSP=VSP_045935,VSP_045929,VSP_045930,VSP_045931,VSP_045932,VSP_045933,VSP_045934
+    Q8WZ42-13              name='13'     syn=''                                       status=Described      VSP=VSP_047142
+
+  [NEB] P20929  events=['Alternative splicing']
+    P20929-2               name='2'      syn=''                                       status=Displayed      VSP=
+    P20929-1               name='1'      syn=''                                       status=Described      VSP=VSP_062337,VSP_062338,VSP_062339,VSP_062340
+    P20929-3               name='3'      syn=''                                       status=Described      VSP=VSP_062339
+    P20929-4               name='4'      syn=''                                       status=Described      VSP=VSP_062336,VSP_062338,VSP_062339,VSP_062340
+
+  [MYL1] P05976  events=['Alternative splicing']
+    P05976-1               name='MLC1'   syn=''                                       status=Displayed      VSP=
+    P05976-2,P06741-1      name='MLC3'   syn=''                                       status=Described      VSP=VSP_038686
+
+  [TNNT3] P45378  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    P45378-1               name='1'      syn='Tnt1'                                   status=Displayed      VSP=
+    P45378-2               name='2'      syn='Tnt3'                                   status=Described      VSP=VSP_007914
+    P45378-3               name='3'      syn='Tnt1f'                                  status=Described      VSP=VSP_007915
+    P45378-4               name='4'      syn='Tnt3f'                                  status=Described      VSP=VSP_007914,VSP_007915,VSP_007916
+    P45378-5               name='5'      syn='Tnt3f*'                                 status=Described      VSP=VSP_009121
+    P45378-6               name='6'      syn=''                                       status=Described      VSP=VSP_034964
+    P45378-7               name='7'      syn=''                                       status=Described      VSP=VSP_007914,VSP_007915
+
+  [MYBPC1] Q00872  events=['Alternative splicing']
+    Q00872-1               name='1'      syn=''                                       status=Displayed      VSP=
+    Q00872-2               name='2'      syn=''                                       status=Described      VSP=VSP_039105,VSP_039106
+    Q00872-3               name='3'      syn=''                                       status=Described      VSP=VSP_039106
+    Q00872-4               name='4'      syn=''                                       status=Described      VSP=VSP_039105,VSP_039106,VSP_045241
+    Q00872-5               name='5'      syn=''                                       status=Described      VSP=VSP_046736,VSP_039106,VSP_045241
+    Q00872-6               name='6'      syn=''                                       status=Described      VSP=VSP_046740
+    Q00872-7               name='7'      syn=''                                       status=Described      VSP=VSP_046737,VSP_039106,VSP_046739
+    Q00872-8               name='8'      syn=''                                       status=Described      VSP=VSP_046735,VSP_039106,VSP_045241
+    Q00872-9               name='9'      syn=''                                       status=Described      VSP=VSP_046738,VSP_039106,VSP_045241
+    Q00872-10              name='10'     syn=''                                       status=Described      VSP=VSP_039106,VSP_045241
+
+  [MYOM1] P52179  events=['Alternative splicing']
+    P52179-1               name='1'      syn=''                                       status=Displayed      VSP=
+    P52179-2               name='2'      syn=''                                       status=Described      VSP=VSP_035663
+
+  [CAPZB] P47756  events=['Alternative splicing']
+    P47756-2               name='1'      syn=''                                       status=Displayed      VSP=
+    P47756-1               name='2'      syn=''                                       status=Described      VSP=VSP_061615
+    P47756-3               name='3'      syn=''                                       status=Not described  VSP=
+
+  [OBSCN] Q5VST9  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    Q5VST9-1               name='1'      syn='B, obscurin-MLCK giant kinase'          status=Displayed      VSP=
+    Q5VST9-2               name='2'      syn=''                                       status=Described      VSP=VSP_018436
+    Q5VST9-3               name='3'      syn='unc-89-like'                            status=Described      VSP=VSP_018437,VSP_018438
+    Q5VST9-6               name='5'      syn=''                                       status=Described      VSP=VSP_026970
+    Q5VST9-7               name='7'      syn=''                                       status=Described      VSP=VSP_062488,VSP_062489,VSP_062490,VSP_062491,VSP_062492
+
+  [LDB3] O75112  events=['Alternative splicing']
+    O75112-1               name='1'      syn=''                                       status=Displayed      VSP=
+    O75112-2               name='2'      syn=''                                       status=Described      VSP=VSP_051898,VSP_051900
+    O75112-3               name='3'      syn=''                                       status=Described      VSP=VSP_051897
+    O75112-4               name='4'      syn=''                                       status=Described      VSP=VSP_051899,VSP_051901,VSP_051902
+    O75112-5               name='5'      syn=''                                       status=Described      VSP=VSP_051901,VSP_051902
+    O75112-6               name='6'      syn=''                                       status=Described      VSP=VSP_051898,VSP_051901,VSP_051902
+    O75112-7               name='7'      syn=''                                       status=Described      VSP=VSP_051899,VSP_051900
+
+  [TPM1] P09493  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    P09493-1               name='1'      syn='Skeletal muscle, TPM1alpha'             status=Displayed      VSP=
+    P09493-2               name='2'      syn='Smooth muscle'                          status=Described      VSP=VSP_006576,VSP_006578,VSP_006579
+    P09493-3               name='3'      syn='Fibroblast, TM3'                        status=Described      VSP=VSP_006577,VSP_006579
+    P09493-4               name='4'      syn=''                                       status=Described      VSP=VSP_006577
+    P09493-5               name='5'      syn=''                                       status=Described      VSP=VSP_017498,VSP_017499
+    P09493-6               name='6'      syn='10, TPM1kappa'                          status=Described      VSP=VSP_036064
+    P09493-7               name='7'      syn=''                                       status=Described      VSP=VSP_036064,VSP_006579
+    P09493-8               name='8'      syn=''                                       status=Described      VSP=VSP_047297,VSP_047298,VSP_047299,VSP_047300,VSP_006579
+    P09493-9               name='9'      syn=''                                       status=Described      VSP=VSP_006579
+    P09493-10              name='10'     syn=''                                       status=Described      VSP=VSP_047299,VSP_047300,VSP_047301
+
+  [TPM2] P07951  events=['Alternative splicing']
+    P07951-1               name='1'      syn='Skeletal muscle'                        status=Displayed      VSP=
+    P07951-2               name='2'      syn='non-muscle, Fibroblast TM36, Epithelial TMe1' status=Described      VSP=VSP_006595,VSP_006596
+    P07951-3               name='3'      syn='non-muscle'                             status=Described      VSP=VSP_006594,VSP_006595,VSP_006596
+
+  [TPM3] P06753  events=['Alternative splicing']
+    comment-level note: Additional isoforms seem to exist.
+    P06753-1               name='1'      syn='Skeletal muscle'                        status=Displayed      VSP=
+    P06753-2               name='2'      syn='Cytoskeletal, TM30nm'                   status=Described      VSP=VSP_006604,VSP_006605,VSP_006606
+    P06753-3               name='3'      syn=''                                       status=Described      VSP=VSP_006604,VSP_006605,VSP_006607
+    P06753-4               name='4'      syn=''                                       status=Described      VSP=VSP_047302,VSP_047303,VSP_047304,VSP_047305,VSP_047306
+    P06753-5               name='5'      syn=''                                       status=Described      VSP=VSP_047302,VSP_047303,VSP_047304,VSP_006606
+    P06753-6               name='6'      syn=''                                       status=Described      VSP=VSP_006604,VSP_006605
+    P06753-7               name='7'      syn=''                                       status=Described      VSP=VSP_054792,VSP_006606
+
+==============================================================================
+2. ISOFORM DELTAS (residue mol %, B minus A)
+==============================================================================
+  TTN: Q8WZ42-1 vs Q8WZ42-4
+     aa       Q8WZ42-1       Q8WZ42-4  delta(pp)
+      A          6.067          6.064     -0.003
+      C          1.493          1.489     -0.004
+      D          5.007          5.017     +0.010
+      E          9.295          9.215     -0.080
+      F          2.643          2.643     -0.000
+      G          6.015          6.049     +0.034
+      H          1.392          1.384     -0.007
+      I          6.003          5.986     -0.017
+      K          8.568          8.614     +0.046
+      L          6.163          6.067     -0.096
+      M          1.159          1.145     -0.013
+      N          3.234          3.226     -0.008
+      P          7.328          7.382     +0.055
+      Q          2.742          2.670     -0.072
+      R          4.774          4.856     +0.081
+      S          7.170          7.116     -0.054
+      T          7.412          7.430     +0.018
+      V          9.269          9.341     +0.071
+      W          1.357          1.381     +0.025
+      Y          2.908          2.924     +0.016
+    lengths 34350 -> 33445  (dlen -905, -2.63 %)   largest per-AA shift: L -0.096 pp
+
+  NEB: P20929-2 vs P20929-1
+     aa       P20929-2       P20929-1  delta(pp)
+      A          7.413          7.167     -0.246
+      C          0.809          0.780     -0.030
+      D          7.683          7.812     +0.129
+      E          6.123          6.133     +0.010
+      F          1.619          1.799     +0.181
+      G          3.331          3.284     -0.048
+      H          2.991          3.104     +0.113
+      I          5.396          5.023     -0.373
+      K         11.918         12.431     +0.513
+      L          7.308          7.152     -0.155
+      M          2.780          2.774     -0.006
+      N          4.751          4.558     -0.192
+      P          4.059          4.064     +0.005
+      Q          4.950          4.753     -0.197
+      R          4.152          4.094     -0.059
+      S          6.475          6.373     -0.102
+      T          4.833          5.293     +0.460
+      V          5.865          5.878     +0.013
+      W          1.572          1.365     -0.207
+      Y          5.971          6.163     +0.192
+    lengths 8525 -> 6669  (dlen -1856, -21.77 %)   largest per-AA shift: K +0.513 pp
+
+  MYL1: P05976-1 vs P05976-2
+     aa       P05976-1       P05976-2  delta(pp)
+      A         13.402          8.667     -4.735
+      C          0.515          0.667     +0.151
+      D          5.155          5.333     +0.179
+      E         11.340         12.000     +0.660
+      F          4.639          6.000     +1.361
+      G          5.670          7.333     +1.663
+      H          1.031          1.333     +0.302
+      I          4.639          4.667     +0.027
+      K          9.794          6.667     -3.127
+      L          7.216          8.667     +1.450
+      M          3.608          4.667     +1.058
+      N          5.155          6.667     +1.512
+      P          6.701          2.000     -4.701
+      Q          3.608          4.000     +0.392
+      R          2.577          3.333     +0.756
+      S          4.124          5.333     +1.210
+      T          3.608          4.667     +1.058
+      V          6.186          6.667     +0.481
+      W          0.000          0.000     +0.000
+      Y          1.031          1.333     +0.302
+    lengths 194 -> 150  (dlen -44, -22.68 %)   largest per-AA shift: A -4.735 pp
+
+  TNNT3: P45378-1 vs P45378-2
+     aa       P45378-1       P45378-2  delta(pp)
+      A          9.665          9.302     -0.363
+      C          0.000          0.000     +0.000
+      D          6.691          6.977     +0.285
+      E         19.703         18.992     -0.710
+      F          1.487          1.550     +0.063
+      G          3.346          3.488     +0.143
+      H          2.230          1.550     -0.680
+      I          3.717          3.876     +0.158
+      K         14.498         15.116     +0.618
+      L          7.063          7.364     +0.301
+      M          1.487          1.550     +0.063
+      N          1.487          1.550     +0.063
+      P          2.602          2.326     -0.277
+      Q          5.948          6.202     +0.254
+      R          9.294          9.690     +0.396
+      S          2.974          3.101     +0.127
+      T          2.602          2.713     +0.111
+      V          2.974          2.326     -0.648
+      W          0.743          0.775     +0.032
+      Y          1.487          1.550     +0.063
+    lengths 269 -> 258  (dlen -11, -4.09 %)   largest per-AA shift: E -0.710 pp
+
+  MYOM1: P52179-1 vs P52179-2
+     aa       P52179-1       P52179-2  delta(pp)
+      A          7.537          7.615     +0.078
+      C          1.543          1.573     +0.030
+      D          5.045          5.035     -0.010
+      E          8.665          8.811     +0.146
+      F          3.205          3.335     +0.131
+      G          6.766          6.608     -0.158
+      H          2.018          2.077     +0.059
+      I          4.392          4.657     +0.265
+      K          8.368          8.244     -0.124
+      L          6.409          6.293     -0.116
+      M          1.424          1.510     +0.086
+      N          3.205          3.272     +0.068
+      P          4.985          4.468     -0.517
+      Q          3.739          3.587     -0.152
+      R          4.807          4.909     +0.102
+      S          9.199          8.936     -0.262
+      T          5.519          5.475     -0.044
+      V          7.834          7.930     +0.096
+      W          1.602          1.699     +0.097
+      Y          3.739          3.965     +0.226
+    lengths 1685 -> 1589  (dlen -96, -5.70 %)   largest per-AA shift: P -0.517 pp
+
+  CAPZB: P47756-2 vs P47756-1
+     aa       P47756-2       P47756-1  delta(pp)
+      A          4.779          3.971     -0.808
+      C          2.206          1.805     -0.401
+      D          9.559          9.747     +0.188
+      E          5.515          5.054     -0.461
+      F          1.838          1.805     -0.033
+      G          6.618          6.498     -0.119
+      H          1.471          1.444     -0.027
+      I          4.412          5.776     +1.364
+      K          8.456          7.220     -1.236
+      L         11.397         11.191     -0.206
+      M          2.574          2.527     -0.046
+      N          4.412          4.693     +0.281
+      P          3.309          3.971     +0.662
+      Q          4.779          5.776     +0.997
+      R          5.147          5.415     +0.268
+      S          8.824          8.664     -0.159
+      T          3.676          3.610     -0.066
+      V          6.250          5.776     -0.474
+      W          1.471          1.444     -0.027
+      Y          3.309          3.610     +0.301
+    lengths 272 -> 277  (dlen +5, +1.84 %)   largest per-AA shift: I +1.364 pp
+
+  MYBPC1: Q00872-1 vs Q00872-4
+     aa       Q00872-1       Q00872-4  delta(pp)
+      A          6.924          6.490     -0.434
+      C          1.578          1.537     -0.040
+      D          6.398          6.319     -0.079
+      E          8.764          8.796     +0.032
+      F          3.243          3.330     +0.088
+      G          6.135          6.319     +0.184
+      H          1.315          1.366     +0.052
+      I          7.450          7.259     -0.191
+      K          9.202          9.052     -0.150
+      L          5.872          6.063     +0.191
+      M          1.840          1.793     -0.047
+      N          3.769          3.757     -0.011
+      P          6.573          6.832     +0.259
+      Q          2.805          2.989     +0.184
+      R          4.645          4.697     +0.052
+      S          5.083          5.124     +0.041
+      T          6.398          6.319     -0.079
+      V          7.099          7.173     +0.074
+      W          1.578          1.537     -0.040
+      Y          3.330          3.245     -0.085
+    lengths 1141 -> 1171  (dlen +30, +2.63 %)   largest per-AA shift: A -0.434 pp
+
+==============================================================================
+3. PROCESSING DELTAS (mature chain vs full translation, mol %)
+==============================================================================
+  gene     acc         len       mature removed     largest shift
+  PVALB    P20472      110        2-110 M        M -0.867 pp
+  MB       P02144      154        2-154 M        M -0.637 pp
+  TNNC2    P02585      160        2-160 M        M -0.586 pp
+  MYL2     P10916      166        2-166 M        M -0.581 pp
+  MYL11    Q96A32      169        2-169 M        M -0.571 pp
+  TNNI2    P48788      182        2-182 M        M -0.522 pp
+  TNNI1    P19237      187        2-187 M        M -0.515 pp
+  MYL1     P05976      194        2-194 M        M -0.499 pp
+  MYL3     P08590      195        2-195 M        M -0.492 pp
+  TPI1     P60174      249        2-249 M        M -0.398 pp
+  CA3      P07451      260        2-260 M        M -0.380 pp
+  TNNT3    P45378      269        2-269 M        M -0.368 pp
+  CAPZB    P47756      272        2-272 M        M -0.360 pp
+  CAPZA2   P47755      286        2-286 M        M -0.347 pp
+  CAPZA1   P52907      286        2-286 M        M -0.346 pp
+  TPM3     P06753      285        2-285 M        M -0.342 pp
+  LDHA     P00338      332        2-332 M        M -0.294 pp
+  GAPDH    P04406      335        2-335 M        M -0.290 pp
+  ALDOA    P04075      364        2-364 M        M -0.272 pp
+  ACTA1    P68133      377        3-377 MC       C -0.258 pp
+  PGK1     P00558      417        2-417 M        M -0.232 pp
+  ENO3     P13929      434        2-434 M        M -0.226 pp
+  DES      P17661      470        2-470 M        M -0.209 pp
+  PKM      P14618      531        2-531 M        M -0.183 pp
+  GPI      P06744      558        2-558 M        M -0.175 pp
+  PYGM     P11217      842        2-842 M        M -0.116 pp
+
+  (pp = percentage points of residue mol fraction within that protein;
+   tier-level effect needs Layer B and is reported in Step 4)
+
+Wrote outputs\step1/step1_deltas_2026-09-10T2010.txt, isoform_notes.txt, isoform_deltas.csv, processing_deltas.csv

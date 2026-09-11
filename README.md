@@ -19,6 +19,13 @@ The tools themselves need only the standard library; `requirements.txt` is just 
 `pyproject.toml` describes the package for anyone who wants to `pip install` the repo;
 you don't need it for day-to-day work.
 
-Verify the protein set against UniProt (needs network):
+## Building the protein set (Layer A inputs)
 
-    python src/muscle_aa/verify_accessions.py --candidates config/gene_candidates.ini --outdir data
+    python src/muscle_aa/verify_accessions.py          # UniProt -> data/   (needs network)
+    python src/muscle_aa/build_protein_set.py          # decisions + data -> config/accessions.ini, segments.ini
+    python src/muscle_aa/isoform_processing_deltas.py  # decision-support numbers -> outputs/isoform_processing/
+    pytest                                             # checks config is exactly what the build produces
+
+The only hand-written input is `config/protein_set_decisions.ini` (which gene, which
+isoform, which tier, and why). Everything mechanical — accessions, lengths, versions,
+checksums, processing coordinates — is derived from UniProt by the scripts.

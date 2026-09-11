@@ -167,7 +167,8 @@ verified      = 2026-09-XX
 - **TNNT3 Tnt1 vs Tnt3, MYBPC1 variants, NEB length variants** — logged as Layer B uncertainty (D31). Step 4 should include an isoform-swap sensitivity run using `outputs/isoform_processing/isoform_deltas.csv`.
 - **CAPZB boundary numbering.** Our locus (identical prefix 245) differs by one from Hart et al.'s "first 246" — counting convention; noted for the paper.
 - **Desmin → Tier 3.** Raise in the collagen/ECM pipeline scope.
-- **Verification tooling.** `verify_accessions.py` and `isoform_processing_deltas.py` become project tools; Step 2's `fetch.py` should reuse the request/MD5 code rather than duplicate it.
+- **Verification tooling.** `verify_accessions.py`, `build_protein_set.py`, and `isoform_processing_deltas.py` are project tools; Step 2's `fetch.py` should reuse the request/MD5 code rather than duplicate it.
+- **Correction logged (D37).** First-pass `accessions.ini` was hand-transcribed and carried MYL1's length/MD5 under MYL11. Replaced by a generated build; the decisions file is now the only hand-written Layer A input.
 
 ## Handoff to Step 2
 
@@ -177,3 +178,4 @@ verified      = 2026-09-XX
 - **segments.ini entries with `in_master_molecule = false`:** 27 (26 initiator-Met segments + ACTA1 Cys2). ACTA1 has three segments. Everything else is a single whole-chain segment.
 - **Sequence versions** are those of the parent entry; isoforms carry none. `entry_version` is recorded too, so a UniProt update that changes annotation without changing sequence is still detectable.
 - **Reuse:** `verify_accessions.py` already does the REST search, MD5, feature and isoform capture with retries; `fetch.py` should be built from it, adding `data/sequences.ini` output and the hard-fail on mismatch.
+- **Config is generated.** Do not hand-edit `accessions.ini` / `segments.ini` in Step 2. If a fetch reveals a problem, fix `protein_set_decisions.ini` (or `verify_accessions.py`), rebuild, and log it.
